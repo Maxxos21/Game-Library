@@ -2,17 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AudioPlayer : MonoBehaviour
+public class AudioPlayer : PersistentSingleton<AudioPlayer>
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] private AudioSource audioSource;
+    [SerializeField] private AudioClip[] audioClip;
+
+    public void PlayAudio(int id)
     {
-        
+        audioSource.PlayOneShot(audioClip[id]);
+    }
+    
+    public void PlayAudio(int id, float vol)
+    {
+        audioSource.PlayOneShot(audioClip[id], vol);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
