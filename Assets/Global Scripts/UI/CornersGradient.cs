@@ -7,10 +7,10 @@ namespace PolygonPlanet.Gradient
     public class CornersGradient : BaseMeshEffect
     {
         [Header("Variables")]
-        public Color topLeftColor;
-        public Color topRightColor;
-        public Color bottomLeftColor;
-        public Color bottomRightColor;
+        public Color topLeftColor = Color.white;
+        public Color topRightColor = Color.white;
+        public Color bottomLeftColor = Color.white;
+        public Color bottomRightColor = Color.white;
 
         public override void ModifyMesh(VertexHelper vertextHelper)
         {
