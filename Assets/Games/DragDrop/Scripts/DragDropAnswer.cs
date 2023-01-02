@@ -15,8 +15,8 @@ public class DragDropAnswer : MonoBehaviour, IDropHandler
 
             if (draggableItem == answerPiece)
             {
-                draggableItem.parentAfterDrag = transform;
                 AudioPlayer.Instance.PlayAudio(0);
+                draggableItem.parentAfterDrag = transform;
             }
             else
             {
