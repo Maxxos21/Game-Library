@@ -1,5 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class AudioPlayer : PersistentSingleton<AudioPlayer>
@@ -15,6 +14,15 @@ public class AudioPlayer : PersistentSingleton<AudioPlayer>
     public void PlayAudio(int id, float vol)
     {
         audioSource.PlayOneShot(audioClip[id], vol);
+    }
+
+    // press esc to return to main menu
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            SceneManager.LoadScene("MainMenu");
+        }
     }
 
 }

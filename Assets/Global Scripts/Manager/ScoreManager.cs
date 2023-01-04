@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LevelManager : PersistentSingleton<LevelManager>
+public class ScoreManager : PersistentSingleton<ScoreManager>
 {
     [SerializeField] private int score;
 
