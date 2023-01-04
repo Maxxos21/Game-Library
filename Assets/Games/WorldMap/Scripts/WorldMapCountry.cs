@@ -25,8 +25,12 @@ public class WorldMapCountry : MonoBehaviour
 
     public void QuestionChecker(int currentQuestion)
     {
+        // Correct Answer
         if (gameObject.name == _worldMapManager.CorrectCountries[_worldMapManager.currentQuestion].country.name)
         {
+            AudioPlayer.Instance.PlayAudio(0);
+
+            // Spawn Coorect Marker
             Vector3 worldPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             GameObject cube = Instantiate(_worldMapManager.markerCorrect, worldPosition, Quaternion.identity);
             cube.transform.position = new Vector3(worldPosition.x, worldPosition.y, -8);
@@ -37,8 +41,12 @@ public class WorldMapCountry : MonoBehaviour
             _worldMapManager.SetCurrentQuestion(_worldMapManager.currentQuestion);
             StartCoroutine(CorrectAnswerReset(3f));
         }
+
+        // Wrong Answer
         else
         {
+            AudioPlayer.Instance.PlayAudio(1);
+
             if (distance < 2)
             {
                 _worldMapManager.responseText.text = ($"<color={_worldMapManager.colors[0]}>Very Close!</color> Location is <color={_worldMapManager.colors[0]}>{distance}</color> units away from <color={_worldMapManager.colors[4]}>{gameObject.name}</color>.");
@@ -73,13 +81,11 @@ public class WorldMapCountry : MonoBehaviour
     void OnMouseOver()
     {
         gameObject.GetComponent<Renderer>().material = hoverMaterial;
-        _worldMapManager.hoverCountryText.text = gameObject.name;
     }
 
     void OnMouseExit()
     {
         gameObject.GetComponent<Renderer>().material = defaultMaterial;
-        _worldMapManager.hoverCountryText.text = string.Empty;
     }
 
     public void DistanceChecker()

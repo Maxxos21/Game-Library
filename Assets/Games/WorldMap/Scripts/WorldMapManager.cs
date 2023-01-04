@@ -14,8 +14,6 @@ public class WorldMapManager : MonoBehaviour
     public TMP_Text questionText;
     [HideInInspector]
     public TMP_Text responseText;
-    [HideInInspector]
-    public TMP_Text hoverCountryText;
 
     // Colors
     [HideInInspector]
