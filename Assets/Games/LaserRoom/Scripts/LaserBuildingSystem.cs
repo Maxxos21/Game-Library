@@ -26,9 +26,9 @@ public class LaserBuildingSystem : MonoBehaviour
     {
         Vector3Int cellPosition = gridLayout.WorldToCell(Vector3.zero);
         Vector3 position = grid.GetCellCenterWorld(cellPosition);
-        InitializeWithObject(mirrorPrefab, position + new Vector3(2, 0, 2), Quaternion.identity);
-        InitializeWithObject(mirrorPrefab, position + new Vector3(2, 0, 4), Quaternion.identity);
-        InitializeWithObject(mirrorPrefab, position + new Vector3(2, 0, 6), Quaternion.identity);
+        InitializeWithObject(mirrorPrefab, position + new Vector3(-1, 0, -1), Quaternion.identity);
+        InitializeWithObject(mirrorPrefab, position + new Vector3(-2, 0, -2), Quaternion.identity);
+        InitializeWithObject(mirrorPrefab, position + new Vector3(0, 0, 0), Quaternion.identity);
     }
 
     #endregion

@@ -15,6 +15,6 @@ EditorBuildSettings:
     path: Assets/Games/_Scene/WorldMap.unity
     guid: 642fc4b73cd3f8048bc51aec54660afb
   - enabled: 1
-    path: Assets/Games/_Scene/CardMatch.unity
-    guid: ead71cb8c8175eb48a65343b540568d1
+    path: Assets/Games/_Scene/LaserRoom.unity
+    guid: 98d7e4cb8d852fc4aafeb84cfa366714
   m_configObjects: {}
