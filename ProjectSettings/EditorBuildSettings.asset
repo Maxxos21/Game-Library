@@ -6,9 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Games/_Main/MainMenu.unity
-    guid: cad40f4630247c344833f92f7c160e46
-  - enabled: 1
     path: Assets/Games/_Scene/LaserRoom.unity
     guid: 98d7e4cb8d852fc4aafeb84cfa366714
   m_configObjects: {}
