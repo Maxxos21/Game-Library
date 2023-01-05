@@ -2,9 +2,7 @@ using UnityEngine;
 
 public class MainLaser : MonoBehaviour
 {
-    // Use serialized fields instead of private variables for Unity Inspector access
     [SerializeField] private int maxBounce = 20;
-    [SerializeField] private Color laserColor;
 
     private LineRenderer laser;
     private int count;
@@ -13,8 +11,6 @@ public class MainLaser : MonoBehaviour
     {
         laser = GetComponent<LineRenderer>();
         laser.material = new Material(Shader.Find("Sprites/Default"));
-        laser.startColor = laserColor;
-        laser.endColor = laserColor;
         laser.startWidth = 0.1f;
         laser.endWidth = 0.1f;
 
