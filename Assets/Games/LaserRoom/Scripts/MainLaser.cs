@@ -45,6 +45,11 @@ public class MainLaser : MonoBehaviour
                 direction = Vector3.Reflect(direction, hit.normal);
                 laser.SetPosition(count, hit.point);
 
+                if (hit.transform.tag == "Win")
+                {
+                    Debug.Log("You Win!");
+                }
+
                 if (hit.transform.tag != "Mirror")
                 {
                     for (int j = (i + 1); j < maxBounce; j++)
