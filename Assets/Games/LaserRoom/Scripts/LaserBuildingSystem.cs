@@ -21,14 +21,13 @@ public class LaserBuildingSystem : MonoBehaviour
         grid = gridLayout.GetComponent<Grid>();
     }
 
-    // spawn 3 mirrors at the start of the game at the center of the grid
     private void Start()
     {
         Vector3Int cellPosition = gridLayout.WorldToCell(Vector3.zero);
         Vector3 position = grid.GetCellCenterWorld(cellPosition);
-        InitializeWithObject(mirrorPrefab, position + new Vector3(-1, 0, -1), Quaternion.identity);
-        InitializeWithObject(mirrorPrefab, position + new Vector3(-2, 0, -2), Quaternion.identity);
-        InitializeWithObject(mirrorPrefab, position + new Vector3(0, 0, 0), Quaternion.identity);
+        InitializeWithObject(mirrorPrefab, position + new Vector3(-5, -1, -5), Quaternion.identity);
+        InitializeWithObject(mirrorPrefab, position + new Vector3(-5, -1, -3), Quaternion.identity);
+        InitializeWithObject(mirrorPrefab, position + new Vector3(-5, -1, -1), Quaternion.identity);
     }
 
     #endregion

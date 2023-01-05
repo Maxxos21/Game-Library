@@ -4,15 +4,9 @@ using UnityEngine;
 
 public class LaserPlaceableObject : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    // onclick rotate 90 degrees
+    private void OnMouseDown()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        transform.Rotate(0, 90, 0);
     }
 }
