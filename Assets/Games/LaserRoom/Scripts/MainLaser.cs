@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.Events;
+
 public class MainLaser : MonoBehaviour
 {
     public GameObject HitEffect;
@@ -10,8 +11,7 @@ public class MainLaser : MonoBehaviour
     private int count;
     private ParticleSystem[] psEffects;
     private ParticleSystem[] psHit;
-    public bool isHittingTarget = false;
-    public UnityEvent onLaserHit;
+    public bool isHittingReceiver;
 
     void Start()
     {
@@ -51,8 +51,14 @@ public class MainLaser : MonoBehaviour
                     HitEffect.transform.rotation = Quaternion.identity;
 
                     // Check if laser is hitting target
-                    if (hit.transform.name == receiver.name) { isHittingTarget = true; }
-                    else { isHittingTarget = false;}
+                    if (hit.transform.name == receiver.name) 
+                    { 
+                        isHittingReceiver = true;
+                    }
+                    else 
+                    { 
+                        isHittingReceiver = false;
+                    }
 
 
                     // Check if laser is hitting mirror

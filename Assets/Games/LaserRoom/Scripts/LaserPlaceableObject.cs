@@ -4,9 +4,6 @@ using UnityEngine;
 
 public class LaserPlaceableObject : MonoBehaviour
 {
-    public float rotateSpeed = 1.0f;
-    public bool isRotating = false;
-
     private void Update()
     {
         if (Input.GetMouseButtonDown(1))
