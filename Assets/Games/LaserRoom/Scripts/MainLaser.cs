@@ -1,6 +1,5 @@
 using UnityEngine;
 using UnityEngine.Events;
-
 public class MainLaser : MonoBehaviour
 {
     public GameObject HitEffect;
@@ -16,7 +15,6 @@ public class MainLaser : MonoBehaviour
 
     void Start()
     {
-
         laser = GetComponent<LineRenderer>();
         psEffects = GetComponentsInChildren<ParticleSystem>();
         psHit = HitEffect.GetComponentsInChildren<ParticleSystem>();
