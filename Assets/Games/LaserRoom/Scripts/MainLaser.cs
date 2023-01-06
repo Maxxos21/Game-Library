@@ -1,16 +1,18 @@
 using UnityEngine;
+using UnityEngine.Events;
 
 public class MainLaser : MonoBehaviour
 {
     public GameObject HitEffect;
-    public GameObject laserPrefab;
+    public GameObject receiver;
     public float HitOffset = 0;
     private int maxBounce = 20;
     private LineRenderer laser;
     private int count;
     private ParticleSystem[] psEffects;
     private ParticleSystem[] psHit;
-    private bool isSplit = false;
+    public bool isHittingTarget = false;
+    public UnityEvent onLaserHit;
 
     void Start()
     {
@@ -50,11 +52,12 @@ public class MainLaser : MonoBehaviour
                     HitEffect.transform.position = hit.point + hit.normal * HitOffset;
                     HitEffect.transform.rotation = Quaternion.identity;
 
-                    if (hit.transform.tag == "Win")
-                    {
-                        Debug.Log("You Win!");
-                    }
+                    // Check if laser is hitting target
+                    if (hit.transform.name == receiver.name) { isHittingTarget = true; }
+                    else { isHittingTarget = false;}
 
+
+                    // Check if laser is hitting mirror
                     if (hit.transform.tag != "Mirror")
                     {
                         for (int j = (i + 1); j < maxBounce; j++)
@@ -66,6 +69,7 @@ public class MainLaser : MonoBehaviour
                     else
                     {
                         laser.SetPosition(count, hit.point);
+                        
                     }
                 }
             else

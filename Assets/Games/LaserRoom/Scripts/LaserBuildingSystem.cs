@@ -8,10 +8,9 @@ public class LaserBuildingSystem : MonoBehaviour
     public static LaserBuildingSystem current;
     public GridLayout gridLayout;
     public Grid grid;
-    [SerializeField] private Tilemap mainTilemap;
-    [SerializeField] private TileBase whiteTile;
     public GameObject mirrorPrefab;
     private LaserPlaceableObject objectToPlace;
+    [SerializeField] private Vector3[] spawnPosition;
 
     #region Unity Methods
 
@@ -21,10 +20,17 @@ public class LaserBuildingSystem : MonoBehaviour
         grid = gridLayout.GetComponent<Grid>();
     }
 
-    public void SpawnMirror()
+    private void Start()
     {
-        Vector3 position = new Vector3(4.5f, 0, 4.5f);
-        InitializeWithObject(mirrorPrefab, position, Quaternion.identity);
+        SpawnMirrors();
+    }
+
+    private void SpawnMirrors()
+    {
+        for (int i = 0; i < spawnPosition.Length; i++)
+        {
+            InitializeWithObject(mirrorPrefab, spawnPosition[i], Quaternion.identity);
+        }
     }
 
     #endregion
