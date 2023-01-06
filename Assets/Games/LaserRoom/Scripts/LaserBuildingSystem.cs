@@ -7,7 +7,7 @@ public class LaserBuildingSystem : MonoBehaviour
 {
     public static LaserBuildingSystem current;
     public GridLayout gridLayout;
-    private Grid grid;
+    public Grid grid;
     [SerializeField] private Tilemap mainTilemap;
     [SerializeField] private TileBase whiteTile;
     public GameObject mirrorPrefab;
@@ -23,7 +23,8 @@ public class LaserBuildingSystem : MonoBehaviour
 
     public void SpawnMirror()
     {
-        InitializeWithObject(mirrorPrefab, Vector3.zero, Quaternion.identity);
+        Vector3 position = new Vector3(4.5f, 0, 4.5f);
+        InitializeWithObject(mirrorPrefab, position, Quaternion.identity);
     }
 
     #endregion
