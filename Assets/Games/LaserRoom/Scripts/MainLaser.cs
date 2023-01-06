@@ -3,12 +3,10 @@ using UnityEngine;
 public class MainLaser : MonoBehaviour
 {
     public GameObject HitEffect;
-    public float MainTextureLength = 1f;
-    public float NoiseTextureLength = 1f;
     public float HitOffset = 0;
-    private Vector4 Length = new Vector4(1,1,1,1);
     private int maxBounce = 20;
     private LineRenderer laser;
+    public Vector4 Length = new Vector4(1, 1, 1, 1);
     private int count;
     private ParticleSystem[] psEffects;
     private ParticleSystem[] psHit;
@@ -31,7 +29,10 @@ public class MainLaser : MonoBehaviour
 
     private void CastLaser(Vector3 position, Vector3 direction)
     {
-        laser.material.SetTextureScale("_MainTex", new Vector2(Length[0], Length[1]));                    
+        // laser.material.SetTextureScale("_MainTex", new Vector2(Length[0], Length[1]));                    
+        // laser.material.SetTextureScale("_Noise", new Vector2(Length[0], Length[1]));
+
+        laser.material.SetTextureScale("_MainTex", new Vector2(Length[0], Length[1]));
         laser.material.SetTextureScale("_Noise", new Vector2(Length[2], Length[3]));
 
 

@@ -21,13 +21,9 @@ public class LaserBuildingSystem : MonoBehaviour
         grid = gridLayout.GetComponent<Grid>();
     }
 
-    private void Start()
+    public void SpawnMirror()
     {
-        Vector3Int cellPosition = gridLayout.WorldToCell(Vector3.zero);
-        Vector3 position = grid.GetCellCenterWorld(cellPosition);
-        InitializeWithObject(mirrorPrefab, position + new Vector3(-5, -1, -5), Quaternion.identity);
-        InitializeWithObject(mirrorPrefab, position + new Vector3(-5, -1, -3), Quaternion.identity);
-        InitializeWithObject(mirrorPrefab, position + new Vector3(-5, -1, -1), Quaternion.identity);
+        InitializeWithObject(mirrorPrefab, Vector3.zero, Quaternion.identity);
     }
 
     #endregion
@@ -64,14 +60,5 @@ public class LaserBuildingSystem : MonoBehaviour
         objectToPlace = obj.GetComponent<LaserPlaceableObject>();
         obj.AddComponent<LaserObjectDrag>();
     }
-    // {
-    //     Vector3 position = SnapCoordinateToGrid(Vector3.zero);
-
-    //     GameObject obj = Instantiate(prefab, position, Quaternion.identity);
-    //     objectToPlace = obj.GetComponent<LaserPlaceableObject>();
-    //     obj.AddComponent<LaserObjectDrag>();
-
-    // }
-    
     #endregion
 }
