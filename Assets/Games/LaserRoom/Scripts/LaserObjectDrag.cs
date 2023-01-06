@@ -19,6 +19,5 @@ public class LaserObjectDrag : MonoBehaviour
 
         // clamp th placement in a grid of 6x6, scale one tile is 3
         transform.position = new Vector3(Mathf.Clamp(transform.position.x, -7.5f, 7.5f), 0, Mathf.Clamp(transform.position.z, -7.5f, 7.5f));
-
     }
 }

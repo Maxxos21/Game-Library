@@ -29,9 +29,6 @@ public class MainLaser : MonoBehaviour
 
     private void CastLaser(Vector3 position, Vector3 direction)
     {
-        // laser.material.SetTextureScale("_MainTex", new Vector2(Length[0], Length[1]));                    
-        // laser.material.SetTextureScale("_Noise", new Vector2(Length[0], Length[1]));
-
         laser.material.SetTextureScale("_MainTex", new Vector2(Length[0], Length[1]));
         laser.material.SetTextureScale("_Noise", new Vector2(Length[2], Length[3]));
 
