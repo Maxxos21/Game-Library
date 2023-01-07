@@ -1,7 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Tilemaps;
+using System.Collections.Generic;
 
 public class LaserBuildingSystem : MonoBehaviour
 {
@@ -33,8 +31,7 @@ public class LaserBuildingSystem : MonoBehaviour
         }
     }
 
-    #endregion
-    
+    #endregion 
     #region Utils
 
     public static Vector3 GetMouseWorldPosition()

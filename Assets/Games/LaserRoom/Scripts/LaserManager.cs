@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 public class LaserManager : MonoBehaviour
 {
@@ -11,14 +12,12 @@ public class LaserManager : MonoBehaviour
         nextLevel.SetActive(false);
     }
 
-
-
     void Update()
     {
         if (CheckLasers())
         {
             Debug.Log("All lasers are hitting the receiver!");
-            nextLevel.SetActive(true);
+            StartCoroutine(LoadNextLevel());
         }
     }
 
@@ -31,7 +30,13 @@ public class LaserManager : MonoBehaviour
                 return false;
             }
         }
-        allLasersHit = true;
         return true;
+    }
+
+    IEnumerator LoadNextLevel()
+    {
+        allLasersHit = true;
+        yield return new WaitForSeconds(2);
+        nextLevel.SetActive(true);
     }
 }
