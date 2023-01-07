@@ -15682,12 +15682,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gridLayout: {fileID: 719835244}
   grid: {fileID: 719835244}
+  doubleMirrorPrefab: {fileID: 873662122327429190, guid: ddc4076ff78f90546a599e8fb72daa59,
+    type: 3}
   mirrorPrefab: {fileID: 4419434645586602406, guid: 03cc9933da77fbe43b5f3666a2046774,
     type: 3}
-  spawnPosition:
-  - {x: 1.5, y: 0, z: 1.5}
-  - {x: -4.5, y: 0, z: 1.5}
-  - {x: 1.5, y: 0, z: 4.5}
+  spawns: 02000000060000001d000000
 --- !u!156049354 &719835244
 Grid:
   m_ObjectHideFlags: 0

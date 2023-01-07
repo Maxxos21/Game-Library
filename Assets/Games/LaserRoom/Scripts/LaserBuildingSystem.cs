@@ -6,9 +6,11 @@ public class LaserBuildingSystem : MonoBehaviour
     public static LaserBuildingSystem current;
     public GridLayout gridLayout;
     public Grid grid;
+    public GameObject doubleMirrorPrefab;
     public GameObject mirrorPrefab;
     private LaserPlaceableObject objectToPlace;
-    [SerializeField] private Vector3[] spawnPosition;
+    [SerializeField] private int[] spawns;
+    private Vector3[] spawnPosition;
 
     #region Unity Methods
 
@@ -16,18 +18,15 @@ public class LaserBuildingSystem : MonoBehaviour
     {
         current = this;
         grid = gridLayout.GetComponent<Grid>();
+        CreateGrid();
+
     }
 
     private void Start()
     {
-        SpawnMirrors();
-    }
-
-    private void SpawnMirrors()
-    {
-        for (int i = 0; i < spawnPosition.Length; i++)
+        foreach (int spawn in spawns)
         {
-            InitializeWithObject(mirrorPrefab, spawnPosition[i], Quaternion.identity);
+            SpawnMirrorAtIndex(spawn);
         }
     }
 
@@ -48,10 +47,24 @@ public class LaserBuildingSystem : MonoBehaviour
         }
     }
 
+    public void CreateGrid()
+    {
+        float gridSize = 7.5f;
+        spawnPosition = new Vector3[36];
+        for (int i = 5; i >= 0; i--)
+        {
+            for (int j = 0; j < 6; j++)
+            {
+                spawnPosition[i * 6 + j] = new Vector3(gridSize - 1.5f - (3f * j), 0f, -gridSize + (3f * i));
+            }
+        }
+    }
+
     public Vector3 SnapCoordinateToGrid(Vector3 position)
     {
         Vector3Int cellPosition = gridLayout.WorldToCell(position);
         position = grid.GetCellCenterWorld(cellPosition);
+        position.y = 0;
         return position;
     }
 
@@ -64,5 +77,13 @@ public class LaserBuildingSystem : MonoBehaviour
         objectToPlace = obj.GetComponent<LaserPlaceableObject>();
         obj.AddComponent<LaserObjectDrag>();
     }
+
+    public void SpawnMirrorAtIndex(int index)
+    {
+        Vector3 position = spawnPosition[index - 1];
+        position = SnapCoordinateToGrid(position);
+        InitializeWithObject(mirrorPrefab, position, Quaternion.identity);
+    }
+
     #endregion
 }
