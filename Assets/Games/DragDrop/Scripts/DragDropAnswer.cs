@@ -4,25 +4,27 @@ using UnityEngine;
 public class DragDropAnswer : MonoBehaviour, IDropHandler
 {
     [Tooltip("Drag and drop the correct answer piece here")]
-    [SerializeField] DragDropPiece answerPiece;
+    [SerializeField] DragDropPiece[] answerPiece;
 
     public void OnDrop(PointerEventData eventData)
     {
-        if (transform.childCount == 0)
+        if (transform.childCount == 1)
         {
             GameObject dropped = eventData.pointerDrag;
             DragDropPiece draggableItem = dropped.GetComponent<DragDropPiece>();
 
-            if (draggableItem == answerPiece)
+            for (int i = 0; i < answerPiece.Length; i++)
             {
-                AudioPlayer.Instance.PlayAudio(0);
-                draggableItem.parentAfterDrag = transform;
+                if (draggableItem == answerPiece[i])
+                {
+                    draggableItem.parentAfterDrag = transform;
+                    AudioPlayer.Instance.PlayAudio(0);
+                    return;
+                }
             }
-            else
-            {
-                AudioPlayer.Instance.PlayAudio(1);
-                draggableItem.transform.position = draggableItem.originalPositions[0];
-            }
+
+            AudioPlayer.Instance.PlayAudio(1);
+            draggableItem.transform.position = draggableItem.originalPositions[0];
         }
 
     }

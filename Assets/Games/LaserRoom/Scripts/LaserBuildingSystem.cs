@@ -3,14 +3,15 @@ using System.Collections.Generic;
 
 public class LaserBuildingSystem : MonoBehaviour
 {
-    public static LaserBuildingSystem current;
-    public GridLayout gridLayout;
-    public Grid grid;
-    public GameObject doubleMirrorPrefab;
-    public GameObject mirrorPrefab;
-    private LaserPlaceableObject objectToPlace;
-    [SerializeField] private int[] spawns;
-    private Vector3[] spawnPosition;
+    public static               LaserBuildingSystem             current;
+    public                      GridLayout                      gridLayout;
+    public                      Grid                            grid;
+    public                      GameObject                      doubleMirrorPrefab;
+    public                      GameObject                      mirrorPrefab;
+    private                     LaserPlaceableObject            objectToPlace;
+    [SerializeField] private    int[]                           spawns;
+    private                     Vector3[]                       spawnPosition;
+    public                     List<int>                       placedObjects = new List<int>();
 
     #region Unity Methods
 
@@ -83,6 +84,8 @@ public class LaserBuildingSystem : MonoBehaviour
         Vector3 position = spawnPosition[index - 1];
         position = SnapCoordinateToGrid(position);
         InitializeWithObject(mirrorPrefab, position, Quaternion.identity);
+
+        placedObjects.Add(index);
     }
 
     #endregion

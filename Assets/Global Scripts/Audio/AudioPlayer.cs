@@ -9,20 +9,14 @@ public class AudioPlayer : PersistentSingleton<AudioPlayer>
     public void PlayAudio(int id)
     {
         audioSource.PlayOneShot(audioClip[id]);
+
+        // Audio setup
+        audioSource.volume = 0.5f;
+        audioSource.pitch = Random.Range(0.8f, 1.2f);
     }
     
     public void PlayAudio(int id, float vol)
     {
         audioSource.PlayOneShot(audioClip[id], vol);
     }
-
-    // press esc to return to main menu
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            SceneManager.LoadScene("MainMenu");
-        }
-    }
-
 }

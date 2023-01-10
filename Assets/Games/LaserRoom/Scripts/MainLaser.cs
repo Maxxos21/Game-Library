@@ -3,6 +3,8 @@ using UnityEngine.Events;
 
 public class MainLaser : MonoBehaviour
 {
+    const float LASER_WIDTH = 0.2f;
+
     public GameObject HitEffect;
     public GameObject receiver;
     public float HitOffset = 0;
@@ -18,6 +20,9 @@ public class MainLaser : MonoBehaviour
         laser = GetComponent<LineRenderer>();
         psEffects = GetComponentsInChildren<ParticleSystem>();
         psHit = HitEffect.GetComponentsInChildren<ParticleSystem>();
+
+        laser.startWidth = LASER_WIDTH;
+        laser.endWidth = LASER_WIDTH;
 
         laser.SetPosition(0, transform.position);
         laser.positionCount = maxBounce;
@@ -41,7 +46,6 @@ public class MainLaser : MonoBehaviour
             if (count < maxBounce - 1)
 
                 count++;
-
                 if (Physics.Raycast(ray, out hit, 300))
                 {
                     position = hit.point;
