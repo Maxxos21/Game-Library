@@ -18,4 +18,13 @@ public class LaserObjectDrag : MonoBehaviour
         // Clamp to 6x6 Grid
         transform.position = new Vector3(Mathf.Clamp(transform.position.x, -7.5f, 7.5f), 0, Mathf.Clamp(transform.position.z, -7.5f, 7.5f));
     }
+
+    private void OnMouseOver()
+    {
+        if (Input.GetMouseButtonDown(1))
+        {
+            transform.Rotate(0, 90, 0);
+        }
+    }
+
 }

@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 3529648016735929689}
   - component: {fileID: 1666089292870840723}
   - component: {fileID: 1666089292870840717}
-  - component: {fileID: -3749265784125617357}
   - component: {fileID: 1666089292870840716}
   m_Layer: 0
   m_Name: Mirror
@@ -66,7 +65,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: bacc7ee8fd0869d45be470f049e53d8b, type: 2}
+  - {fileID: 2100000, guid: aefdf439c5b1402439221d2f9d2ab79c, type: 2}
   - {fileID: 2100000, guid: d35c35114d2a05d4294cd6ab403bdc5b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -103,18 +102,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -5490594702421156129, guid: 6124eea4b9f7b9448a317d306796c806, type: 3}
---- !u!114 &-3749265784125617357
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 873662122327429190}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf568c7f45f2f0f46ac7ccb2b552a7b1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1666089292870840716
 BoxCollider:
   m_ObjectHideFlags: 0

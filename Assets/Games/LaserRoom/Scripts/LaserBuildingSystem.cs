@@ -1,19 +1,27 @@
 using UnityEngine;
 using System.Collections.Generic;
+using System;
 
 public class LaserBuildingSystem : MonoBehaviour
 {
-    public static               LaserBuildingSystem             current;
-    public                      GridLayout                      gridLayout;
-    public                      Grid                            grid;
-    public                      GameObject                      doubleMirrorPrefab;
-    public                      GameObject                      mirrorPrefab;
-    private                     LaserPlaceableObject            objectToPlace;
-    [SerializeField] private    int[]                           spawns;
-    private                     Vector3[]                       spawnPosition;
-    public                     List<int>                       placedObjects = new List<int>();
 
-    #region Unity Methods
+    // Singleton
+    public static LaserBuildingSystem current;
+
+
+    // Grid Variables
+    [HideInInspector]
+    public GridLayout gridLayout;
+    [HideInInspector]
+    public Grid grid;
+
+
+    // Spawn Variables
+    private List<int> placedObjects = new List<int>();
+    private List<LaserPlaceObject> objectsToPlace = new List<LaserPlaceObject>();
+    private Dictionary<int, GameObject> testPlacedObject = new Dictionary<int, GameObject>();
+    private Vector3[] spawnPosition;
+
 
     private void Awake()
     {
@@ -21,18 +29,19 @@ public class LaserBuildingSystem : MonoBehaviour
         grid = gridLayout.GetComponent<Grid>();
         CreateGrid();
 
+        // Get all objects to place
+        GameObject objManager = GameObject.Find("Object_Manager");
+        foreach (Transform child in objManager.transform)
+        {
+            objectsToPlace.Add(child.GetComponent<LaserPlaceObject>());
+        }
+
     }
 
     private void Start()
     {
-        foreach (int spawn in spawns)
-        {
-            SpawnMirrorAtIndex(spawn);
-        }
+        SpawnItems();
     }
-
-    #endregion 
-    #region Utils
 
     public static Vector3 GetMouseWorldPosition()
     {
@@ -69,30 +78,23 @@ public class LaserBuildingSystem : MonoBehaviour
         return position;
     }
 
-    #endregion
-    #region Building Placement
-    
-    public void InitializeWithObject(GameObject prefab, Vector3 position, Quaternion rotation)
+    public void SpawnItems()
     {
-        GameObject obj = Instantiate(prefab, position, rotation);
-        objectToPlace = obj.GetComponent<LaserPlaceableObject>();
-        obj.AddComponent<LaserObjectDrag>();
+        foreach (LaserPlaceObject obj in objectsToPlace)
+        {
+            Vector3 position = spawnPosition[obj.spawnLocation - 1];
+            position = SnapCoordinateToGrid(position);
+            GameObject objToPlace = Instantiate(obj.prefab, position, Quaternion.Euler(0, obj.rotation, 0));
+
+            if (obj.isMovable)
+            {
+                objToPlace.AddComponent<LaserObjectDrag>();
+            }
+
+            placedObjects.Add(obj.spawnLocation);
+        }
+
     }
 
-    public void SpawnMirrorAtIndex(int index)
-    {
-        Vector3 position = spawnPosition[index - 1];
-        position = SnapCoordinateToGrid(position);
-        InitializeWithObject(mirrorPrefab, position, Quaternion.identity);
-
-        placedObjects.Add(index);
-    }
-
-    #endregion
 }
 
-public class CountainerForObjects : MonoBehaviour
-{
-        private Vector3[]   spawnPosition;
-        private Vector3[]   spawnRotation;
-}

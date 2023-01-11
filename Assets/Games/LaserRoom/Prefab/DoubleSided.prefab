@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 121869167711304889}
   - component: {fileID: 2761832562359912563}
   - component: {fileID: 3572926482003671469}
-  - component: {fileID: 2772555876661938547}
   - component: {fileID: 8775543363435731723}
   m_Layer: 0
   m_Name: DoubleSided
@@ -101,20 +100,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4659008084594129958, guid: 29123efe004add545a5700bbde8a6bc4, type: 3}
---- !u!114 &2772555876661938547
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4419434645586602406}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf568c7f45f2f0f46ac7ccb2b552a7b1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rotateSpeed: 1
-  isRotating: 0
 --- !u!65 &8775543363435731723
 BoxCollider:
   m_ObjectHideFlags: 0
