@@ -17,10 +17,8 @@ public class LaserBuildingSystem : MonoBehaviour
 
 
     // Spawn Variables
-    private List<int> placedObjects = new List<int>();
-    private List<LaserPlaceObject> objectsToPlace = new List<LaserPlaceObject>();
-    private Dictionary<int, GameObject> testPlacedObject = new Dictionary<int, GameObject>();
-    private Vector3[] spawnPosition;
+    public Dictionary<int, LaserPlaceObject> objectsToPlace = new Dictionary<int, LaserPlaceObject>();
+    public Vector3[] spawnPosition;
 
 
     private void Awake()
@@ -31,11 +29,12 @@ public class LaserBuildingSystem : MonoBehaviour
 
         // Get all objects to place
         GameObject objManager = GameObject.Find("Object_Manager");
+
         foreach (Transform child in objManager.transform)
         {
-            objectsToPlace.Add(child.GetComponent<LaserPlaceObject>());
+            LaserPlaceObject obj = child.GetComponent<LaserPlaceObject>();
+            objectsToPlace.Add(obj.objectLocation, obj);
         }
-
     }
 
     private void Start()
@@ -80,20 +79,19 @@ public class LaserBuildingSystem : MonoBehaviour
 
     public void SpawnItems()
     {
-        foreach (LaserPlaceObject obj in objectsToPlace)
+        foreach (KeyValuePair<int, LaserPlaceObject> obj in objectsToPlace)
         {
-            Vector3 position = spawnPosition[obj.spawnLocation - 1];
+            Vector3 position = spawnPosition[obj.Key - 1];
             position = SnapCoordinateToGrid(position);
-            GameObject objToPlace = Instantiate(obj.prefab, position, Quaternion.Euler(0, obj.rotation, 0));
 
-            if (obj.isMovable)
+            GameObject newObj = Instantiate(obj.Value.prefab, position, Quaternion.identity);
+            newObj.transform.parent = objectsToPlace[obj.Key].transform;
+
+            if (obj.Value.isMovable)
             {
-                objToPlace.AddComponent<LaserObjectDrag>();
+                newObj.AddComponent<LaserObjectDrag>();
             }
-
-            placedObjects.Add(obj.spawnLocation);
         }
-
     }
 
 }

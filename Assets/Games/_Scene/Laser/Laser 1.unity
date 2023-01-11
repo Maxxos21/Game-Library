@@ -1315,7 +1315,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 260993509}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -12067,8 +12067,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isMovable: 1
   prefab: {fileID: 873662122327429190, guid: ddc4076ff78f90546a599e8fb72daa59, type: 3}
-  spawnLocation: 7
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  spawnLocation: 34
+  rotation: 2
+  position: {x: 0, y: 0, z: 0}
 --- !u!4 &478996138
 Transform:
   m_ObjectHideFlags: 0
@@ -32562,8 +32563,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isMovable: 1
   prefab: {fileID: 4419434645586602406, guid: 03cc9933da77fbe43b5f3666a2046774, type: 3}
-  spawnLocation: 3
-  rotation: {x: 0, y: 0, z: 0, w: 0}
+  spawnLocation: 1
+  rotation: 1
+  position: {x: 0, y: 0, z: 0}
 --- !u!1 &1909948109
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,12 +1,31 @@
 using UnityEngine;
+using System.Linq;
 
 public class LaserObjectDrag : MonoBehaviour
 {
     private Vector3 offset;
 
+    public LaserBuildingSystem laserBS;
+
     private void OnMouseDown()
     {
+        // Get the current grid cell position of the object
+        Vector3Int cellPosition = LaserBuildingSystem.current.gridLayout.WorldToCell(transform.position);
+    
+        // Find the corresponding obj.key in the objectsToPlace dictionary
+        int objKey = (cellPosition.z + 5) * 6 + (cellPosition.x + 5);
+
+        Debug.Log("objKey: " + objKey);
+    
+        // Remove the obj.key from its current position in the dictionary
+        LaserBuildingSystem.current.objectsToPlace.Remove(objKey);
+    
         offset = transform.position - LaserBuildingSystem.GetMouseWorldPosition();
+    }
+
+    private void OnMouseUp()
+    {
+
     }
 
     private void OnMouseDrag()
