@@ -23,10 +23,11 @@ public class DragDropAnswer : MonoBehaviour, IDropHandler
                 }
             }
 
-            AudioPlayer.Instance.PlayAudio(1);
-            draggableItem.transform.position = draggableItem.originalPositions[0];
+            if (draggableItem.parentAfterDrag != null)
+            {
+                AudioPlayer.Instance.PlayAudio(1);
+                draggableItem.transform.position = draggableItem.originalPositions[0];
+            }
         }
-
     }
-
 }

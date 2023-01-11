@@ -90,3 +90,9 @@ public class LaserBuildingSystem : MonoBehaviour
 
     #endregion
 }
+
+public class CountainerForObjects : MonoBehaviour
+{
+        private Vector3[]   spawnPosition;
+        private Vector3[]   spawnRotation;
+}
