@@ -306,7 +306,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isMovable: 1
-  prefab: {fileID: 4419434645586602406, guid: 03cc9933da77fbe43b5f3666a2046774, type: 3}
+  prefab: {fileID: 873662122327429190, guid: ddc4076ff78f90546a599e8fb72daa59, type: 3}
   objectLocation: 26
 --- !u!1 &95234662
 GameObject:
@@ -12113,7 +12113,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isMovable: 1
-  prefab: {fileID: 4419434645586602406, guid: 03cc9933da77fbe43b5f3666a2046774, type: 3}
+  prefab: {fileID: 873662122327429190, guid: ddc4076ff78f90546a599e8fb72daa59, type: 3}
   objectLocation: 11
 --- !u!4 &478996138
 Transform:
@@ -31836,7 +31836,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isMovable: 1
-  prefab: {fileID: 4419434645586602406, guid: 03cc9933da77fbe43b5f3666a2046774, type: 3}
+  prefab: {fileID: 873662122327429190, guid: ddc4076ff78f90546a599e8fb72daa59, type: 3}
   objectLocation: 33
 --- !u!43 &1549097480
 Mesh:
@@ -32897,7 +32897,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isMovable: 1
-  prefab: {fileID: 4419434645586602406, guid: 03cc9933da77fbe43b5f3666a2046774, type: 3}
+  prefab: {fileID: 873662122327429190, guid: ddc4076ff78f90546a599e8fb72daa59, type: 3}
   objectLocation: 8
 --- !u!1 &1909948109
 GameObject:
