@@ -4,18 +4,10 @@ using System.Linq;
 
 public class LaserBuildingSystem : MonoBehaviour
 {
-
-    // Singleton
     public static LaserBuildingSystem current;
-
-    // Grid Variables
-    [HideInInspector]
     public GridLayout gridLayout;
-    [HideInInspector]
     public Grid grid;
-
-    // Spawn Variables
-    public Dictionary<int, LaserPlaceObject> objectsToPlace = new Dictionary<int, LaserPlaceObject>();
+    public Dictionary<int, LaserObjectContainer> objectsToPlace = new Dictionary<int, LaserObjectContainer>();
     public Vector3[] spawnPosition;
     public GameObject objectManager;
 
@@ -24,18 +16,11 @@ public class LaserBuildingSystem : MonoBehaviour
     {
         current = this;
         grid = gridLayout.GetComponent<Grid>();
-        CreateGrid();
-
-
-        foreach (Transform child in objectManager.transform)
-        {
-            LaserPlaceObject obj = child.GetComponent<LaserPlaceObject>();
-            objectsToPlace.Add(obj.objectLocation, obj);
-        }
-    }
+    } 
 
     private void Start()
-    {
+    {   
+        CreateGrid();
         SpawnItems();
     }
 
@@ -43,14 +28,8 @@ public class LaserBuildingSystem : MonoBehaviour
     {
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 
-        if (Physics.Raycast(ray, out RaycastHit hit))
-        {
-            return hit.point;
-        }
-        else
-        {
-            return Vector3Int.zero;
-        }
+        if (Physics.Raycast(ray, out RaycastHit hit)) { return hit.point; }
+        else { return Vector3Int.zero;}
     }
 
     public void CreateGrid()
@@ -78,7 +57,10 @@ public class LaserBuildingSystem : MonoBehaviour
 
     public void SpawnItems()
     {
-        foreach (KeyValuePair<int, LaserPlaceObject> obj in objectsToPlace)
+        // Get parent object
+        objectsToPlace = objectManager.GetComponentsInChildren<LaserObjectContainer>().ToDictionary(x => x.objectLocation, x => x);
+
+        foreach (KeyValuePair<int, LaserObjectContainer> obj in objectsToPlace)
         {
             Vector3 position = spawnPosition[obj.Key - 1];
             position = SnapCoordinateToGrid(position);
@@ -90,7 +72,7 @@ public class LaserBuildingSystem : MonoBehaviour
             {
                 newObj.AddComponent<LaserObjectDrag>();
             }
-            
+
             spawnPosition = spawnPosition.Where(val => val != position).ToArray();
         }
 

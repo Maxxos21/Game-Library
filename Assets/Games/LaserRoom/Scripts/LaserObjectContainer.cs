@@ -2,7 +2,7 @@ using System;
 using UnityEngine;
 
 [Serializable]
-public class LaserPlaceObject : MonoBehaviour
+public class LaserObjectContainer : MonoBehaviour
 {
     [Header("Object Initialization")]
     public bool isMovable = true;
