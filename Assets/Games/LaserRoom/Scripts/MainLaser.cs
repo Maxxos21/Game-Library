@@ -4,7 +4,6 @@ using UnityEngine.Events;
 public class MainLaser : MonoBehaviour
 {
     const float LASER_WIDTH = 0.2f;
-
     public GameObject HitEffect;
     public GameObject receiver;
     public float HitOffset = 0;
@@ -15,15 +14,19 @@ public class MainLaser : MonoBehaviour
     private ParticleSystem[] psHit;
     public bool isHittingReceiver;
 
-    void Start()
+
+    void Awake()
     {
         laser = GetComponent<LineRenderer>();
         psEffects = GetComponentsInChildren<ParticleSystem>();
         psHit = HitEffect.GetComponentsInChildren<ParticleSystem>();
-
+        
         laser.startWidth = LASER_WIDTH;
         laser.endWidth = LASER_WIDTH;
+    }
 
+    void Start()
+    {
         laser.SetPosition(0, transform.position);
         laser.positionCount = maxBounce;
     }
@@ -54,18 +57,11 @@ public class MainLaser : MonoBehaviour
                     HitEffect.transform.position = hit.point + hit.normal * HitOffset;
                     HitEffect.transform.rotation = Quaternion.identity;
 
-                    // Check if laser is hitting target
-                    if (hit.transform.name == receiver.name) 
-                    { 
-                        isHittingReceiver = true;
-                    }
-                    else 
-                    { 
-                        isHittingReceiver = false;
-                    }
+                    // Check Receiver
+                    if (hit.transform.name == receiver.name) { isHittingReceiver = true; }
+                    else { isHittingReceiver = false; }
 
 
-                    // Check if laser is hitting mirror
                     if (hit.transform.tag != "Mirror")
                     {
                         for (int j = (i + 1); j < maxBounce; j++)
