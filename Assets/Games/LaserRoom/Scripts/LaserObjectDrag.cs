@@ -23,9 +23,16 @@ public class LaserObjectDrag : MonoBehaviour
         }
     }
 
+    private void OnMouseOver()
+    {
+        if (Input.GetMouseButtonDown(1))
+        {
+            transform.Rotate(0, 90, 0);
+        }
+    }
+
     private void OnMouseDrag()
     {
-        // Get Mouse Position
         Vector3 pos = LaserBuildingSystem.GetMouseWorldPosition() + offset;
         Vector3 newPos = LaserBuildingSystem.current.SnapCoordinateToGrid(pos);
         Vector3 raycastDirection = new Vector3(0, 1, 0);
@@ -38,13 +45,4 @@ public class LaserObjectDrag : MonoBehaviour
             transform.position = newPos;
         } 
     }
-
-    private void OnMouseOver()
-    {
-        if (Input.GetMouseButtonDown(1))
-        {
-            transform.Rotate(0, 90, 0);
-        }
-    }
-
 }

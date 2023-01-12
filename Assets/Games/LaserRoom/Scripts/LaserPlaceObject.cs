@@ -7,5 +7,5 @@ public class LaserPlaceObject : MonoBehaviour
     [Header("Object Initialization")]
     public bool isMovable = true;
     public GameObject prefab;
-    [Range(1,36)]public int objectLocation;
+    [Range(1,36)] public int objectLocation;
 }
