@@ -57,7 +57,6 @@ public class LaserBuildingSystem : MonoBehaviour
 
     public void SpawnItems()
     {
-        // Get parent object
         objectsToPlace = objectManager.GetComponentsInChildren<LaserObjectContainer>().ToDictionary(x => x.objectLocation, x => x);
 
         foreach (KeyValuePair<int, LaserObjectContainer> obj in objectsToPlace)
