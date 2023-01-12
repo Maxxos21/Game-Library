@@ -12067,9 +12067,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isMovable: 1
   prefab: {fileID: 873662122327429190, guid: ddc4076ff78f90546a599e8fb72daa59, type: 3}
-  spawnLocation: 34
+  objectLocation: 2
   rotation: 2
-  position: {x: 0, y: 0, z: 0}
 --- !u!4 &478996138
 Transform:
   m_ObjectHideFlags: 0
@@ -13087,6 +13086,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gridLayout: {fileID: 719835244}
   grid: {fileID: 719835244}
+  spawnPosition: []
+  objectManager: {fileID: 1116479544}
 --- !u!156049354 &719835244
 Grid:
   m_ObjectHideFlags: 0
@@ -32563,9 +32564,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isMovable: 1
   prefab: {fileID: 4419434645586602406, guid: 03cc9933da77fbe43b5f3666a2046774, type: 3}
-  spawnLocation: 1
+  objectLocation: 1
   rotation: 1
-  position: {x: 0, y: 0, z: 0}
 --- !u!1 &1909948109
 GameObject:
   m_ObjectHideFlags: 0

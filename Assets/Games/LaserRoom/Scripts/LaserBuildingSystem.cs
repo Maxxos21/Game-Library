@@ -1,6 +1,6 @@
 using UnityEngine;
 using System.Collections.Generic;
-using System;
+using System.Linq;
 
 public class LaserBuildingSystem : MonoBehaviour
 {
@@ -8,17 +8,16 @@ public class LaserBuildingSystem : MonoBehaviour
     // Singleton
     public static LaserBuildingSystem current;
 
-
     // Grid Variables
     [HideInInspector]
     public GridLayout gridLayout;
     [HideInInspector]
     public Grid grid;
 
-
     // Spawn Variables
     public Dictionary<int, LaserPlaceObject> objectsToPlace = new Dictionary<int, LaserPlaceObject>();
     public Vector3[] spawnPosition;
+    public GameObject objectManager;
 
 
     private void Awake()
@@ -27,10 +26,8 @@ public class LaserBuildingSystem : MonoBehaviour
         grid = gridLayout.GetComponent<Grid>();
         CreateGrid();
 
-        // Get all objects to place
-        GameObject objManager = GameObject.Find("Object_Manager");
 
-        foreach (Transform child in objManager.transform)
+        foreach (Transform child in objectManager.transform)
         {
             LaserPlaceObject obj = child.GetComponent<LaserPlaceObject>();
             objectsToPlace.Add(obj.objectLocation, obj);
@@ -60,6 +57,7 @@ public class LaserBuildingSystem : MonoBehaviour
     {
         float gridSize = 7.5f;
         spawnPosition = new Vector3[36];
+
         for (int i = 5; i >= 0; i--)
         {
             for (int j = 0; j < 6; j++)
@@ -68,6 +66,7 @@ public class LaserBuildingSystem : MonoBehaviour
             }
         }
     }
+
 
     public Vector3 SnapCoordinateToGrid(Vector3 position)
     {
@@ -91,7 +90,10 @@ public class LaserBuildingSystem : MonoBehaviour
             {
                 newObj.AddComponent<LaserObjectDrag>();
             }
+            
+            spawnPosition = spawnPosition.Where(val => val != position).ToArray();
         }
+
     }
 
 }
