@@ -58,12 +58,23 @@ public class MainLaser : MonoBehaviour
                     HitEffect.transform.rotation = Quaternion.identity;
 
                     // Check Receiver
-                    if (hit.transform.name == receiver.name) { isHittingReceiver = true; }
-                    else { isHittingReceiver = false; }
+                    if (hit.transform.name == receiver.name) 
+                    { 
+                        isHittingReceiver = true;
+                        receiver.transform.GetChild(0).gameObject.GetComponent<Renderer>().material.color = Color.green;
+                        receiver.transform.GetChild(1).gameObject.SetActive(true);
+                        
+                    }
+                    else 
+                    { 
+                        isHittingReceiver = false; 
+                        receiver.transform.GetChild(0).gameObject.GetComponent<Renderer>().material.color = Color.white;
+                        receiver.transform.GetChild(1).gameObject.SetActive(false);
+                    }
 
 
                     if (hit.transform.tag != "Mirror")
-                    {
+                    {   
                         for (int j = (i + 1); j < maxBounce; j++)
                         {
                             laser.SetPosition(j, hit.point);

@@ -64,12 +64,19 @@ public class LaserBuildingSystem : MonoBehaviour
             Vector3 position = spawnPosition[obj.Key - 1];
             position = SnapCoordinateToGrid(position);
 
-            GameObject newObj = Instantiate(obj.Value.prefab, position, Quaternion.identity);
+            // set the object to the correct rotation
+            
+            GameObject newObj = Instantiate(obj.Value.prefab, position, Quaternion.Euler(0, obj.Value.rotation, 0));
             newObj.transform.parent = objectsToPlace[obj.Key].transform;
 
             if (obj.Value.isMovable)
             {
                 newObj.AddComponent<LaserObjectDrag>();
+            }
+            else
+            {
+                //Set to light red
+                newObj.GetComponent<Renderer>().material.color = new Color(0.83f, 0.17f, 0.19f);
             }
 
             spawnPosition = spawnPosition.Where(val => val != position).ToArray();
