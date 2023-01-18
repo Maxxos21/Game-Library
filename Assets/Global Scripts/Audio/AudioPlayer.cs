@@ -8,10 +8,12 @@ public class AudioPlayer : PersistentSingleton<AudioPlayer>
 
     public void PlayAudio(int id)
     {
-        audioSource.PlayOneShot(audioClip[id]);
+        if (audioSource.isPlaying)
+        {
+            audioSource.Stop();
+        }
 
-        // Audio setup
-        audioSource.volume = 0.35f;
+        audioSource.PlayOneShot(audioClip[id]);
         audioSource.pitch = Random.Range(0.5f, 1.1f);
     }
     
@@ -19,4 +21,5 @@ public class AudioPlayer : PersistentSingleton<AudioPlayer>
     {
         audioSource.PlayOneShot(audioClip[id], vol);
     }
+
 }

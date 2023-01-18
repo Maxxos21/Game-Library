@@ -13,7 +13,8 @@ public class MainLaser : MonoBehaviour
     private ParticleSystem[] psEffects;
     private ParticleSystem[] psHit;
     public bool isHittingReceiver;
-
+    float previousDistance;
+    float distance;
 
     void Awake()
     {
@@ -29,12 +30,20 @@ public class MainLaser : MonoBehaviour
     {
         laser.SetPosition(0, transform.position);
         laser.positionCount = maxBounce;
+
+        AudioPlayer.Instance.PlayAudio(1);
     }
 
     private void Update()
     {
         count = 0;
         CastLaser(transform.position, transform.up);
+
+        if (previousDistance != distance)
+        {
+            AudioPlayer.Instance.PlayAudio(1);
+        }
+        previousDistance = distance;
     }
 
     private void CastLaser(Vector3 position, Vector3 direction)
@@ -49,8 +58,13 @@ public class MainLaser : MonoBehaviour
             if (count < maxBounce - 1)
 
                 count++;
+
                 if (Physics.Raycast(ray, out hit, 300))
                 {
+                    distance = Vector3.Distance(transform.position, hit.point);
+
+                    Debug.Log(previousDistance);
+
                     position = hit.point;
                     direction = Vector3.Reflect(direction, hit.normal);
                     laser.SetPosition(count, hit.point);

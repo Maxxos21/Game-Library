@@ -25,9 +25,8 @@ public class LaserManager : MonoBehaviour
             }
             else
             {
-                if (Time.time - timeAllLasersHit >= 2)
+                if (Time.time - timeAllLasersHit >= 0.7f)
                 {
-                    Debug.Log("All lasers are hitting the receiver for 2 seconds!");
                     StartCoroutine(LoadNextLevel());
                 }
             }
@@ -52,7 +51,7 @@ public class LaserManager : MonoBehaviour
     IEnumerator LoadNextLevel()
     {
         allLasersHit = true;
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(0.7f);
         nextLevel.SetActive(true);
     }
 }
