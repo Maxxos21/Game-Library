@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Games/_Scene/Laser/Level 2.unity
     guid: 7486d00a3bc0d6242a8205755528839c
+  - enabled: 1
+    path: Assets/Games/_Scene/Laser/Win.unity
+    guid: af8fdab89b38dad4386ccd5818dbebac
   m_configObjects: {}
