@@ -32,12 +32,16 @@ public class WorldMapManager : MonoBehaviour
 
     public void SetCurrentQuestion(int currentQuestion)
     {
+        Debug.Log("Current Question: " + currentQuestion);
+        Debug.Log("Correct Countries Length: " + CorrectCountries.Length);
+
         if (currentQuestion < CorrectCountries.Length)
         {
             questionText.text = CorrectCountries[currentQuestion].question;
         }
         else
         {
+            Debug.Log("You Win!");
             questionText.text = "You Win!";
         }
     }
