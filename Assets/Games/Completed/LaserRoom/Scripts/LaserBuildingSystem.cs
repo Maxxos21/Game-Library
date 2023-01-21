@@ -75,7 +75,6 @@ public class LaserBuildingSystem : MonoBehaviour
             }
             else
             {
-                //Set to light red
                 newObj.GetComponent<Renderer>().material.color = new Color(0.83f, 0.17f, 0.19f);
             }
 

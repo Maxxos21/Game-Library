@@ -495,11 +495,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CorrectCountries:
-  - country: {fileID: 2276739639397894492}
-    question: Where is Canada?
-    hint: 
   - country: {fileID: 7370178295250597722}
     question: Where is Peru?
+    hint: 
+  - country: {fileID: 2276739639397894492}
+    question: Where is Canada?
     hint: 
   currentQuestion: 0
   questionText: {fileID: 1583392665}
