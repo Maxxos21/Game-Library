@@ -8,6 +8,7 @@ public class LaserManager : MonoBehaviour
     [SerializeField] private bool allLasersHit = false;
     private bool allLasersHitPreviousFrame;
     private float timeAllLasersHit;
+    private bool linkOpened = false;
 
 
 
@@ -29,7 +30,18 @@ public class LaserManager : MonoBehaviour
             {
                 if (Time.time - timeAllLasersHit >= 1.2f)
                 {
-                    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+                    if (SceneManager.GetActiveScene().buildIndex + 1 < SceneManager.sceneCountInBuildSettings)
+                    {
+                        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+                    }
+                    else
+                    {
+                        if (!linkOpened)
+                        {
+                            linkOpened = true;
+                            Application.OpenURL("https://bundlexp.wixsite.com/cyber-escape/profiles");
+                        }
+                    }
                 }
             }
         }
