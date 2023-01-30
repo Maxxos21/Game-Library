@@ -6,7 +6,19 @@ public class PipeRotate : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(1))
         {
-            transform.Rotate(0, 90, 0);
+            PipeLevelCreator pipeLevelCreator = GetComponent<PipeLevelCreator>();
+            if (pipeLevelCreator.activeOption == PipeLevelCreator.ChildActivationEnum.Straight)
+            {
+                pipeLevelCreator.rotation = (pipeLevelCreator.rotation + 1) % 2;
+            }
+            else
+            {
+                pipeLevelCreator.rotation = (pipeLevelCreator.rotation + 1) % 4;
+            }
+            pipeLevelCreator.UpdateRotation();
+
+            PipeManager pipeManager = FindObjectOfType<PipeManager>();
+            pipeManager.GetPipeRotations();
         }
     }
 }

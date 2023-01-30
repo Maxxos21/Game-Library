@@ -5,13 +5,17 @@ using UnityEditor;
 public class PipeLevelCreator : MonoBehaviour
 {
     public enum ChildActivationEnum { Bent, Straight, T, Cross }
-    [Range(1,4)] public int rotation;
+    [Range(0,3)] public int rotation;
     public ChildActivationEnum activeOption;
+
 
     private void OnValidate()
     {
-        // Invoke("UpdateChildren", 0.1f);
-        // Invoke("UpdateRotation", 0.1f);
+        if (!Application.isPlaying)
+        {
+            Invoke("UpdateChildren", 0.1f);
+            Invoke("UpdateRotation", 0.1f);
+        }
     }
 
     void UpdateChildren()
