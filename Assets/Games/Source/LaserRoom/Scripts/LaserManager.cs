@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class LaserManager : MonoBehaviour
 {
@@ -9,8 +10,13 @@ public class LaserManager : MonoBehaviour
     private bool allLasersHitPreviousFrame;
     private float timeAllLasersHit;
     private bool linkOpened = false;
+    [SerializeField] private TMP_Text levelText;
 
-
+    void Start()
+    {
+        levelText = GameObject.Find("LevelText").GetComponent<TMP_Text>();
+        levelText.text = "Level " + (SceneManager.GetActiveScene().buildIndex + 1 + "/" + (SceneManager.sceneCountInBuildSettings));
+    }
 
     void Update()
     {
@@ -33,6 +39,7 @@ public class LaserManager : MonoBehaviour
                     if (SceneManager.GetActiveScene().buildIndex + 1 < SceneManager.sceneCountInBuildSettings)
                     {
                         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+                        levelText.text = "Level " + (SceneManager.GetActiveScene().buildIndex + 1 + "/" + (SceneManager.sceneCountInBuildSettings));
                     }
                     else
                     {

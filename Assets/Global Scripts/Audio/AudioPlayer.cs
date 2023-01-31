@@ -6,6 +6,11 @@ public class AudioPlayer : PersistentSingleton<AudioPlayer>
     [SerializeField] private AudioSource audioSource;
     [SerializeField] private AudioClip[] audioClip;
 
+    void Start()
+    {
+        AudioListener.volume = 0.5f;
+    }
+
     public void PlayAudio(int id)
     {
         if (audioSource.isPlaying)
