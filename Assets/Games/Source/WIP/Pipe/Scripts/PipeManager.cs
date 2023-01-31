@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class PipeManager : MonoBehaviour
 {
-    [SerializeField] private GameObject[] pipePrefab;
+    [SerializeField] private GameObject gamePipe;
+    [SerializeField] private List<GameObject> pipePrefab = new List<GameObject>();
     private List<int> solution = new List<int>();
     private List<int> currentArrangement = new List<int>();
     [SerializeField] private Material defaultMaterial;
@@ -13,6 +14,18 @@ public class PipeManager : MonoBehaviour
 
     private void Start()
     {
+        Init();
+    }
+
+    private void Init()
+    {
+        // asign the pipes to the list
+        for (int i = 0; i < gamePipe.transform.childCount; i++)
+        {
+            Transform child = gamePipe.transform.GetChild(i);
+            pipePrefab.Add(child.gameObject);
+        }
+
         GetInitailPipeRotations();
         RandomizePipeRotation();
         GetPipeRotations();
@@ -20,6 +33,7 @@ public class PipeManager : MonoBehaviour
 
     private void RandomizePipeRotation()
     {
+
         foreach (GameObject pipe in pipePrefab)
         {
             PipeLevelCreator pipeLevelCreator = pipe.GetComponent<PipeLevelCreator>();
@@ -52,7 +66,7 @@ public class PipeManager : MonoBehaviour
     public void GetPipeRotations()
     {
         currentArrangement.Clear();
-
+                
         foreach (GameObject pipe in pipePrefab)
         {
             PipeLevelCreator pipeLevelCreator = pipe.GetComponent<PipeLevelCreator>();
@@ -75,11 +89,9 @@ public class PipeManager : MonoBehaviour
                 pipePrefab[i].GetComponentInChildren<Renderer>().material = defaultMaterial;
                 return;
             }
-
             if (i == solution.Count - 1)
             {
                 Debug.Log("You Win!");
-
                 foreach (GameObject pipe in pipePrefab)
                 {
                     pipe.GetComponentInChildren<Renderer>().material = correctMaterial;
@@ -87,7 +99,5 @@ public class PipeManager : MonoBehaviour
                 }
             }
         }
-
-
     }
 }
