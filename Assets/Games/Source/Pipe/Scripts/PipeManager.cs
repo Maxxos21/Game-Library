@@ -25,6 +25,8 @@ public class PipeManager : MonoBehaviour
             pipePrefab.Add(child.gameObject);
         }
 
+        AudioListener.volume = 0.5f;
+
         GetInitailPipeRotations();
         RandomizePipeRotation();
         GetPipeRotations();

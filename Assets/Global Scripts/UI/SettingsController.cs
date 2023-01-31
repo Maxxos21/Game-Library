@@ -12,9 +12,6 @@ public class SettingsController : MonoBehaviour
 
     private void Start()
     {
-        AudioListener.volume = 0.5f;
-
-
         volumeSlider.value = AudioListener.volume;
         volumeText.text = Mathf.RoundToInt(volumeSlider.value * 100) + "%";
     }
