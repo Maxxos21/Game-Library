@@ -46,7 +46,7 @@ public class LaserManager : MonoBehaviour
                         if (!linkOpened)
                         {
                             linkOpened = true;
-                            Application.OpenURL("https://bundlexp.wixsite.com/cyber-escape/profiles");
+                            Application.OpenURL("https://bundlexp.wixsite.com/cyber/profiles-intro");
                         }
                     }
                 }
