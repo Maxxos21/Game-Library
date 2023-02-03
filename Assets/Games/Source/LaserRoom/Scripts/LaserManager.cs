@@ -9,7 +9,6 @@ public class LaserManager : MonoBehaviour
     [SerializeField] private bool allLasersHit = false;
     private bool allLasersHitPreviousFrame;
     private float timeAllLasersHit;
-    private bool linkOpened = false;
     [SerializeField] private TMP_Text levelText;
 
     void Start()
@@ -39,15 +38,7 @@ public class LaserManager : MonoBehaviour
                     if (SceneManager.GetActiveScene().buildIndex + 1 < SceneManager.sceneCountInBuildSettings)
                     {
                         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-                        levelText.text = "Level " + (SceneManager.GetActiveScene().buildIndex + 1 + "/" + (SceneManager.sceneCountInBuildSettings));
-                    }
-                    else
-                    {
-                        if (!linkOpened)
-                        {
-                            linkOpened = true;
-                            Application.OpenURL("https://bundlexp.wixsite.com/cyber/profiles-intro");
-                        }
+                        levelText.text = "Level " + (SceneManager.GetActiveScene().buildIndex + 1 + "/" + (SceneManager.sceneCountInBuildSettings - 1));
                     }
                 }
             }
