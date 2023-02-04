@@ -3,21 +3,23 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class QuizGameUI : MonoBehaviour
 {
 #pragma warning disable 649
     [SerializeField] private QuizManager quizManager;               //ref to the QuizManager script
     [SerializeField] private CategoryBtnScript categoryBtnPrefab;
+    [SerializeField] private List<CategoryBtnScript> categoryBtnList;
     [SerializeField] private GameObject scrollHolder;
-    [SerializeField] private Text scoreText, timerText;
+    [SerializeField] private TMP_Text scoreText, timerText;
     [SerializeField] private List<Image> lifeImageList;
     [SerializeField] private GameObject gameOverPanel, mainMenu, gamePanel;
     [SerializeField] private Color correctCol, wrongCol, normalCol; //color of buttons
     [SerializeField] private Image questionImg;                     //image component to show image
     [SerializeField] private UnityEngine.Video.VideoPlayer questionVideo;   //to show video
     [SerializeField] private AudioSource questionAudio;             //audio source for audio clip
-    [SerializeField] private Text questionInfoText;                 //text to show question
+    [SerializeField] private TMP_Text questionInfoText;                 //text to show question
     [SerializeField] private List<Button> options;                  //options button reference
 #pragma warning restore 649
 
@@ -25,8 +27,8 @@ public class QuizGameUI : MonoBehaviour
     private Question question;          //store current question data
     private bool answered = false;      //bool to keep track if answered or not
 
-    public Text TimerText { get => timerText; }                     //getter
-    public Text ScoreText { get => scoreText; }                     //getter
+    public TMP_Text TimerText { get => timerText; }                     //getter
+    public TMP_Text ScoreText { get => scoreText; }                     //getter
     public GameObject GameOverPanel { get => gameOverPanel; }                     //getter
 
     private void Start()
@@ -92,7 +94,7 @@ public class QuizGameUI : MonoBehaviour
         for (int i = 0; i < options.Count; i++)
         {
             //set the child text
-            options[i].GetComponentInChildren<Text>().text = ansOptions[i];
+            options[i].GetComponentInChildren<TMP_Text>().text = ansOptions[i];
             options[i].name = ansOptions[i];    //set the name of button
             options[i].image.color = normalCol; //set color of button to normal
         }
@@ -166,7 +168,7 @@ public class QuizGameUI : MonoBehaviour
     /// <summary>
     /// Method to create Category Buttons dynamically
     /// </summary>
-    void CreateCategoryButtons()
+    public void CreateCategoryButtons()
     {
         //we loop through all the available catgories in our QuizManager
         for (int i = 0; i < quizManager.QuizData.Count; i++)

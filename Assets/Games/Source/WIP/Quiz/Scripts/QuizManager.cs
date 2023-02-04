@@ -66,21 +66,21 @@ public class QuizManager : MonoBehaviour
         if (gameStatus == GameStatus.PLAYING)
         {
             currentTime -= Time.deltaTime;
-            SetTime(currentTime);
+            // SetTime(currentTime);
         }
     }
 
-    void SetTime(float value)
-    {
-        TimeSpan time = TimeSpan.FromSeconds(currentTime);                       //set the time value
-        quizGameUI.TimerText.text = time.ToString("mm':'ss");   //convert time to Time format
+    // void SetTime(float value)
+    // {
+    //     TimeSpan time = TimeSpan.FromSeconds(currentTime);                       //set the time value
+    //     quizGameUI.TimerText.text = time.ToString("mm':'ss");   //convert time to Time format
 
-        if (currentTime <= 0)
-        {
-            //Game Over
-            GameEnd();
-        }
-    }
+    //     if (currentTime <= 0)
+    //     {
+    //         //Game Over
+    //         GameEnd();
+    //     }
+    // }
 
     /// <summary>
     /// Method called to check the answer is correct or not

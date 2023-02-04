@@ -87,10 +87,31 @@ public class PipeManager : MonoBehaviour
             {
                 foreach (GameObject pipe in pipePrefab)
                 {
-                    pipe.GetComponentInChildren<Renderer>().material = correctMaterial;
-                    winPipe.GetComponent<Renderer>().material = correctMaterial;
+                    // slowly set the color from the first pipe to the last one
+                    StartCoroutine(ChangePipeColor(defaultMaterial, correctMaterial, 0.10f));
                 }
             }
         }
+    }
+
+    private IEnumerator ChangePipeColor(Material startMaterial, Material endMaterial, float duration)
+    {
+        float elapsedTime = 0f;
+
+        for (int i = 0; i < pipePrefab.Count; i++)
+        {
+            elapsedTime = 0f;
+            while (elapsedTime < duration)
+            {
+                elapsedTime += Time.deltaTime;
+
+                Renderer renderer = pipePrefab[i].GetComponentInChildren<Renderer>();
+                renderer.material.color = Color.Lerp(startMaterial.color, endMaterial.color, elapsedTime / duration);
+
+                yield return null;
+            }
+        }
+
+        winPipe.GetComponentInChildren<Renderer>().material = correctMaterial;
     }
 }
