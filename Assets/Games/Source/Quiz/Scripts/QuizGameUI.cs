@@ -45,6 +45,7 @@ public class QuizGameUI : MonoBehaviour
 
         // CreateCategoryButtons();
         SetCategoryButton();
+        SetGameNow();
 
     }
     /// <summary>
@@ -68,15 +69,6 @@ public class QuizGameUI : MonoBehaviour
                 questionAudio.transform.gameObject.SetActive(false);        //deactivate questionAudio
 
                 questionImg.sprite = question.questionImage;                //set the image sprite
-                break;
-            case QuestionType.AUDIO:
-                questionVideo.transform.parent.gameObject.SetActive(true);  //activate image holder
-                questionVideo.transform.gameObject.SetActive(false);        //deactivate questionVideo
-                questionImg.transform.gameObject.SetActive(false);          //deactivate questionImg
-                questionAudio.transform.gameObject.SetActive(true);         //activate questionAudio
-                
-                audioLength = question.audioClip.length;                    //set audio clip
-                StartCoroutine(PlayAudio());                                //start Coroutine
                 break;
             case QuestionType.VIDEO:
                 questionVideo.transform.parent.gameObject.SetActive(true);  //activate image holder
@@ -114,31 +106,6 @@ public class QuizGameUI : MonoBehaviour
                 lifeImageList[remainingLife - 1].color.g,
                 lifeImageList[remainingLife - 1].color.b,
                 1f);  //reduce the alpha value of the image
-    }
-
-    /// <summary>
-    /// IEnumerator to repeate the audio after some time
-    /// </summary>
-    /// <returns></returns>
-    IEnumerator PlayAudio()
-    {
-        //if questionType is audio
-        if (question.questionType == QuestionType.AUDIO)
-        {
-            //PlayOneShot
-            questionAudio.PlayOneShot(question.audioClip);
-            //wait for few seconds
-            yield return new WaitForSeconds(audioLength + 0.5f);
-            //play again
-            StartCoroutine(PlayAudio());
-        }
-        else //if questionType is not audio
-        {
-            //stop the Coroutine
-            StopCoroutine(PlayAudio());
-            //return null
-            yield return null;
-        }
     }
 
     /// <summary>
@@ -212,6 +179,13 @@ public class QuizGameUI : MonoBehaviour
         {
             arcadeButton[i].onClick.AddListener(() => CategoryBtn(0, quizManager.QuizData[0].categoryName));
         }
+    }
+
+    // Create a method to start the game
+    public void SetGameNow()
+    {
+        // invoke the firsrt button
+        arcadeButton[0].onClick.Invoke();
     }
 
     //Method called by Category Button

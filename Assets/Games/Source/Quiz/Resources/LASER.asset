@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f611d797432e3f846885b2b12fde5f35, type: 3}
+  m_Name: LASER
+  m_EditorClassIdentifier: 
+  categoryName: Laser
+  questions:
+  - questionInfo: In which 2 ways can we measure an event? For example, a leaf falling
+      from a tree.
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Time & Yearly distance
+    - Spatial & Nautical distance
+    - Time & Spatial distance
+    - 2D & 3D distance
+    correctAns: Time & Spatial distance
+  - questionInfo: 'Psychological time is the measurement between thoughts and:'
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Objects of perception
+    - Emotions
+    - Senses
+    - Dreams
+    correctAns: Objects of perception
+  - questionInfo: Which late 19th century engineer invented scientific (or time)
+      management?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - John Fleming
+    - Robert Stephenson
+    - Debbie Aukland
+    - Fredrick Winslow Taylor
+    correctAns: Fredrick Winslow Taylor
+  - questionInfo: What are plans made of?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Brick and mortar
+    - Goals and visions
+    - Missions and thoughts
+    - Memories and imagination
+    correctAns: Memories and imagination

@@ -12,8 +12,10 @@ public class LaserManager : MonoBehaviour
 
     void Start()
     {
-        levelText = GameObject.Find("LevelText").GetComponent<TMP_Text>();
-        levelText.text = "Level " + (SceneManager.GetActiveScene().buildIndex + 1 + "/" + (SceneManager.sceneCountInBuildSettings - 1));
+        if (levelText != null)
+        {
+            levelText.text = "Level " + (SceneManager.GetActiveScene().buildIndex + 1 + "/" + (SceneManager.sceneCountInBuildSettings - 1));
+        }
     }
 
     void Update()

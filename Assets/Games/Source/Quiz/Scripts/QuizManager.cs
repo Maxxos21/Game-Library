@@ -41,7 +41,8 @@ public class QuizManager : MonoBehaviour
 
     public void StartGame(int categoryIndex, string category)
     {
-        TransitionWarp(false);
+        EnableTransitionPanel();
+        Invoke("DisableTransitionPanel", 2f);
 
         currentCategory = category;
         correctAnswerCount = 0;
@@ -54,10 +55,6 @@ public class QuizManager : MonoBehaviour
         //select the question
         SelectQuestion();
         gameStatus = GameStatus.PLAYING;
-
-
-        Debug.Log("StartGame");
-        Debug.Log("categoryIndex: " + categoryIndex);
     }
 
     /// <summary>
@@ -115,10 +112,11 @@ public class QuizManager : MonoBehaviour
             quizGameUI.ScoreText.text = "Score:" + gameScore;
 
             AudioPlayer.Instance.PlayAudio(0);
+
         }
         else
         {
-            AudioPlayer.Instance.PlayAudio(1);
+            AudioPlayer.Instance.PlayAudio(2);
         }
 
         if (gameStatus == GameStatus.PLAYING)
@@ -184,7 +182,6 @@ public class QuizManager : MonoBehaviour
     {
         transitionPanel.SetActive(true);
         psEffect.SetActive(true);
-        AudioPlayer.Instance.PlayAudio(2);
         transitionPanel.GetComponent<CanvasGroup>().alphaTransition(1f, 1f);
     }
 
