@@ -2,6 +2,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Lean.Transition;
+using UnityEngine.UI;
+using Lean;
 
 public class QuizManager : MonoBehaviour
 {
@@ -20,7 +23,7 @@ public class QuizManager : MonoBehaviour
     //current question data
     private Question selectedQuetion = new Question();
     private int gameScore;
-    private int lifesRemaining;
+    private int gearsUnlocked = 0;
     private float currentTime;
     private QuizDataScriptable dataScriptable;
 
@@ -29,13 +32,18 @@ public class QuizManager : MonoBehaviour
     public GameStatus GameStatus { get { return gameStatus; } }
 
     public List<QuizDataScriptable> QuizData { get => quizDataList; }
+    [SerializeField] private GameObject warpTransition;
+    [SerializeField] private GameObject winPanel;
+    [SerializeField] private GameObject transitionPanel;
+    [SerializeField] private GameObject psEffect;
 
     public void StartGame(int categoryIndex, string category)
     {
+        TransitionWarp(false);
+
         currentCategory = category;
         correctAnswerCount = 0;
         gameScore = 0;
-        lifesRemaining = 3;
         currentTime = timeInSeconds;
         //set the questions data
         questions = new List<Question>();
@@ -44,6 +52,10 @@ public class QuizManager : MonoBehaviour
         //select the question
         SelectQuestion();
         gameStatus = GameStatus.PLAYING;
+
+
+        Debug.Log("StartGame");
+        Debug.Log("categoryIndex: " + categoryIndex);
     }
 
     /// <summary>
@@ -91,7 +103,7 @@ public class QuizManager : MonoBehaviour
     {
         //set default to false
         bool correct = false;
-        //if selected answer is similar to the correctAns
+
         if (selectedQuetion.correctAns == selectedOption)
         {
             //Yes, Ans is correct
@@ -102,15 +114,7 @@ public class QuizManager : MonoBehaviour
         }
         else
         {
-            //No, Ans is wrong
-            //Reduce Life
-            lifesRemaining--;
-            quizGameUI.ReduceLife(lifesRemaining);
-
-            if (lifesRemaining == 0)
-            {
-                GameEnd();
-            }
+            //! show correct answer?
         }
 
         if (gameStatus == GameStatus.PLAYING)
@@ -118,10 +122,11 @@ public class QuizManager : MonoBehaviour
             if (questions.Count > 0)
             {
                 //call SelectQuestion method again after 1s
-                Invoke("SelectQuestion", 0.4f);
+                Invoke("SelectQuestion", 2f);
             }
             else
             {
+                TransitionWarp(true);
                 Invoke("GameEnd", 2f);
             }
         }
@@ -131,11 +136,23 @@ public class QuizManager : MonoBehaviour
 
     private void GameEnd()
     {
+        gearsUnlocked++;
+        quizGameUI.ReduceLife(gearsUnlocked);
+
         gameStatus = GameStatus.NEXT;
 
         // start next category
+        // if index is out of range, start from the beginning
         int index = quizDataList.IndexOf(dataScriptable) + 1;
-        StartGame(index, QuizData[index].categoryName);
+
+        if (quizDataList.IndexOf(dataScriptable) + 1 >= quizDataList.Count)
+        {
+            winPanel.SetActive(true);
+        }
+        else
+        {
+            StartGame(index, QuizData[index].categoryName);
+        }
 
         // quizGameUI.GameOverPanel.SetActive(true);
 
@@ -144,6 +161,12 @@ public class QuizManager : MonoBehaviour
 
         //Save the score
         PlayerPrefs.SetInt(currentCategory, correctAnswerCount); //save the score for this category
+    }
+
+    void TransitionWarp(bool warping)
+    {
+        transitionPanel.SetActive(warping);
+        psEffect.SetActive(warping);
     }
 }
 

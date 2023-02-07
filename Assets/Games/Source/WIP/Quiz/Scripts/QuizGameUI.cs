@@ -21,6 +21,9 @@ public class QuizGameUI : MonoBehaviour
     [SerializeField] private AudioSource questionAudio;             //audio source for audio clip
     [SerializeField] private TMP_Text questionInfoText;                 //text to show question
     [SerializeField] private List<Button> options;                  //options button reference
+
+    [SerializeField] private Button[] arcadeButton;
+
 #pragma warning restore 649
 
     private float audioLength;          //store audio length
@@ -41,6 +44,7 @@ public class QuizGameUI : MonoBehaviour
         }
 
         CreateCategoryButtons();
+        SetCategoryButton();
 
     }
     /// <summary>
@@ -105,7 +109,11 @@ public class QuizGameUI : MonoBehaviour
 
     public void ReduceLife(int remainingLife)
     {
-        lifeImageList[remainingLife].color = Color.red;
+        lifeImageList[remainingLife - 1].color = new Color(
+                lifeImageList[remainingLife - 1].color.r,
+                lifeImageList[remainingLife - 1].color.g,
+                lifeImageList[remainingLife - 1].color.b,
+                1f);  //reduce the alpha value of the image
     }
 
     /// <summary>
@@ -160,6 +168,17 @@ public class QuizGameUI : MonoBehaviour
                 {
                     //else set it to wrong color
                     btn.image.color = wrongCol;
+
+                    // Show the correct answer
+                    for (int i = 0; i < options.Count; i++)
+                    {
+                        if (options[i].name == question.correctAns)
+                        {
+                            //options[i].image.color = correctCol;
+                            StartCoroutine(BlinkImg(options[i].image));
+                        }
+                    }
+
                 }
             }
         }
@@ -183,6 +202,18 @@ public class QuizGameUI : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Method to set a Button to a category
+    /// </summary>
+    public void SetCategoryButton()
+    {
+        // foreach arcade button add a listner
+        for(int i = 0; i < arcadeButton.Length; i++)
+        {
+            arcadeButton[i].onClick.AddListener(() => CategoryBtn(0, quizManager.QuizData[0].categoryName));
+        }
+    }
+
     //Method called by Category Button
     private void CategoryBtn(int index, string category)
     {
@@ -202,6 +233,7 @@ public class QuizGameUI : MonoBehaviour
             yield return new WaitForSeconds(0.1f);
         }
     }
+
 
     public void RestryButton()
     {

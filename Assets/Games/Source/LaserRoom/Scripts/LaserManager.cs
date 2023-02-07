@@ -6,7 +6,6 @@ using TMPro;
 public class LaserManager : MonoBehaviour
 {
     [SerializeField] private MainLaser[] lasers;
-    [SerializeField] private bool allLasersHit = false;
     private bool allLasersHitPreviousFrame;
     private float timeAllLasersHit;
     [SerializeField] private TMP_Text levelText;
