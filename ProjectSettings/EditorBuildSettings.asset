@@ -6,15 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Games/Source/LaserRoom/_Scenes/Tutorial/Tutorial 1.unity
-    guid: a404825204fb5204bafa03cd337e5462
-  - enabled: 1
-    path: Assets/Games/Source/LaserRoom/_Scenes/Tutorial/Tutorial 2.unity
-    guid: 9f1c5053162004a45becf65d87ded806
-  - enabled: 1
-    path: Assets/Games/Source/LaserRoom/_Scenes/Tutorial/Tutorial 3.unity
-    guid: dc7326e2bd82e13468fd643127d8ff52
-  - enabled: 1
-    path: Assets/Games/Source/LaserRoom/_Scenes/Tutorial/Quiz 1.unity
-    guid: 8793024973017d7418c7cc5accd3bf1b
+    path: Assets/Games/Source/_WIP/WhatsTheQuote/WhatsTheQuoteSample.unity
+    guid: 67063afd428d49c418be5af66f37ebfd
   m_configObjects: {}

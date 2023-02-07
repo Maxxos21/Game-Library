@@ -1,12 +1,8 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PreviewObject : MonoBehaviour
 {
-
-    Vector3 mPrevPos = Vector3.zero;
-    Vector3 mPosDelta = Vector3.zero;
+    Vector3 mPrevPos, mPosDelta = Vector3.zero;
     public float mSpeed = 1.0f;
 
     void Update()
@@ -28,7 +24,6 @@ public class PreviewObject : MonoBehaviour
             {
                 transform.Rotate(transform.up, Vector3.Dot(mPosDelta, Camera.main.transform.right) * mSpeed, Space.World);
             }
-
             transform.Rotate(Camera.main.transform.right, Vector3.Dot(mPosDelta, Camera.main.transform.up) * mSpeed, Space.World);
         }
         mPrevPos = Input.mousePosition;

@@ -7474,14 +7474,13 @@ GameObject:
   - component: {fileID: 1208908381}
   - component: {fileID: 1208908380}
   - component: {fileID: 1208908384}
-  - component: {fileID: 1208908385}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!65 &1208908380
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7579,21 +7578,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mSpeed: 0.1
---- !u!114 &1208908385
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1208908379}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 134c97457e6d9544a9138e370cb8cac9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mesh: {fileID: 0}
-  gizmoSize: 0.1
-  gizmoColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!1001 &1232450943
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9118,7 +9102,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1500616875
 MonoBehaviour:
   m_ObjectHideFlags: 0
