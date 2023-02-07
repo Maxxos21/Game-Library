@@ -43,7 +43,7 @@ public class QuizGameUI : MonoBehaviour
             localBtn.onClick.AddListener(() => OnClick(localBtn));
         }
 
-        CreateCategoryButtons();
+        // CreateCategoryButtons();
         SetCategoryButton();
 
     }

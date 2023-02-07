@@ -2,6 +2,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Lean.Common;
+using Lean.Gui;
 using Lean.Transition;
 using UnityEngine.UI;
 using Lean;
@@ -111,10 +113,12 @@ public class QuizManager : MonoBehaviour
             correct = true;
             gameScore += 50;
             quizGameUI.ScoreText.text = "Score:" + gameScore;
+
+            AudioPlayer.Instance.PlayAudio(0);
         }
         else
         {
-            //! show correct answer?
+            AudioPlayer.Instance.PlayAudio(1);
         }
 
         if (gameStatus == GameStatus.PLAYING)
@@ -127,7 +131,7 @@ public class QuizManager : MonoBehaviour
             else
             {
                 TransitionWarp(true);
-                Invoke("GameEnd", 2f);
+                Invoke("GameEnd", 4f);
             }
         }
         //return the value of correct bool
@@ -147,6 +151,7 @@ public class QuizManager : MonoBehaviour
 
         if (quizDataList.IndexOf(dataScriptable) + 1 >= quizDataList.Count)
         {
+            TransitionWarp(false);
             winPanel.SetActive(true);
         }
         else
@@ -165,8 +170,29 @@ public class QuizManager : MonoBehaviour
 
     void TransitionWarp(bool warping)
     {
-        transitionPanel.SetActive(warping);
-        psEffect.SetActive(warping);
+        if (warping)
+        {
+            Invoke("EnableTransitionPanel", 1f);
+        }
+        else
+        {
+            Invoke("DisableTransitionPanel", 1f);
+        }
+    }
+
+    void EnableTransitionPanel()
+    {
+        transitionPanel.SetActive(true);
+        psEffect.SetActive(true);
+        AudioPlayer.Instance.PlayAudio(2);
+        transitionPanel.GetComponent<CanvasGroup>().alphaTransition(1f, 1f);
+    }
+
+    void DisableTransitionPanel()
+    {
+        transitionPanel.GetComponent<CanvasGroup>().alphaTransition(0f, 1f);
+        transitionPanel.SetActive(false);
+        psEffect.SetActive(false);
     }
 }
 
