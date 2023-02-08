@@ -11,26 +11,27 @@ public class PreviewObject : MonoBehaviour
 
     void Update()
     {
-        RotateObject();
+        if (Input.GetMouseButton(1))
+        {
+            RotateObject();
+        }
+        mPrevPos = Input.mousePosition;
     }
 
     void RotateObject()
     {
-        if (Input.GetMouseButton(1))
+        mPosDelta = Input.mousePosition - mPrevPos;
+
+        if (Vector3.Dot(transform.up, Vector3.up) >= 0)
         {
-            mPosDelta = Input.mousePosition - mPrevPos;
-
-            if (Vector3.Dot(transform.up, Vector3.up) >= 0)
-            {
-                transform.Rotate(transform.up, -Vector3.Dot(mPosDelta, Camera.main.transform.right) * mSpeed, Space.World);
-            }
-            else
-            {
-                transform.Rotate(transform.up, Vector3.Dot(mPosDelta, Camera.main.transform.right) * mSpeed, Space.World);
-            }
-
-            transform.Rotate(Camera.main.transform.right, Vector3.Dot(mPosDelta, Camera.main.transform.up) * mSpeed, Space.World);
+            transform.Rotate(transform.up, -Vector3.Dot(mPosDelta, Camera.main.transform.right) * mSpeed, Space.World);
         }
-        mPrevPos = Input.mousePosition;
+        else
+        {
+            transform.Rotate(transform.up, Vector3.Dot(mPosDelta, Camera.main.transform.right) * mSpeed, Space.World);
+        }
+
+        transform.Rotate(Camera.main.transform.right, Vector3.Dot(mPosDelta, Camera.main.transform.up) * mSpeed, Space.World);
     }
+
 }
