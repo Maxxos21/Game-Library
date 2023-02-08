@@ -346,8 +346,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: option 1
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9c44384aacadd8e439541b86e1cef6d9, type: 2}
-  m_sharedMaterial: {fileID: 5390953947994167728, guid: 9c44384aacadd8e439541b86e1cef6d9,
+  m_fontAsset: {fileID: 11400000, guid: 34955942d77c2644685db13d400defb7, type: 2}
+  m_sharedMaterial: {fileID: -1291514919620343735, guid: 34955942d77c2644685db13d400defb7,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -866,8 +866,8 @@ MonoBehaviour:
   m_text: What are the 3 steps or process involved in thought-time management? Collect
     each gear to find out!
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9c44384aacadd8e439541b86e1cef6d9, type: 2}
-  m_sharedMaterial: {fileID: 5390953947994167728, guid: 9c44384aacadd8e439541b86e1cef6d9,
+  m_fontAsset: {fileID: 11400000, guid: 34955942d77c2644685db13d400defb7, type: 2}
+  m_sharedMaterial: {fileID: -1291514919620343735, guid: 34955942d77c2644685db13d400defb7,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -7526,8 +7526,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Play
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: c9f0ab9a170fa4c3596972aa1db04a9a, type: 2}
-  m_sharedMaterial: {fileID: 2081446301306759604, guid: c9f0ab9a170fa4c3596972aa1db04a9a,
+  m_fontAsset: {fileID: 11400000, guid: 34955942d77c2644685db13d400defb7, type: 2}
+  m_sharedMaterial: {fileID: -1291514919620343735, guid: 34955942d77c2644685db13d400defb7,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -8550,8 +8550,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: option 1
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9c44384aacadd8e439541b86e1cef6d9, type: 2}
-  m_sharedMaterial: {fileID: 5390953947994167728, guid: 9c44384aacadd8e439541b86e1cef6d9,
+  m_fontAsset: {fileID: 11400000, guid: 34955942d77c2644685db13d400defb7, type: 2}
+  m_sharedMaterial: {fileID: -1291514919620343735, guid: 34955942d77c2644685db13d400defb7,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -8808,8 +8808,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: How many times India has won the world cup?
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9c44384aacadd8e439541b86e1cef6d9, type: 2}
-  m_sharedMaterial: {fileID: 5390953947994167728, guid: 9c44384aacadd8e439541b86e1cef6d9,
+  m_fontAsset: {fileID: 11400000, guid: 34955942d77c2644685db13d400defb7, type: 2}
+  m_sharedMaterial: {fileID: -1291514919620343735, guid: 34955942d77c2644685db13d400defb7,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -10906,7 +10906,7 @@ MonoBehaviour:
   m_text: Congratulations on completing the game and collecting all 3 gears! Your
     perseverance and determination have paid off. Well done!
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9c44384aacadd8e439541b86e1cef6d9, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 34955942d77c2644685db13d400defb7, type: 2}
   m_sharedMaterial: {fileID: 5390953947994167728, guid: 9c44384aacadd8e439541b86e1cef6d9,
     type: 2}
   m_fontSharedMaterials: []
@@ -10971,7 +10971,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1631035132
@@ -11194,7 +11194,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: c9f0ab9a170fa4c3596972aa1db04a9a, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 34955942d77c2644685db13d400defb7, type: 2}
   m_sharedMaterial: {fileID: 2081446301306759604, guid: c9f0ab9a170fa4c3596972aa1db04a9a,
     type: 2}
   m_fontSharedMaterials: []
@@ -11259,7 +11259,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1724460321
@@ -12228,8 +12228,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: option 1
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9c44384aacadd8e439541b86e1cef6d9, type: 2}
-  m_sharedMaterial: {fileID: 5390953947994167728, guid: 9c44384aacadd8e439541b86e1cef6d9,
+  m_fontAsset: {fileID: 11400000, guid: 34955942d77c2644685db13d400defb7, type: 2}
+  m_sharedMaterial: {fileID: -1291514919620343735, guid: 34955942d77c2644685db13d400defb7,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -12555,8 +12555,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: option 1
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9c44384aacadd8e439541b86e1cef6d9, type: 2}
-  m_sharedMaterial: {fileID: 5390953947994167728, guid: 9c44384aacadd8e439541b86e1cef6d9,
+  m_fontAsset: {fileID: 11400000, guid: 34955942d77c2644685db13d400defb7, type: 2}
+  m_sharedMaterial: {fileID: -1291514919620343735, guid: 34955942d77c2644685db13d400defb7,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
