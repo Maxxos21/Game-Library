@@ -33,12 +33,14 @@ public class PipeLevelCreator : MonoBehaviour
                 break;
             case ChildActivationEnum.Straight:
                 transform.GetChild(1).gameObject.SetActive(true);
+                rotation = Mathf.Clamp(rotation, 0, 1);
                 break;
             case ChildActivationEnum.T:
                 transform.GetChild(2).gameObject.SetActive(true);
                 break;
             case ChildActivationEnum.Cross:
                 transform.GetChild(3).gameObject.SetActive(true);
+                rotation = 0;
                 break;
         }
     }

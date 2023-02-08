@@ -20,15 +20,22 @@ public class PipeRotate : MonoBehaviour
         {
             pipeLevelCreator.rotation = (pipeLevelCreator.rotation + 1) % 2;
         }
+        else if (pipeLevelCreator.activeOption == PipeLevelCreator.ChildActivationEnum.Cross)
+        {
+            pipeLevelCreator.rotation = 0;
+        }
         else
         {
             pipeLevelCreator.rotation = (pipeLevelCreator.rotation + 1) % 4;
-        }        
+        }
+                
         pipeLevelCreator.UpdateRotation();
 
 
         PipeManager pipeManager = FindObjectOfType<PipeManager>();
-        pipeManager.GetPipeRotations();
-
+        if (pipeManager.pipePrefab.Contains(gameObject))
+        {
+            pipeManager.GetPipeRotations();
+        }
     }
 }

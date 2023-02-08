@@ -5,11 +5,11 @@ using UnityEngine;
 public class PipeManager : MonoBehaviour
 {
     [SerializeField] private GameObject gamePipe;
-    [SerializeField] private List<GameObject> pipePrefab = new List<GameObject>();
+    [SerializeField] public List<GameObject> pipePrefab = new List<GameObject>();
     private List<int> solution = new List<int>();
     private List<int> currentArrangement = new List<int>();
-    [SerializeField] private Material defaultMaterial;
-    [SerializeField] private Material correctMaterial;
+    private bool isSolved = false;
+    [SerializeField] private Material defaultMaterial, correctMaterial;
     [SerializeField] private GameObject winPipe;
 
     private void Start()
@@ -29,7 +29,6 @@ public class PipeManager : MonoBehaviour
 
         GetInitailPipeRotations();
         RandomizePipeRotation();
-        GetPipeRotations();
     }
 
     private void RandomizePipeRotation()
@@ -41,6 +40,11 @@ public class PipeManager : MonoBehaviour
             if (pipeLevelCreator.activeOption == PipeLevelCreator.ChildActivationEnum.Straight)
             {
                 pipeLevelCreator.rotation = Random.Range(0, 2);
+                pipeLevelCreator.UpdateRotation();
+            }
+            else if (pipeLevelCreator.activeOption == PipeLevelCreator.ChildActivationEnum.Cross)
+            {
+                pipeLevelCreator.rotation = 0;
                 pipeLevelCreator.UpdateRotation();
             }
             else
@@ -71,6 +75,7 @@ public class PipeManager : MonoBehaviour
             int rotation = pipeLevelCreator.rotation;
             currentArrangement.Add(rotation);
         }
+
         CheckSolution();
     }
 
@@ -83,11 +88,12 @@ public class PipeManager : MonoBehaviour
                 pipePrefab[i].GetComponentInChildren<Renderer>().material = defaultMaterial;
                 return;
             }
+
             if (i == solution.Count - 1)
             {
                 foreach (GameObject pipe in pipePrefab)
                 {
-                    // slowly set the color from the first pipe to the last one
+                    if (isSolved) return;
                     StartCoroutine(ChangePipeColor(defaultMaterial, correctMaterial, 0.10f));
                 }
             }
@@ -113,5 +119,6 @@ public class PipeManager : MonoBehaviour
         }
 
         winPipe.GetComponentInChildren<Renderer>().material = correctMaterial;
+        isSolved = true;
     }
 }
