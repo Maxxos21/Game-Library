@@ -58,7 +58,7 @@ Material:
     - _Mettalic: 0.1
     - _NormalStrenght: 0.01
     - _QueueControl: 1
-    - _QueueOffset: 0
+    - _QueueOffset: 50
     - _ReceiveShadows: 1
     - _Smoothness: 1
     - _SrcBlend: 5

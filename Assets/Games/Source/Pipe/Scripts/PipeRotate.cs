@@ -4,38 +4,45 @@ using UnityEngine.EventSystems;
 
 public class PipeRotate : MonoBehaviour
 {
+    private PipeManager _pipeManager;
+    private PipeLevelCreator _pipeLevelCreator;
+
+    void Awake()
+    {
+        _pipeManager = FindObjectOfType<PipeManager>();
+        _pipeLevelCreator = GetComponent<PipeLevelCreator>();
+    }
+
     private void OnMouseDown()
     {
         if(!EventSystem.current.IsPointerOverGameObject())
         {
+            if (_pipeManager.isSolved) return;
+            
             Rotate();
         }
     }
 
     private void Rotate()
     {
-        PipeLevelCreator pipeLevelCreator = GetComponent<PipeLevelCreator>();
-        
-        if (pipeLevelCreator.activeOption == PipeLevelCreator.ChildActivationEnum.Straight)
+        if (_pipeLevelCreator.activeOption == PipeLevelCreator.ChildActivationEnum.Straight)
         {
-            pipeLevelCreator.rotation = (pipeLevelCreator.rotation + 1) % 2;
+            _pipeLevelCreator.rotation = (_pipeLevelCreator.rotation + 1) % 2;
         }
-        else if (pipeLevelCreator.activeOption == PipeLevelCreator.ChildActivationEnum.Cross)
+        else if (_pipeLevelCreator.activeOption == PipeLevelCreator.ChildActivationEnum.Cross)
         {
-            pipeLevelCreator.rotation = 0;
+            _pipeLevelCreator.rotation = 0;
         }
         else
         {
-            pipeLevelCreator.rotation = (pipeLevelCreator.rotation + 1) % 4;
+            _pipeLevelCreator.rotation = (_pipeLevelCreator.rotation + 1) % 4;
         }
                 
-        pipeLevelCreator.UpdateRotation();
+        _pipeLevelCreator.UpdateRotation();
 
-
-        PipeManager pipeManager = FindObjectOfType<PipeManager>();
-        if (pipeManager.pipePrefab.Contains(gameObject))
-        {
-            pipeManager.GetPipeRotations();
+        if (_pipeManager.pipePrefab.Contains(gameObject))
+        {   
+            _pipeManager.GetPipeRotations();
         }
     }
 }

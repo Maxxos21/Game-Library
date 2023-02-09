@@ -8,9 +8,10 @@ public class PipeManager : MonoBehaviour
     [SerializeField] public List<GameObject> pipePrefab = new List<GameObject>();
     private List<int> solution = new List<int>();
     private List<int> currentArrangement = new List<int>();
-    private bool isSolved = false;
+    public bool isSolved = false;
     [SerializeField] private Material defaultMaterial, correctMaterial;
     [SerializeField] private GameObject winPipe;
+    [SerializeField] private GameObject winVFX;
 
     private void Start()
     {
@@ -66,7 +67,7 @@ public class PipeManager : MonoBehaviour
     }
 
     public void GetPipeRotations()
-    {
+    {        
         currentArrangement.Clear();
                 
         foreach (GameObject pipe in pipePrefab)
@@ -93,7 +94,6 @@ public class PipeManager : MonoBehaviour
             {
                 foreach (GameObject pipe in pipePrefab)
                 {
-                    if (isSolved) return;
                     StartCoroutine(ChangePipeColor(defaultMaterial, correctMaterial, 0.10f));
                 }
             }
@@ -119,6 +119,7 @@ public class PipeManager : MonoBehaviour
         }
 
         winPipe.GetComponentInChildren<Renderer>().material = correctMaterial;
+        winVFX.SetActive(true);
         isSolved = true;
     }
 }

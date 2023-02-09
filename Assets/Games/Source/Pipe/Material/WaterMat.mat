@@ -57,13 +57,13 @@ Material:
     - _DstBlend: 10
     - _Mettalic: 0.1
     - _NormalStrenght: 0.01
-    - _QueueControl: 0
+    - _QueueControl: 1
     - _QueueOffset: 0
     - _ReceiveShadows: 1
     - _Smoothness: 1
     - _SrcBlend: 5
     - _Surface: 1
-    - _Transparency: 0.1
+    - _Transparency: 0
     - _TransparencyMask: 0
     - _VornoAngle: 1
     - _VornoPower: 2
