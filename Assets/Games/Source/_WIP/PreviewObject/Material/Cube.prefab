@@ -112,3 +112,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: ab7a825bd8a449a48b331130bb4f2de8, type: 2}
   selectedMaterial: {fileID: 2100000, guid: a19dd7169e5604642a84fc201f923e31, type: 2}
+  cursorTexture: {fileID: 2800000, guid: f474adc98822bcf449f748236d4d593e, type: 3}

@@ -15,52 +15,51 @@ public class PreviewObject : MonoBehaviour
 	public RotationAxes axes;
     Vector3 mPrevPos = Vector3.zero;
     Vector3 mPosDelta = Vector3.zero;
-    public float sensitivity = 1.0f;
-    bool isRotating = false;
+    [SerializeField] private float sensitivity = 1.0f;
+    private bool isRotating = false;
 
     [Header("Cursor")]
-    public Texture2D cursorTexture;
-    public CursorMode cursorMode = CursorMode.Auto;
-    public Vector2 hotSpot = Vector2.zero;
+    [SerializeField] private Texture2D cursorTexture;
+    private CursorMode cursorMode = CursorMode.Auto;
+    private Vector2 hotSpot = Vector2.zero;
 
     void Update()
     {
-
-        if (Input.GetMouseButtonDown(0))
+        if (isRotating)
         {
-            if (IsMouseOverCollider())
-            {
-                Cursor.SetCursor(cursorTexture, hotSpot, cursorMode);
-                isRotating = true;
-                mPrevPos = Input.mousePosition;
-            }
+            mPosDelta = Input.mousePosition - mPrevPos;
+            mPrevPos = Input.mousePosition;
+
+            Cursor.SetCursor(cursorTexture, hotSpot, cursorMode);
+            RotateObject();
+        }
+        else
+        {
+            mPrevPos = Input.mousePosition;
         }
 
         if (Input.GetMouseButtonUp(0))
         {
-            isRotating = false;
             Cursor.SetCursor(null, Vector2.zero, cursorMode);
-        }
-
-        if (isRotating)
-        {
-            mPosDelta = Input.mousePosition - mPrevPos;
-            RotateObject();
-            mPrevPos = Input.mousePosition;
+            isRotating = false;
         }
     }
 
-    bool IsMouseOverCollider()
+    void OnMouseOver()
     {
-        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-        RaycastHit hit;
+        Cursor.SetCursor(cursorTexture, hotSpot, cursorMode);
 
-        if (Physics.Raycast(ray, out hit))
+        if (Input.GetMouseButtonDown(0))
         {
-            return hit.collider.gameObject == gameObject;
+            isRotating = true;
         }
-        return false;
     }
+
+    void OnMouseExit()
+    {
+        Cursor.SetCursor(null, Vector2.zero, cursorMode);
+    }
+
 
     void RotateObject()
     {

@@ -8797,10 +8797,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   axes: 0
-  sensitivity: 1
+  sensitivity: 0.4
   cursorTexture: {fileID: 2800000, guid: 38118fe62b29de34da0551e9e7d4e4ea, type: 3}
-  cursorMode: 0
-  hotSpot: {x: 0, y: 0}
 --- !u!1001 &1232450943
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10804,8 +10802,6 @@ MonoBehaviour:
   axes: 0
   sensitivity: 1
   cursorTexture: {fileID: 0}
-  cursorMode: 0
-  hotSpot: {x: 0, y: 0}
 --- !u!114 &1500616876
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16055,9 +16051,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   axes: 0
   sensitivity: 1
-  cursorTexture: {fileID: 0}
-  cursorMode: 0
-  hotSpot: {x: 0, y: 0}
+  cursorTexture: {fileID: 2800000, guid: 38118fe62b29de34da0551e9e7d4e4ea, type: 3}
 --- !u!65 &5971585395616358290
 BoxCollider:
   m_ObjectHideFlags: 0
