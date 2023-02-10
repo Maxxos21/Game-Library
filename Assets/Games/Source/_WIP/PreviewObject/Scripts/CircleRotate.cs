@@ -2,18 +2,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PreviewObject : MonoBehaviour
+public class CircleRotate : MonoBehaviour
 {
+    public GameObject objectToRotate;
     Vector3 mPrevPos = Vector3.zero;
     Vector3 mPosDelta = Vector3.zero;
     public float mSpeed = 1.0f;
     bool mIsRotating = false;
+    public bool mClockwise = true;
 
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
         {
-            if (IsMouseOverCollider())
+            if (IsMouseOverCircle())
             {
                 mIsRotating = true;
                 mPrevPos = Input.mousePosition;
@@ -28,15 +30,16 @@ public class PreviewObject : MonoBehaviour
         if (mIsRotating)
         {
             mPosDelta = Input.mousePosition - mPrevPos;
-            RotateObject();
+            RotateCircle();
             mPrevPos = Input.mousePosition;
         }
     }
 
-    bool IsMouseOverCollider()
+    bool IsMouseOverCircle()
     {
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
+
         if (Physics.Raycast(ray, out hit))
         {
             return hit.collider.gameObject == gameObject;
@@ -44,17 +47,9 @@ public class PreviewObject : MonoBehaviour
         return false;
     }
 
-    void RotateObject()
+    void RotateCircle()
     {
-        if (Vector3.Dot(transform.up, Vector3.up) >= 0)
-        {
-            transform.Rotate(transform.up, -Vector3.Dot(mPosDelta, Camera.main.transform.right) * mSpeed, Space.World);
-        }
-        else
-        {
-            transform.Rotate(transform.up, Vector3.Dot(mPosDelta, Camera.main.transform.right) * mSpeed, Space.World);
-        }
-
-        transform.Rotate(Camera.main.transform.right, Vector3.Dot(mPosDelta, Camera.main.transform.up) * mSpeed, Space.World);
+        float direction = mClockwise ? -1.0f : 1.0f;
+        objectToRotate.transform.Rotate(Vector3.forward, direction * Vector3.Dot(mPosDelta, Camera.main.transform.up) * mSpeed, Space.World);
     }
 }

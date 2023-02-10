@@ -4,11 +4,20 @@ using UnityEngine;
 
 public class ObjectSwitcher : MonoBehaviour
 {
-    [SerializeField] private GameObject cube, sphere;
+    [SerializeField] private GameObject[] mObjects;
 
-    public void SwitchObject()
+    public void SwitchObject(int index)
     {
-        cube.SetActive(!cube.activeSelf);
-        sphere.SetActive(!sphere.activeSelf);
+        // enalbe the object at the given index
+        mObjects[index].SetActive(true);
+
+        // disable all other objects
+        for (int i = 0; i < mObjects.Length; i++)
+        {
+            if (i != index)
+            {
+                mObjects[i].SetActive(false);
+            }
+        }
     }
 }
