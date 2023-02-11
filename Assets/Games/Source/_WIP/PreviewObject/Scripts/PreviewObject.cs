@@ -13,10 +13,12 @@ public class PreviewObject : MonoBehaviour
 
     [Header("Object Rotation")]
 	public RotationAxes axes;
+    private bool isRotating = false;
     Vector3 mPrevPos = Vector3.zero;
     Vector3 mPosDelta = Vector3.zero;
     [SerializeField] private float sensitivity = 1.0f;
-    private bool isRotating = false;
+    [SerializeField] private Vector3 clampMin;
+    [SerializeField] private Vector3 clampMax;
 
     [Header("Cursor")]
     [SerializeField] private Texture2D cursorTexture;
@@ -59,8 +61,7 @@ public class PreviewObject : MonoBehaviour
     {
         Cursor.SetCursor(null, Vector2.zero, cursorMode);
     }
-
-
+    
     void RotateObject()
     {
 

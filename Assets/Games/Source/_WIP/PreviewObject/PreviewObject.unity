@@ -2958,6 +2958,7 @@ GameObject:
   - component: {fileID: 413908265}
   - component: {fileID: 413908264}
   - component: {fileID: 413908263}
+  - component: {fileID: 413908266}
   m_Layer: 0
   m_Name: Cube (4)
   m_TagString: Untagged
@@ -3043,6 +3044,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 413908261}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &413908266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 413908261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e160314bc5702e49bb35e1bdba28463, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  axes: 1
+  sensitivity: 1
+  clampMin: {x: 0, y: 0, z: 0}
+  clampMax: {x: 0, y: 0, z: 0}
+  cursorTexture: {fileID: 0}
 --- !u!4 &422797022 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6240210678471451484, guid: 1df3640e30d31c74d896c80c83da0f8e,
@@ -4372,6 +4390,7 @@ GameObject:
   - component: {fileID: 616766222}
   - component: {fileID: 616766221}
   - component: {fileID: 616766220}
+  - component: {fileID: 616766223}
   m_Layer: 0
   m_Name: Cube (3)
   m_TagString: Untagged
@@ -4457,6 +4476,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 616766218}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &616766223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 616766218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e160314bc5702e49bb35e1bdba28463, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  axes: 1
+  sensitivity: 1
+  clampMin: {x: 0, y: 0, z: 0}
+  clampMax: {x: 0, y: 0, z: 0}
+  cursorTexture: {fileID: 0}
 --- !u!1001 &627105388
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5577,6 +5613,7 @@ GameObject:
   - component: {fileID: 774452722}
   - component: {fileID: 774452721}
   - component: {fileID: 774452720}
+  - component: {fileID: 774452723}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -5662,6 +5699,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 774452718}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &774452723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 774452718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e160314bc5702e49bb35e1bdba28463, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  axes: 1
+  sensitivity: 1
+  clampMin: {x: 0, y: 0, z: 0}
+  clampMax: {x: 0, y: 0, z: 0}
+  cursorTexture: {fileID: 0}
 --- !u!1001 &776239472
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8714,7 +8768,7 @@ GameObject:
   m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &1208908380
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8813,6 +8867,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   axes: 0
   sensitivity: 0.4
+  clampMin: {x: -60, y: -60, z: -60}
+  clampMax: {x: 60, y: 60, z: 60}
   cursorTexture: {fileID: 2800000, guid: 38118fe62b29de34da0551e9e7d4e4ea, type: 3}
 --- !u!1001 &1232450943
 PrefabInstance:
@@ -9990,6 +10046,7 @@ GameObject:
   - component: {fileID: 1372190521}
   - component: {fileID: 1372190520}
   - component: {fileID: 1372190519}
+  - component: {fileID: 1372190522}
   m_Layer: 0
   m_Name: Cube (5)
   m_TagString: Untagged
@@ -10075,6 +10132,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1372190517}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1372190522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1372190517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e160314bc5702e49bb35e1bdba28463, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  axes: 1
+  sensitivity: 1
+  clampMin: {x: 0, y: 0, z: 0}
+  clampMax: {x: 0, y: 0, z: 0}
+  cursorTexture: {fileID: 0}
 --- !u!4 &1375156250 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6240210678471451484, guid: 1df3640e30d31c74d896c80c83da0f8e,
@@ -10816,7 +10890,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   axes: 0
   sensitivity: 1
-  cursorTexture: {fileID: 0}
+  clampMin: {x: 0, y: 0, z: 0}
+  clampMax: {x: 0, y: 0, z: 0}
+  cursorTexture: {fileID: 2800000, guid: 38118fe62b29de34da0551e9e7d4e4ea, type: 3}
 --- !u!114 &1500616876
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13376,6 +13452,7 @@ GameObject:
   - component: {fileID: 1806626607}
   - component: {fileID: 1806626606}
   - component: {fileID: 1806626605}
+  - component: {fileID: 1806626608}
   m_Layer: 0
   m_Name: Cube (1)
   m_TagString: Untagged
@@ -13461,6 +13538,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1806626603}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1806626608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1806626603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e160314bc5702e49bb35e1bdba28463, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  axes: 1
+  sensitivity: 1
+  clampMin: {x: 0, y: 0, z: 0}
+  clampMax: {x: 0, y: 0, z: 0}
+  cursorTexture: {fileID: 0}
 --- !u!1001 &1819492653
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14326,6 +14420,7 @@ GameObject:
   - component: {fileID: 1967185645}
   - component: {fileID: 1967185644}
   - component: {fileID: 1967185643}
+  - component: {fileID: 1967185646}
   m_Layer: 0
   m_Name: Cube (2)
   m_TagString: Untagged
@@ -14411,6 +14506,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1967185641}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1967185646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1967185641}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e160314bc5702e49bb35e1bdba28463, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  axes: 1
+  sensitivity: 1
+  clampMin: {x: 0, y: 0, z: 0}
+  clampMax: {x: 0, y: 0, z: 0}
+  cursorTexture: {fileID: 0}
 --- !u!1 &1968677271
 GameObject:
   m_ObjectHideFlags: 0
@@ -16081,6 +16193,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   axes: 0
   sensitivity: 1
+  clampMin: {x: 0, y: 0, z: 0}
+  clampMax: {x: 0, y: 0, z: 0}
   cursorTexture: {fileID: 2800000, guid: 38118fe62b29de34da0551e9e7d4e4ea, type: 3}
 --- !u!65 &5971585395616358290
 BoxCollider:
