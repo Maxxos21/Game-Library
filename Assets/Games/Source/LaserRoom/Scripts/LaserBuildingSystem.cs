@@ -9,8 +9,6 @@ public class LaserBuildingSystem : MonoBehaviour
     public Grid grid;
     public Dictionary<int, LaserObjectContainer> objectsToPlace = new Dictionary<int, LaserObjectContainer>();
     public Vector3[] spawnPosition;
-    public GameObject objectManager;
-
 
     private void Awake()
     {
@@ -21,7 +19,6 @@ public class LaserBuildingSystem : MonoBehaviour
     private void Start()
     {   
         CreateGrid();
-        SpawnItems();
     }
 
     public static Vector3 GetMouseWorldPosition()
@@ -54,34 +51,5 @@ public class LaserBuildingSystem : MonoBehaviour
         position.y = 0;
         return position;
     }
-
-    public void SpawnItems()
-    {
-        objectsToPlace = objectManager.GetComponentsInChildren<LaserObjectContainer>().ToDictionary(x => x.objectLocation, x => x);
-
-        foreach (KeyValuePair<int, LaserObjectContainer> obj in objectsToPlace)
-        {
-            Vector3 position = spawnPosition[obj.Key - 1];
-            position = SnapCoordinateToGrid(position);
-
-            // set the object to the correct rotation
-            
-            GameObject newObj = Instantiate(obj.Value.prefab, position, Quaternion.Euler(0, obj.Value.rotation, 0));
-            newObj.transform.parent = objectsToPlace[obj.Key].transform;
-
-            if (obj.Value.isMovable)
-            {
-                newObj.AddComponent<LaserObjectDrag>();
-            }
-            else
-            {
-                newObj.GetComponent<Renderer>().material.color = new Color(0.83f, 0.17f, 0.19f);
-            }
-
-            spawnPosition = spawnPosition.Where(val => val != position).ToArray();
-        }
-
-    }
-
 }
 

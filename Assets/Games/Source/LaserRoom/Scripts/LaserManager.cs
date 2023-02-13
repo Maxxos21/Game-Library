@@ -5,17 +5,15 @@ using TMPro;
 
 public class LaserManager : MonoBehaviour
 {
-    [SerializeField] private MainLaser[] lasers;
+    private MainLaser[] lasers;
     private bool allLasersHitPreviousFrame;
     private float timeAllLasersHit;
-    [SerializeField] private TMP_Text levelText;
 
-    void Start()
+    void Awake()
     {
-        levelText = GameObject.Find("LevelText").GetComponent<TMP_Text>();
-        levelText.text = "Level " + (SceneManager.GetActiveScene().buildIndex + 1 + "/" + (SceneManager.sceneCountInBuildSettings - 1));
+        lasers = FindObjectsOfType<MainLaser>();
     }
-
+    
     void Update()
     {
         if (CheckLasers())

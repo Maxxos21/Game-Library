@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2761832562359912563}
   - component: {fileID: 3572926482003671469}
   - component: {fileID: 8775543363435731723}
+  - component: {fileID: -1184910510767724201}
   m_Layer: 0
   m_Name: DoubleSided
   m_TagString: Mirror
@@ -113,3 +114,15 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2, y: 0.19608495, z: 2}
   m_Center: {x: 0, y: -0.001957429, z: 0}
+--- !u!114 &-1184910510767724201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4419434645586602406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dc94f4c6d29f4445914ecef8d30aec5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
