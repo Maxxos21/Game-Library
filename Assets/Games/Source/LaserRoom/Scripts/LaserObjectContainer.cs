@@ -10,7 +10,7 @@ public class LaserObjectContainer : MonoBehaviour
     public bool isRotatable = true;
     public bool isReceiver = false;
 
-    public enum ChildActivationEnum { OneSide, TwoSide, Blocker, Laser, Receiver }
+    public enum ChildActivationEnum { Single, Double, Gate, SingleReceiver, Blocker }
     public ChildActivationEnum activeOption;
 
     public Material nonmovableMaterial;
@@ -36,30 +36,28 @@ public class LaserObjectContainer : MonoBehaviour
 
         switch (activeOption)
         {
-            case ChildActivationEnum.OneSide:
+            case ChildActivationEnum.Single:
                 transform.GetChild(0).gameObject.SetActive(true);
-                SetName("MirrorReceiver");
+                SetName("Single Mirror");
 
                 break;
-            case ChildActivationEnum.TwoSide:
+            case ChildActivationEnum.Double:
                 transform.GetChild(1).gameObject.SetActive(true);
-                SetName("Two Side");
+                SetName("Double Mirror");
+                break;
+            case ChildActivationEnum.Gate:
+                transform.GetChild(2).gameObject.SetActive(true);
+                SetName("Gate");
+                break;
+            case ChildActivationEnum.SingleReceiver:
+                transform.GetChild(3).gameObject.SetActive(true);
+                SetName("Single + Receiver");
                 break;
             case ChildActivationEnum.Blocker:
-                transform.GetChild(2).gameObject.SetActive(true);
+                transform.GetChild(4).gameObject.SetActive(true);
                 SetName("Blocker");
                 break;
-            case ChildActivationEnum.Laser:
-                transform.GetChild(3).gameObject.SetActive(true);
-                SetName("Laser");
-                break;
-            case ChildActivationEnum.Receiver:
-                transform.GetChild(4).gameObject.SetActive(true);
-                SetName("Receiver");
-                break;
         }
-
-        if (activeOption == ChildActivationEnum.Laser || activeOption == ChildActivationEnum.Receiver) return;
 
         SetMaterialBasedOnProperties();
     }
