@@ -4,9 +4,17 @@ using System.Linq;
 public class LaserObjectDrag : MonoBehaviour
 {
     private Vector3 offset;
+    LaserObjectContainer laserObjectContainer;
+
+    void Awake()
+    {
+        laserObjectContainer = GetComponentInParent<LaserObjectContainer>();
+    }
 
     private void OnMouseDown()
     {
+        if (laserObjectContainer.isMovable == false) return;
+
         offset = transform.position - LaserBuildingSystem.GetMouseWorldPosition();
 
         if (LaserBuildingSystem.current.spawnPosition.Contains(transform.position))
@@ -23,16 +31,10 @@ public class LaserObjectDrag : MonoBehaviour
         }
     }
 
-    private void OnMouseOver()
-    {
-        if (Input.GetMouseButtonDown(1))
-        {
-            transform.Rotate(0, 90, 0);
-        }
-    }
-
     private void OnMouseDrag()
     {
+        if (laserObjectContainer.isMovable == false) return;
+        
         Vector3 pos = LaserBuildingSystem.GetMouseWorldPosition() + offset;
         Vector3 newPos = LaserBuildingSystem.current.SnapCoordinateToGrid(pos);
         Vector3 raycastDirection = new Vector3(0, 1, 0);

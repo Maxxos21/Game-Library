@@ -15,11 +15,13 @@ public class MainLaser : MonoBehaviour
     public bool isHittingReceiver;
     float previousDistance;
     float distance;
-    public Material defaultMat;
-    public Material hitMat;
+    public Material defaultMat, hitMat, screenMat, laserMat;
+    private Renderer rend;
+
 
     void Awake()
     {
+        rend = receiver.GetComponent<Renderer>();
         laser = GetComponent<LineRenderer>();
         psEffects = GetComponentsInChildren<ParticleSystem>();
         psHit = HitEffect.GetComponentsInChildren<ParticleSystem>();
@@ -76,19 +78,22 @@ public class MainLaser : MonoBehaviour
                     HitEffect.transform.position = hit.point + hit.normal * HitOffset;
                     HitEffect.transform.rotation = Quaternion.identity;
 
-                    // Check Receiver
-                    if (hit.transform.name == receiver.name) 
+                    if (hit.transform.gameObject == receiver) 
                     { 
                         isHittingReceiver = true;
-                        receiver.transform.GetChild(0).gameObject.GetComponent<Renderer>().material = hitMat;
-                        
+
+                        Material[] mats = rend.materials;
+                        mats[2] = hitMat;
+                        rend.materials = mats;
                     }
                     else 
                     { 
-                        isHittingReceiver = false; 
-                        receiver.transform.GetChild(0).gameObject.GetComponent<Renderer>().material = defaultMat;
+                        isHittingReceiver = false;
+                        
+                        Material[] mats = rend.materials;
+                        mats[2] = laserMat;
+                        rend.materials = mats;
                     }
-
 
                     if (hit.transform.tag != "Mirror")
                     {   
