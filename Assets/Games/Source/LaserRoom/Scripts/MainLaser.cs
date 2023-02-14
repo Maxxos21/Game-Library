@@ -5,7 +5,6 @@ public class MainLaser : MonoBehaviour
 {
     const float LASER_WIDTH = 0.2f;
     public GameObject HitEffect;
-    public GameObject receiver;
     public float HitOffset = 0;
     private int maxBounce = 20;
     private LineRenderer laser;
@@ -16,12 +15,10 @@ public class MainLaser : MonoBehaviour
     float previousDistance;
     float distance;
     public Material defaultMat, hitMat, screenMat, laserMat;
-    private Renderer rend;
 
 
     void Awake()
     {
-        rend = receiver.GetComponent<Renderer>();
         laser = GetComponent<LineRenderer>();
         psEffects = GetComponentsInChildren<ParticleSystem>();
         psHit = HitEffect.GetComponentsInChildren<ParticleSystem>();
@@ -79,44 +76,24 @@ public class MainLaser : MonoBehaviour
                     HitEffect.transform.rotation = Quaternion.identity;
 
                     //! Reicever
-                    if (hit.transform.gameObject == receiver) 
+                    if (hit.transform.tag == "Receiver") 
                     { 
                         isHittingReceiver = true;
-
-                        Material[] mats = rend.materials;
-                        mats[2] = hitMat;
-                        rend.materials = mats;
                     }
                     else 
                     { 
                         isHittingReceiver = false;
-                        
-                        Material[] mats = rend.materials;
-                        mats[2] = laserMat;
-                        rend.materials = mats;
                     }
 
                     //! Gate
-                    // if (hit.transform.tag == "Gate")
-                    // {
-                    //     Debug.Log("Gate");
-                        
-                    //     // get a reference to the object hit
-                    //     GameObject hitObject = hit.transform.gameObject;
-                    //     rend = hitObject.GetComponent<Renderer>();
-                    //     Material[] mats = rend.materials;
-                    //     mats[2] = hitMat;
-                    //     rend.materials = mats;
-                    // }
-                    // else
-                    // {
-                    //     Debug.Log("Not Gate");
-                    //     GameObject hitObject = hit.transform.gameObject;
-                    //     rend = hitObject.GetComponent<Renderer>();
-                    //     Material[] mats = rend.materials;
-                    //     mats[2] = defaultMat;
-                    //     rend.materials = mats;
-                    // }
+                    if (hit.transform.tag == "Gate")
+                    {
+
+                    }
+                    else
+                    {
+
+                    }
 
                     //! Mirror
                     if (hit.transform.tag != "Mirror")

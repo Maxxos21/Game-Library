@@ -169,7 +169,7 @@ GameObject:
   - component: {fileID: 827868129690827345}
   m_Layer: 0
   m_Name: Single_Receiver
-  m_TagString: Untagged
+  m_TagString: Receiver
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -291,5 +291,5 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.30070537, y: 2.0000005, z: 1.7000006}
-  m_Center: {x: -0.8496473, y: -2.131621e-15, z: 0.85000026}
+  m_Size: {x: 0.20081502, y: 2.0000005, z: 1.7000006}
+  m_Center: {x: -0.63595414, y: -2.131621e-15, z: 0.85000026}
