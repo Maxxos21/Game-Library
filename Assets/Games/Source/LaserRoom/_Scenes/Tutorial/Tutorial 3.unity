@@ -6132,7 +6132,7 @@ MonoBehaviour:
   lasers:
   - {fileID: 2041477749}
   - {fileID: 1425906226}
-  allLasersHit: 0
+  levelText: {fileID: 0}
 --- !u!4 &260993511
 Transform:
   m_ObjectHideFlags: 0
@@ -14182,7 +14182,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 916365882}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!65 &916365886
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23100,7 +23100,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1926768825}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &1926768829
 Transform:
   m_ObjectHideFlags: 0
