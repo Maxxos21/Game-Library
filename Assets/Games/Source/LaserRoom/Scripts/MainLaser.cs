@@ -3,17 +3,22 @@ using UnityEngine.Events;
 
 public class MainLaser : MonoBehaviour
 {
-    const float LASER_WIDTH = 0.2f;
-    public GameObject HitEffect;
-    public float HitOffset = 0;
-    private int maxBounce = 20;
+    [Header("Laser Settings")]
+    [SerializeField] private const float LASER_WIDTH = 0.2f;
+    [SerializeField] private GameObject HitEffect;
+    [SerializeField] private float HitOffset = 0;
+    [SerializeField] private int maxBounce = 20;
+    [SerializeField] private int count;
+    private float previousDistance;
+    private float distance;
     private LineRenderer laser;
-    private int count;
     private ParticleSystem[] psEffects;
     private ParticleSystem[] psHit;
-    public bool isHittingReceiver;
-    float previousDistance;
-    float distance;
+
+
+    [Header("Laser Events")]
+    public bool isHittingReceiver, isHittingGate;
+    public UnityEvent onHitReceiver, OnHitGate;
     public Material defaultMat, hitMat, screenMat, laserMat;
 
 
@@ -43,14 +48,15 @@ public class MainLaser : MonoBehaviour
         count = 0;
         CastLaser(transform.position, transform.up);
 
-        if (Mathf.Abs(previousDistance - distance) > 0.5f)
-        {
-            if (AudioPlayer.Instance != null)
-            {
-                AudioPlayer.Instance.PlayAudio(1);
-            }
-        }
-        previousDistance = distance;
+        // todo audio keep or remove
+        // if (Mathf.Abs(previousDistance - distance) > 0.5f)
+        // {
+        //     if (AudioPlayer.Instance != null)
+        //     {
+        //         AudioPlayer.Instance.PlayAudio(1);
+        //     }
+        // }
+        // previousDistance = distance;
     }
 
     private void CastLaser(Vector3 position, Vector3 direction)
@@ -75,27 +81,9 @@ public class MainLaser : MonoBehaviour
                     HitEffect.transform.position = hit.point + hit.normal * HitOffset;
                     HitEffect.transform.rotation = Quaternion.identity;
 
-                    //! Reicever
-                    if (hit.transform.tag == "Receiver") 
-                    { 
-                        isHittingReceiver = true;
-                    }
-                    else 
-                    { 
-                        isHittingReceiver = false;
-                    }
+                    ReceiverLogic(hit);
+                    GateLogic(hit);
 
-                    //! Gate
-                    if (hit.transform.tag == "Gate")
-                    {
-
-                    }
-                    else
-                    {
-
-                    }
-
-                    //! Mirror
                     if (hit.transform.tag != "Mirror")
                     {   
                         for (int j = (i + 1); j < maxBounce; j++)
@@ -116,4 +104,34 @@ public class MainLaser : MonoBehaviour
             }
         }
     }
+
+    void ReceiverLogic(RaycastHit hit)
+    {
+        if (hit.transform.tag == "Receiver") 
+        { 
+            isHittingReceiver = true;
+        }
+        else 
+        { 
+            isHittingReceiver = false;
+        }
+    }
+
+    void GateLogic(RaycastHit hit)
+    {
+        if (hit.transform.tag == "Gate")
+        {
+            isHittingGate = true;
+            // Physics.IgnoreCollision(hit.collider, GetComponent<Collider>());
+
+            // GameObject hitObject = hit.collider.gameObject;
+            // Debug.Log(hitObject.name);
+        }
+        else
+        {
+            isHittingGate = false;
+        }
+    }
+
+
 }

@@ -48,6 +48,8 @@ public class LaserManager : MonoBehaviour
     {
         foreach (MainLaser laser in lasers)
         {
+            Debug.Log(laser.isHittingReceiver);
+
             if (!laser.isHittingReceiver)
             {
                 return false;
