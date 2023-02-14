@@ -78,6 +78,7 @@ public class MainLaser : MonoBehaviour
                     HitEffect.transform.position = hit.point + hit.normal * HitOffset;
                     HitEffect.transform.rotation = Quaternion.identity;
 
+                    //! Reicever
                     if (hit.transform.gameObject == receiver) 
                     { 
                         isHittingReceiver = true;
@@ -95,6 +96,29 @@ public class MainLaser : MonoBehaviour
                         rend.materials = mats;
                     }
 
+                    //! Gate
+                    // if (hit.transform.tag == "Gate")
+                    // {
+                    //     Debug.Log("Gate");
+                        
+                    //     // get a reference to the object hit
+                    //     GameObject hitObject = hit.transform.gameObject;
+                    //     rend = hitObject.GetComponent<Renderer>();
+                    //     Material[] mats = rend.materials;
+                    //     mats[2] = hitMat;
+                    //     rend.materials = mats;
+                    // }
+                    // else
+                    // {
+                    //     Debug.Log("Not Gate");
+                    //     GameObject hitObject = hit.transform.gameObject;
+                    //     rend = hitObject.GetComponent<Renderer>();
+                    //     Material[] mats = rend.materials;
+                    //     mats[2] = defaultMat;
+                    //     rend.materials = mats;
+                    // }
+
+                    //! Mirror
                     if (hit.transform.tag != "Mirror")
                     {   
                         for (int j = (i + 1); j < maxBounce; j++)

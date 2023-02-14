@@ -8,15 +8,13 @@ public class LaserObjectContainer : MonoBehaviour
     [Header("Object Initialization")]
     public bool isMovable = true;
     public bool isRotatable = true;
-    public bool isReceiver = false;
+    public bool  isReceiver = false;
 
     public enum ChildActivationEnum { Single, Double, Gate, SingleReceiver, Blocker }
+    [Header("Object Type")]
     public ChildActivationEnum activeOption;
-
-    public Material nonmovableMaterial;
-    public Material nonrotatableMaterial;
-    public Material defaultMaterial;
-    public Material hitMat;
+    [HideInInspector]
+    [SerializeField] public Material nonmovableMaterial, nonrotatableMaterial, defaultMaterial, hitMat;
 
     private void OnValidate()
     {

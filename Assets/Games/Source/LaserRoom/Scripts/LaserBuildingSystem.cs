@@ -43,7 +43,6 @@ public class LaserBuildingSystem : MonoBehaviour
         }
     }
 
-
     public Vector3 SnapCoordinateToGrid(Vector3 position)
     {
         Vector3Int cellPosition = gridLayout.WorldToCell(position);
