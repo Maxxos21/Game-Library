@@ -124,17 +124,6 @@ public class LaserObjectContainer : MonoBehaviour
     {
         int index = transform.GetSiblingIndex();
         gameObject.name = name + " " + index;
-
-        // set text color to red
     }
 
-    void OnGUI()
-    {
-        if (isReceiver)
-        {
-            gameObject.name = "Receiver";
-            GUI.contentColor = Color.red;
-            GUI.Label(new Rect(10, 10, 100, 20), "Receiver");
-        }
-    }
 }

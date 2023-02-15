@@ -15,19 +15,12 @@ public class MainLaser : MonoBehaviour
     private ParticleSystem[] psEffects;
     private ParticleSystem[] psHit;
 
-
-    [Header("Laser Events")]
-    public bool isHittingReceiver, isHittingGate;
-    public UnityEvent onHitReceiver, OnHitGate;
-    public Material defaultMat, hitMat, screenMat, laserMat;
-
-
     void Awake()
     {
         laser = GetComponent<LineRenderer>();
         psEffects = GetComponentsInChildren<ParticleSystem>();
         psHit = HitEffect.GetComponentsInChildren<ParticleSystem>();
-        
+
         laser.startWidth = LASER_WIDTH;
         laser.endWidth = LASER_WIDTH;
     }
@@ -36,11 +29,6 @@ public class MainLaser : MonoBehaviour
     {
         laser.SetPosition(0, transform.position);
         laser.positionCount = maxBounce;
-
-        if (AudioPlayer.Instance != null)
-        {
-            AudioPlayer.Instance.PlayAudio(1);
-        }
     }
 
     private void Update()
@@ -68,8 +56,9 @@ public class MainLaser : MonoBehaviour
             Ray ray = new Ray(position, direction);
             RaycastHit hit;
 
-            if (count < maxBounce - 1)
 
+            if (count < maxBounce - 1)
+            {
                 count++;
 
                 if (Physics.Raycast(ray, out hit, 300))
@@ -95,25 +84,25 @@ public class MainLaser : MonoBehaviour
                     else
                     {
                         laser.SetPosition(count, hit.point);
-                        
                     }
                 }
-            else
-            {
-                laser.SetPosition(count, ray.GetPoint(300));
+                else
+                {
+                    laser.SetPosition(count, ray.GetPoint(300));
+                }
             }
         }
     }
 
     void ReceiverLogic(RaycastHit hit)
     {
-        if (hit.transform.tag == "Receiver") 
-        { 
-            isHittingReceiver = true;
+        if (hit.transform.tag == "Receiver")
+        {
+
         }
         else 
-        { 
-            isHittingReceiver = false;
+        {
+
         }
     }
 
@@ -121,15 +110,11 @@ public class MainLaser : MonoBehaviour
     {
         if (hit.transform.tag == "Gate")
         {
-            isHittingGate = true;
-            // Physics.IgnoreCollision(hit.collider, GetComponent<Collider>());
 
-            // GameObject hitObject = hit.collider.gameObject;
-            // Debug.Log(hitObject.name);
         }
         else
         {
-            isHittingGate = false;
+
         }
     }
 
