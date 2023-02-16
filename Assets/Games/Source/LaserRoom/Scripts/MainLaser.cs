@@ -15,11 +15,18 @@ public class MainLaser : MonoBehaviour
     private ParticleSystem[] psEffects;
     private ParticleSystem[] psHit;
 
+
+    [Header("Object Interaction")]
+    ObjectInteraction objectInteraction;
+    LaserManager laserManager;
+    
+
     void Awake()
     {
         laser = GetComponent<LineRenderer>();
         psEffects = GetComponentsInChildren<ParticleSystem>();
         psHit = HitEffect.GetComponentsInChildren<ParticleSystem>();
+        laserManager = FindObjectOfType<LaserManager>();
 
         laser.startWidth = LASER_WIDTH;
         laser.endWidth = LASER_WIDTH;
@@ -35,16 +42,6 @@ public class MainLaser : MonoBehaviour
     {
         count = 0;
         CastLaser(transform.position, transform.up);
-
-        // todo audio keep or remove
-        // if (Mathf.Abs(previousDistance - distance) > 0.5f)
-        // {
-        //     if (AudioPlayer.Instance != null)
-        //     {
-        //         AudioPlayer.Instance.PlayAudio(1);
-        //     }
-        // }
-        // previousDistance = distance;
     }
 
     private void CastLaser(Vector3 position, Vector3 direction)
@@ -70,8 +67,20 @@ public class MainLaser : MonoBehaviour
                     HitEffect.transform.position = hit.point + hit.normal * HitOffset;
                     HitEffect.transform.rotation = Quaternion.identity;
 
-                    ReceiverLogic(hit);
-                    GateLogic(hit);
+                    laserManager.CheckIfAllActivated();
+
+
+                    if (hit.transform.tag == "Receiver" || hit.transform.tag == "Gate")
+                    {
+                        objectInteraction = hit.transform.gameObject.GetComponent<ObjectInteraction>();
+                        objectInteraction.IsActivated = true;
+                    }
+                    else
+                    {
+                        if (objectInteraction != null)
+                        
+                        objectInteraction.IsActivated = false;
+                    }
 
                     if (hit.transform.tag != "Mirror")
                     {   
@@ -93,30 +102,4 @@ public class MainLaser : MonoBehaviour
             }
         }
     }
-
-    void ReceiverLogic(RaycastHit hit)
-    {
-        if (hit.transform.tag == "Receiver")
-        {
-
-        }
-        else 
-        {
-
-        }
-    }
-
-    void GateLogic(RaycastHit hit)
-    {
-        if (hit.transform.tag == "Gate")
-        {
-
-        }
-        else
-        {
-
-        }
-    }
-
-
 }
