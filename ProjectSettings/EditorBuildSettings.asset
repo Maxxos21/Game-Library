@@ -14,4 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Games/Source/Pipe/Pipe 3.unity
     guid: 04d6e64cb0cae414081257433e2d6f93
+  - enabled: 1
+    path: Assets/Games/Source/Pipe/Pipe 4.unity
+    guid: ac006e963eeeae94583653febccc0424
+  - enabled: 1
+    path: Assets/Games/Source/Pipe/Pipe 5.unity
+    guid: afc83cfcf294e9b4985568bfed2e3d66
   m_configObjects: {}

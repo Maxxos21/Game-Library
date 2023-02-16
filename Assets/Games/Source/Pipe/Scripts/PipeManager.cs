@@ -23,8 +23,6 @@ public class PipeManager : MonoBehaviour
 
     private void Init()
     {
-        continueButton.SetActive(false);
-        
         for (int i = 0; i < gamePipe.transform.childCount; i++)
         {
             Transform child = gamePipe.transform.GetChild(i);
@@ -127,7 +125,11 @@ public class PipeManager : MonoBehaviour
 
         winPipe.GetComponentInChildren<Renderer>().material = correctMaterial;
         winVFX.SetActive(true);
-        continueButton.SetActive(true);
+
+        if (continueButton != null)
+        {
+            continueButton.SetActive(true);
+        }
     }
 
     public void LoadNextScene()
