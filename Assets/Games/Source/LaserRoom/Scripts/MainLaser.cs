@@ -67,18 +67,25 @@ public class MainLaser : MonoBehaviour
                     HitEffect.transform.position = hit.point + hit.normal * HitOffset;
                     HitEffect.transform.rotation = Quaternion.identity;
 
+                    //* Check if all activated
                     laserManager.CheckIfAllActivated();
 
-
+                    // ignore gate collision
+                    if (hit.transform.tag == "Gate")
+                    {
+                        Physics.IgnoreCollision(hit.transform.GetComponent<Collider>(), GetComponent<Collider>());
+                    }
+                    
                     if (hit.transform.tag == "Receiver" || hit.transform.tag == "Gate")
                     {
                         objectInteraction = hit.transform.gameObject.GetComponent<ObjectInteraction>();
                         objectInteraction.IsActivated = true;
+
                     }
                     else
                     {
                         if (objectInteraction != null)
-                        
+
                         objectInteraction.IsActivated = false;
                     }
 
