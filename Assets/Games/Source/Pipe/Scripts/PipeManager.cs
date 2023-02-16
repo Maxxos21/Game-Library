@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Lean.Transition;
+using UnityEngine.SceneManagement;
 
 public class PipeManager : MonoBehaviour
 {
@@ -12,6 +14,7 @@ public class PipeManager : MonoBehaviour
     [SerializeField] private Material defaultMaterial, correctMaterial;
     [SerializeField] private GameObject winPipe;
     [SerializeField] private GameObject winVFX;
+    [SerializeField] private GameObject continueButton;
 
     private void Start()
     {
@@ -20,6 +23,8 @@ public class PipeManager : MonoBehaviour
 
     private void Init()
     {
+        continueButton.SetActive(false);
+        
         for (int i = 0; i < gamePipe.transform.childCount; i++)
         {
             Transform child = gamePipe.transform.GetChild(i);
@@ -94,6 +99,8 @@ public class PipeManager : MonoBehaviour
             {
                 foreach (GameObject pipe in pipePrefab)
                 {
+                    isSolved = true;
+                    AudioPlayer.Instance.PlayAudio(0);
                     StartCoroutine(ChangePipeColor(defaultMaterial, correctMaterial, 0.10f));
                 }
             }
@@ -120,6 +127,11 @@ public class PipeManager : MonoBehaviour
 
         winPipe.GetComponentInChildren<Renderer>().material = correctMaterial;
         winVFX.SetActive(true);
-        isSolved = true;
+        continueButton.SetActive(true);
+    }
+
+    public void LoadNextScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }
