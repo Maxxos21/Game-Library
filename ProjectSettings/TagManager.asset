@@ -9,6 +9,8 @@ TagManager:
   - Mirror
   - Gate
   - Receiver
+  - Seperator
+  - Laser
   layers:
   - Default
   - TransparentFX

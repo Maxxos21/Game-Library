@@ -70,11 +70,6 @@ public class MainLaser : MonoBehaviour
                     //* Check if all activated
                     laserManager.CheckIfAllActivated();
 
-                    // ignore gate collision
-                    if (hit.transform.tag == "Gate")
-                    {
-                        Physics.IgnoreCollision(hit.transform.GetComponent<Collider>(), GetComponent<Collider>());
-                    }
                     
                     if (hit.transform.tag == "Receiver" || hit.transform.tag == "Gate")
                     {
@@ -89,18 +84,11 @@ public class MainLaser : MonoBehaviour
                         objectInteraction.IsActivated = false;
                     }
 
-                    if (hit.transform.tag != "Mirror")
-                    {   
-                        for (int j = (i + 1); j < maxBounce; j++)
-                        {
-                            laser.SetPosition(j, hit.point);
-                        }
-                        break;
-                    }
-                    else
+                    if (hit.transform.tag == "Seperator")
                     {
-                        laser.SetPosition(count, hit.point);
+
                     }
+
                 }
                 else
                 {
@@ -110,3 +98,18 @@ public class MainLaser : MonoBehaviour
         }
     }
 }
+
+                    // end of laser logic
+
+                    // if (hit.transform.tag != "Mirror")
+                    // {   
+                    //     for (int j = (i + 1); j < maxBounce; j++)
+                    //     {
+                    //         laser.SetPosition(j, hit.point);
+                    //     }
+                    //     break;
+                    // }
+                    // else
+                    // {
+                    //     laser.SetPosition(count, hit.point);
+                    // }

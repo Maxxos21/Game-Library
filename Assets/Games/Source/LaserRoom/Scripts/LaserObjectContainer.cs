@@ -10,7 +10,7 @@ public class LaserObjectContainer : MonoBehaviour
     public bool isRotatable = true;
     public bool  isReceiver = false;
 
-    public enum ChildActivationEnum { Single, Double, Gate, SingleReceiver, Blocker }
+    public enum ChildActivationEnum { Single, Double, Gate, SingleReceiver, Seperator, Blocker }
     [Header("Object Type")]
     public ChildActivationEnum activeOption;
     [HideInInspector]
@@ -50,8 +50,12 @@ public class LaserObjectContainer : MonoBehaviour
                 transform.GetChild(3).gameObject.SetActive(true);
                 SetName("Single + Receiver");
                 break;
-            case ChildActivationEnum.Blocker:
+            case ChildActivationEnum.Seperator:
                 transform.GetChild(4).gameObject.SetActive(true);
+                SetName("Seperator");
+                break;
+            case ChildActivationEnum.Blocker:
+                transform.GetChild(5).gameObject.SetActive(true);
                 SetName("Blocker");
                 break;
         }
