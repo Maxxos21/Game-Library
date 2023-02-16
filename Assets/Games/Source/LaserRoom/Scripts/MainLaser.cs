@@ -85,25 +85,24 @@ public class MainLaser : MonoBehaviour
                     }
 
                     // //! Seperator logic
-                    // if (hit.transform.tag == "Seperator")
-                    // {
-                    //     seperator = hit.transform.gameObject.GetComponent<Seperator>();
-                    //     seperator.isActivated = true;
+                        // if (hit.transform.tag == "Mirror")
+                        // {
+                        //     seperator = hit.transform.gameObject.GetComponent<Seperator>();
+                        //     seperator.isActivated = true;
 
-                    //     Vector3 straightDirection = transform.up;
-                    //     Debug.Log(straightDirection);
-                    //     Debug.DrawRay(transform.position, straightDirection, Color.red, 5f);
+                        //     Vector3 outgoingDirection = hit.point - transform.position;
+                        //     outgoingDirection.Normalize();
 
-                    //     seperator.Activate(straightDirection);
-                    // }
-                    // else
-                    // {
-                    //     if (seperator != null)
-                    //     {
-                    //         seperator.isActivated = false;
-                    //         seperator = null;
-                    //     }
-                    // }
+                        //     seperator.Activate(outgoingDirection);
+                        // }
+                        // else
+                        // {
+                        //     if (seperator != null)
+                        //     {
+                        //         seperator.isActivated = false;
+                        //         seperator = null;
+                        //     }
+                        // }
 
                     //! Mirror logic
                     if (hit.transform.tag != "Mirror")
@@ -117,25 +116,6 @@ public class MainLaser : MonoBehaviour
                     else
                     {
                         laser.SetPosition(count, hit.point);
-                        
-                        if (hit.transform.tag == "Mirror")
-                        {
-                            seperator = hit.transform.gameObject.GetComponent<Seperator>();
-                            seperator.isActivated = true;
-
-                            Vector3 outgoingDirection = hit.point - transform.position;
-                            outgoingDirection.Normalize();
-
-                            seperator.Activate(outgoingDirection);
-                        }
-                        else
-                        {
-                            if (seperator != null)
-                            {
-                                seperator.isActivated = false;
-                                seperator = null;
-                            }
-                        }
                     }
 
                 }
