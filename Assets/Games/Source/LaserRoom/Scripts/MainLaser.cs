@@ -15,11 +15,9 @@ public class MainLaser : MonoBehaviour
     private ParticleSystem[] psEffects;
     private ParticleSystem[] psHit;
 
-
     [Header("Object Interaction")]
     ObjectInteraction objectInteraction;
     LaserManager laserManager;
-    
 
     void Awake()
     {
@@ -53,7 +51,6 @@ public class MainLaser : MonoBehaviour
             Ray ray = new Ray(position, direction);
             RaycastHit hit;
 
-
             if (count < maxBounce - 1)
             {
                 count++;
@@ -70,23 +67,36 @@ public class MainLaser : MonoBehaviour
                     //* Check if all activated
                     laserManager.CheckIfAllActivated();
 
-                    
                     if (hit.transform.tag == "Receiver" || hit.transform.tag == "Gate")
                     {
                         objectInteraction = hit.transform.gameObject.GetComponent<ObjectInteraction>();
                         objectInteraction.IsActivated = true;
-
                     }
                     else
                     {
                         if (objectInteraction != null)
-
-                        objectInteraction.IsActivated = false;
+                        {
+                            objectInteraction.IsActivated = false;
+                            objectInteraction = null;
+                        }
                     }
 
                     if (hit.transform.tag == "Seperator")
                     {
+                        Vector3 straightDirection = transform.up;
+                    }
 
+                    if (hit.transform.tag != "Mirror")
+                    {   
+                        for (int j = (i + 1); j < maxBounce; j++)
+                        {
+                            laser.SetPosition(j, hit.point);
+                        }
+                        break;
+                    }
+                    else
+                    {
+                        laser.SetPosition(count, hit.point);
                     }
 
                 }
@@ -98,18 +108,3 @@ public class MainLaser : MonoBehaviour
         }
     }
 }
-
-                    // end of laser logic
-
-                    // if (hit.transform.tag != "Mirror")
-                    // {   
-                    //     for (int j = (i + 1); j < maxBounce; j++)
-                    //     {
-                    //         laser.SetPosition(j, hit.point);
-                    //     }
-                    //     break;
-                    // }
-                    // else
-                    // {
-                    //     laser.SetPosition(count, hit.point);
-                    // }
