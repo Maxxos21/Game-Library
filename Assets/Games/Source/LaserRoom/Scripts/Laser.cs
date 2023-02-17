@@ -60,13 +60,9 @@ public class Laser : MonoBehaviour
                     distance = Vector3.Distance(transform.position, hit.point);
                     position = hit.point;
 
-                    // Reflect direction
+                    // Reflect and straight direction
                     direction = Vector3.Reflect(direction, hit.normal);
-                    // Straight direction
                     Vector3 straightDirection = Vector3.Reflect(direction, hit.normal);
-
-                    // Debug
-                    Debug.DrawRay(hit.point, straightDirection, Color.green);
 
                     // Set laser position
                     laser.SetPosition(count, hit.point);
@@ -103,9 +99,15 @@ public class Laser : MonoBehaviour
                             seperator = null;
                         }
                     }
-    
-                    //TODO: Gate logic
 
+                    // Gate logic
+                    if (hit.transform.tag == "Gate")
+                    {
+
+                    }
+
+
+    
                     // Mirror logic
                     if (hit.transform.tag == "Mirror" || hit.transform.tag == "Seperator")
                     {
