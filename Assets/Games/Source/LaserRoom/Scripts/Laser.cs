@@ -82,7 +82,11 @@ public class Laser : MonoBehaviour
                     if (hit.transform.tag == "Seperator")
                     {
                         Seperator separator = hit.transform.gameObject.GetComponent<Seperator>();
-                        separator.Separate(hit);
+
+                        Vector3 outgoingDirection = hit.point - transform.position;
+
+                        separator.Separate(outgoingDirection);
+
                     }
         
 

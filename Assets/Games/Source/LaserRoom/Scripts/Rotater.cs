@@ -17,7 +17,7 @@ public class Rotater : MonoBehaviour
         
         if (Input.GetMouseButtonDown(1))
         {
-            transform.Rotate(0, -90, 0);
+            transform.Rotate(0, 90, 0);
         }
     }
 }
