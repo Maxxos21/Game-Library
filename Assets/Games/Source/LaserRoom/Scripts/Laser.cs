@@ -56,14 +56,26 @@ public class Laser : MonoBehaviour
 
                 if (Physics.Raycast(ray, out hit, 300))
                 {
+                    // Calculate distance
                     distance = Vector3.Distance(transform.position, hit.point);
                     position = hit.point;
+
+                    // Reflect direction
                     direction = Vector3.Reflect(direction, hit.normal);
+                    // Straight direction
+                    Vector3 straightDirection = Vector3.Reflect(direction, hit.normal);
+
+                    // Debug
+                    Debug.DrawRay(hit.point, straightDirection, Color.green);
+
+                    // Set laser position
                     laser.SetPosition(count, hit.point);
+
+                    // Hit effect
                     HitEffect.transform.position = hit.point + hit.normal * HitOffset;
                     HitEffect.transform.rotation = Quaternion.identity;
 
-                    //* Receiver logic
+                    // Receiver logic
                     if (hit.transform.tag == "Receiver")
                     {
                         objectInteraction = hit.transform.gameObject.GetComponent<ReceiverLogic>();
@@ -82,36 +94,32 @@ public class Laser : MonoBehaviour
                     if (hit.transform.tag == "Seperator")
                     {
                         Seperator separator = hit.transform.gameObject.GetComponent<Seperator>();
-
-                        Vector3 outgoingDirection = hit.point - transform.position;
-
-                        separator.Separate(outgoingDirection);
-
-                    }
-        
-
-
-
-
-                    //TODO: Gate logic
-
-                    //* Mirror logic
-                    if (hit.transform.tag != "Mirror")
-                    {   
-                        for (int j = (i + 1); j < maxBounce; j++)
-                        {
-                            laser.SetPosition(j, hit.point);
-                        }
-                        break;
+                        separator.Separate(straightDirection);
                     }
                     else
                     {
-                        laser.SetPosition(count, hit.point);
-                        
-                        Vector3 outgoingDirection = hit.point - transform.position;
-                        Debug.DrawRay(hit.point, outgoingDirection, Color.red);
+                        if (seperator != null)
+                        {
+                            seperator = null;
+                        }
                     }
+    
+                    //TODO: Gate logic
 
+
+                    // // Mirror logic
+                    // if (hit.transform.tag == "Mirror")
+                    // {
+                    //     laser.SetPosition(count, hit.point);
+                    // }
+                    // else
+                    // {
+                    //     for (int j = (i + 1); j < maxBounce; j++)
+                    //     {
+                    //         laser.SetPosition(j, hit.point);
+                    //     }
+                    //     break;
+                    // }
                 }
                 else
                 {
