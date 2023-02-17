@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-public class MainLaser : MonoBehaviour
+public class Laser : MonoBehaviour
 {
     [Header("Laser Settings")]
     [SerializeField] private const float LASER_WIDTH = 0.2f;
@@ -16,8 +16,7 @@ public class MainLaser : MonoBehaviour
     private ParticleSystem[] psHit;
 
     [Header("Object Interaction")]
-    ObjectInteraction objectInteraction;
-    LaserManager laserManager;
+    ReceiverLogic objectInteraction;
     Seperator seperator;
 
     void Awake()
@@ -25,8 +24,6 @@ public class MainLaser : MonoBehaviour
         laser = GetComponent<LineRenderer>();
         psEffects = GetComponentsInChildren<ParticleSystem>();
         psHit = HitEffect.GetComponentsInChildren<ParticleSystem>();
-        laserManager = FindObjectOfType<LaserManager>();
-
 
         laser.startWidth = LASER_WIDTH;
         laser.endWidth = LASER_WIDTH;
@@ -66,45 +63,35 @@ public class MainLaser : MonoBehaviour
                     HitEffect.transform.position = hit.point + hit.normal * HitOffset;
                     HitEffect.transform.rotation = Quaternion.identity;
 
-                    //* Check if all activated
-                    laserManager.CheckIfAllActivated();
-
-                    //! Receiver and Gate logic
-                    if (hit.transform.tag == "Receiver" || hit.transform.tag == "Gate")
+                    //* Receiver logic
+                    if (hit.transform.tag == "Receiver")
                     {
-                        objectInteraction = hit.transform.gameObject.GetComponent<ObjectInteraction>();
-                        objectInteraction.IsActivated = true;
+                        objectInteraction = hit.transform.gameObject.GetComponent<ReceiverLogic>();
+                        objectInteraction.ActivateObject();
                     }
                     else
                     {
                         if (objectInteraction != null)
                         {
-                            objectInteraction.IsActivated = false;
+                            objectInteraction.DeactivateObject();
                             objectInteraction = null;
                         }
                     }
 
-                    // //! Seperator logic
-                        // if (hit.transform.tag == "Mirror")
-                        // {
-                        //     seperator = hit.transform.gameObject.GetComponent<Seperator>();
-                        //     seperator.isActivated = true;
+                    //TODO: Seperator logic
+                    if (hit.transform.tag == "Seperator")
+                    {
+                        Seperator separator = hit.transform.gameObject.GetComponent<Seperator>();
+                        separator.Separate(hit);
+                    }
+        
 
-                        //     Vector3 outgoingDirection = hit.point - transform.position;
-                        //     outgoingDirection.Normalize();
 
-                        //     seperator.Activate(outgoingDirection);
-                        // }
-                        // else
-                        // {
-                        //     if (seperator != null)
-                        //     {
-                        //         seperator.isActivated = false;
-                        //         seperator = null;
-                        //     }
-                        // }
 
-                    //! Mirror logic
+
+                    //TODO: Gate logic
+
+                    //* Mirror logic
                     if (hit.transform.tag != "Mirror")
                     {   
                         for (int j = (i + 1); j < maxBounce; j++)
@@ -116,6 +103,9 @@ public class MainLaser : MonoBehaviour
                     else
                     {
                         laser.SetPosition(count, hit.point);
+                        
+                        Vector3 outgoingDirection = hit.point - transform.position;
+                        Debug.DrawRay(hit.point, outgoingDirection, Color.red);
                     }
 
                 }

@@ -3,12 +3,11 @@ using UnityEngine;
 
 [Serializable]
 [ExecuteInEditMode]
-public class LaserObjectContainer : MonoBehaviour
+public class LaserLevelEditor : MonoBehaviour
 {
     [Header("Object Initialization")]
     public bool isMovable = true;
     public bool isRotatable = true;
-    public bool  isReceiver = false;
 
     public enum ChildActivationEnum { Single, Double, Gate, SingleReceiver, Seperator, Blocker }
     [Header("Object Type")]
@@ -63,17 +62,6 @@ public class LaserObjectContainer : MonoBehaviour
         SetMaterialBasedOnProperties();
     }
 
-    void OnDrawGizmos()
-    {
-        Vector3 position = new Vector3(0,2.5f,0);
-
-        if (isReceiver)
-        {
-            Gizmos.color = Color.red;
-            Gizmos.DrawSphere(transform.position + position, 0.5f);
-        }
-    }
-
     void SetMaterialBasedOnProperties()
     {
         Material materialToUse = null;
@@ -109,8 +97,8 @@ public class LaserObjectContainer : MonoBehaviour
         for (int i = 0; i < transform.childCount; i++)
         {
             Transform child = transform.GetChild(i);
-            LaserObjectDrag mover = child.GetComponent<LaserObjectDrag>();
-            LaserObjectRotate rotator = child.GetComponent<LaserObjectRotate>();
+            Dragger mover = child.GetComponent<Dragger>();
+            Rotater rotator = child.GetComponent<Rotater>();
 
             if (mover != null)
             {

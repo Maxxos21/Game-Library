@@ -2,12 +2,12 @@ using UnityEngine;
 using System.Collections.Generic;
 using System.Linq;
 
-public class LaserBuildingSystem : MonoBehaviour
+public class GridSetup : MonoBehaviour
 {
-    public static LaserBuildingSystem current;
+    public static GridSetup current;
     public GridLayout gridLayout;
     public Grid grid;
-    public Dictionary<int, LaserObjectContainer> objectsToPlace = new Dictionary<int, LaserObjectContainer>();
+    public Dictionary<int, LaserLevelEditor> objectsToPlace = new Dictionary<int, LaserLevelEditor>();
     public Vector3[] spawnPosition;
 
     private void Awake()

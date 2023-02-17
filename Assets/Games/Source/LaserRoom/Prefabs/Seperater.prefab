@@ -14709,9 +14709,10 @@ GameObject:
   - component: {fileID: 8190157121111210938}
   - component: {fileID: 8190157121111210941}
   - component: {fileID: 8190157121111210943}
+  - component: {fileID: 3711192651126865974}
   m_Layer: 0
   m_Name: Seperater
-  m_TagString: Mirror
+  m_TagString: Seperator
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14834,3 +14835,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33424de316a301c409db099aaa1eb173, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &3711192651126865974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1771875216551479125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6df62e57b17dd0a4ca43f7670a71fcd6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  laser: {fileID: 368181117815691520}

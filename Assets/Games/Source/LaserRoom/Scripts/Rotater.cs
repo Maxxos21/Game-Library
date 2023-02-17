@@ -2,18 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LaserObjectRotate : MonoBehaviour
+public class Rotater : MonoBehaviour
 {
-    LaserObjectContainer laserObjectContainer;
+    LaserLevelEditor laserLevelEditor;
 
     void Awake()
     {
-        laserObjectContainer = GetComponentInParent<LaserObjectContainer>();
+        laserLevelEditor = GetComponentInParent<LaserLevelEditor>();
     }
 
     private void OnMouseOver()
     {
-        if (laserObjectContainer.isRotatable == false) return;
+        if (laserLevelEditor.isRotatable == false) return;
         
         if (Input.GetMouseButtonDown(1))
         {

@@ -4,11 +4,11 @@ using UnityEngine;
 using UnityEngine.Events;
 
 
-public class ObjectInteraction : MonoBehaviour
+public class ReceiverLogic : MonoBehaviour
 {
     // Reference
     Renderer rend;
-    MainLaser mainLasers;
+    Laser lasers;
 
     // Variables
     public bool isActivated;
@@ -26,10 +26,9 @@ public class ObjectInteraction : MonoBehaviour
         rend = GetComponent<Renderer>();
     }
 
-    // Use this for initialization
     void Start()
     {
-        // Initialize the Unity Events
+        // create new UnityEvents if they are not already created
         if (onActivated == null)
         {
             onActivated = new UnityEvent();
@@ -38,33 +37,27 @@ public class ObjectInteraction : MonoBehaviour
         {
             onDeactivated = new UnityEvent();
         }
+
+        // subscribe to the onActivated event
+        onActivated.AddListener(ActivateObject);
+        onDeactivated.AddListener(DeactivateObject);
     }
 
-    public bool IsActivated
+    public void ActivateObject()
     {
-        get { return isActivated; }
-        set
-        {
-            isActivated = value;
+        var mats = rend.materials;
+        mats[1] = materials[1];
+        rend.materials = mats;
+        Debug.Log("Activated");
+    }
 
-            if (isActivated)
-            {
-                var mats = rend.materials;
-                mats[2] = materials[1];
-                rend.materials = mats;
-
-                Debug.Log("Activated");
-                onActivated.Invoke();
-            }
-            else
-            {
-                var mats = rend.materials;
-                mats[2] = materials[0];
-                rend.materials = mats;
-                
-                Debug.Log("Deactivated");
-                onDeactivated.Invoke();
-            }
-        }
+    public void DeactivateObject()
+    {
+        var mats = rend.materials;
+        mats[1] = materials[0];
+        rend.materials = mats;
+        Debug.Log("Deactivated");
     }
 }
+
+
