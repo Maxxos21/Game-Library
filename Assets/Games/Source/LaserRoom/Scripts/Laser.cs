@@ -90,7 +90,7 @@ public class Laser : MonoBehaviour
                         }
                     }
 
-                    //TODO: Seperator logic
+                    //TODO: Add bool to stop laser from going through seperator
                     if (hit.transform.tag == "Seperator")
                     {
                         Seperator separator = hit.transform.gameObject.GetComponent<Seperator>();
@@ -106,20 +106,19 @@ public class Laser : MonoBehaviour
     
                     //TODO: Gate logic
 
-
-                    // // Mirror logic
-                    // if (hit.transform.tag == "Mirror")
-                    // {
-                    //     laser.SetPosition(count, hit.point);
-                    // }
-                    // else
-                    // {
-                    //     for (int j = (i + 1); j < maxBounce; j++)
-                    //     {
-                    //         laser.SetPosition(j, hit.point);
-                    //     }
-                    //     break;
-                    // }
+                    // Mirror logic
+                    if (hit.transform.tag == "Mirror" || hit.transform.tag == "Seperator")
+                    {
+                        laser.SetPosition(count, hit.point);
+                    }
+                    else
+                    {
+                        for (int j = (i + 1); j < maxBounce; j++)
+                        {
+                            laser.SetPosition(j, hit.point);
+                        }
+                        break;
+                    }
                 }
                 else
                 {
