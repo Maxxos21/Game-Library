@@ -89,7 +89,9 @@ public class MainLaser : MonoBehaviour
                         receiver.transform.GetChild(0).gameObject.GetComponent<Renderer>().material = defaultMat;
                     }
 
+                    // todo : add effect
 
+                    
                     if (hit.transform.tag != "Mirror")
                     {   
                         for (int j = (i + 1); j < maxBounce; j++)

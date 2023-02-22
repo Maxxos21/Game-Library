@@ -9,6 +9,7 @@ public class PipeWheel : MonoBehaviour
     [SerializeField] private int letter = 0;
     [SerializeField] private TMP_Text[] letterText; 
     [SerializeField] private Color solvedColor;
+    [SerializeField] private GameObject menuCanvas;
 
     PipeManager pipeManager;
 
@@ -25,5 +26,10 @@ public class PipeWheel : MonoBehaviour
         {
             letterText[letter].color = solvedColor;
         }
+    }
+
+    public void DisableMenu()
+    {
+        menuCanvas.SetActive(false);
     }
 }
