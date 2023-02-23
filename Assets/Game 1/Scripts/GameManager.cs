@@ -1,5 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
@@ -9,10 +8,8 @@ public class GameManager : MonoBehaviour
     [SerializeField] Button[] buttons;
     [SerializeField] Answers[] answers;
 
-    // Variable
-    private int score;
-    public TMP_Text scoreText;
-
+    // Variables
+    [SerializeField] TMP_Text scoreDisplay;
 
     // Reference
     public RadialBar radialBar;
@@ -25,9 +22,8 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        score = 0;
-        scoreText.text = "Score: " + score.ToString();
-        
+        scoreDisplay.text = "Score: " + RadialBar.score;
+
         for (int i = 0; i < buttons.Length; i++)
         {
             buttons[i].GetComponentInChildren<TMP_Text>().text = answers[i].answer;
@@ -46,22 +42,23 @@ public class GameManager : MonoBehaviour
         {
             buttons[index].GetComponent<Image>().color = Color.green;
             
-            
             radialBar.Add(20);
-            score++;
-            scoreText.text = "Score: " + score.ToString();
+            scoreDisplay.text = "Score: " + RadialBar.score;
         }
         else
         {
             buttons[index].GetComponent<Image>().color = Color.red;
 
-
             radialBar.Subtract(20);
-            score--;
-            scoreText.text = "Score: " + score.ToString();
+            scoreDisplay.text = "Score: " + RadialBar.score;
         }
 
         buttons[index].interactable = false;
+    }
+
+    public void LoadNextScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }
 

@@ -350,6 +350,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dial: {fileID: 335075936}
+  currentValue: 20
+  maxValue: 100
 --- !u!1 &109572529
 GameObject:
   m_ObjectHideFlags: 0
