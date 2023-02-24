@@ -8,8 +8,7 @@ public class RadialBar : MonoBehaviour
 {
 
     [SerializeField] private Image dial;
-    private int currentValue = 0;
-    private int maxValue = 100;
+    public int currentValue, maxValue;
     public static int score = 0;
 
     public void Add(int value)
@@ -23,8 +22,9 @@ public class RadialBar : MonoBehaviour
         else
         {
             dial.transform.Rotate(0, 0, -36);
-            score += 1;
         }
+
+        score += 1;
     }
 
     public void Subtract(int value)
@@ -38,7 +38,11 @@ public class RadialBar : MonoBehaviour
         else
         {
             dial.transform.Rotate(0, 0, 36);
-            score -= 1;
+
+            if (score > 0)
+            {
+                score -= 1;
+            }
         }
     }
 }

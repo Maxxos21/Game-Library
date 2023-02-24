@@ -5,11 +5,22 @@ using TMPro;
 
 public class GameManager : MonoBehaviour
 {
+    [HideInInspector]
     [SerializeField] Button[] buttons;
     [SerializeField] Answers[] answers;
 
     // Variables
+    [HideInInspector]
     [SerializeField] TMP_Text scoreDisplay;
+    [HideInInspector]
+    [SerializeField] TMP_Text questionText;
+
+    // Menus
+    [SerializeField] GameObject startMenu;
+    [SerializeField] GameObject introMenu;
+    [SerializeField] GameObject gameMenu;
+
+    public string question;
 
     // Reference
     public RadialBar radialBar;
@@ -23,9 +34,14 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         scoreDisplay.text = "Score: " + RadialBar.score;
+        questionText.text = question;
 
         for (int i = 0; i < buttons.Length; i++)
         {
+            Answers temp = answers[i];
+            int randomIndex = Random.Range(i, answers.Length);
+            answers[i] = answers[randomIndex];
+            answers[randomIndex] = temp;
             buttons[i].GetComponentInChildren<TMP_Text>().text = answers[i].answer;
         }
 
@@ -59,6 +75,15 @@ public class GameManager : MonoBehaviour
     public void LoadNextScene()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
+    public void SwitchMenu(GameObject menu)
+    {
+        startMenu.SetActive(false);
+        introMenu.SetActive(false);
+        gameMenu.SetActive(false);
+
+        menu.SetActive(true);
     }
 }
 
