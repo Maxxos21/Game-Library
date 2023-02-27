@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 3852880}
   - component: {fileID: 3852881}
   m_Layer: 0
-  m_Name: Seperator 0
+  m_Name: Single Mirror 0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -177,7 +177,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isMovable: 1
   isRotatable: 1
-  activeOption: 4
+  activeOption: 0
   nonmovableMaterial: {fileID: 2100000, guid: 628ea60941624ea4db6f4bed9091fc68, type: 2}
   nonrotatableMaterial: {fileID: 2100000, guid: c9f1405e092cff449bcb1c1d37e1b32b,
     type: 2}
@@ -3217,7 +3217,7 @@ PrefabInstance:
     - target: {fileID: 3556547877601471501, guid: 2930ee31b39612a4dad6e34e6ff79464,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4197890016502463574, guid: 2930ee31b39612a4dad6e34e6ff79464,
         type: 3}
@@ -3930,7 +3930,7 @@ PrefabInstance:
     - target: {fileID: 8852468616599608407, guid: 7a55dd15021306945a8cce4dfbf7ce4a,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7a55dd15021306945a8cce4dfbf7ce4a, type: 3}
@@ -7200,7 +7200,7 @@ GameObject:
   - component: {fileID: 1041614206}
   - component: {fileID: 1041614207}
   m_Layer: 0
-  m_Name: Gate 1
+  m_Name: Double Mirror 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7241,7 +7241,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isMovable: 1
   isRotatable: 1
-  activeOption: 2
+  activeOption: 1
   nonmovableMaterial: {fileID: 2100000, guid: 628ea60941624ea4db6f4bed9091fc68, type: 2}
   nonrotatableMaterial: {fileID: 2100000, guid: c9f1405e092cff449bcb1c1d37e1b32b,
     type: 2}
@@ -8553,6 +8553,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Seperater 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3778955371256159569, guid: 033508f67f30d444380ba609f9c86eb3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3778955371256159569, guid: 033508f67f30d444380ba609f9c86eb3,
         type: 3}
@@ -11388,7 +11393,7 @@ PrefabInstance:
     - target: {fileID: 1771875216551479125, guid: 5df9eafd8492f02498d7742790c0c0cc,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5df9eafd8492f02498d7742790c0c0cc, type: 3}
