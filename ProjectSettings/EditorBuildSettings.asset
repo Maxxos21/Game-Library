@@ -4,8 +4,5 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes:
-  - enabled: 1
-    path: Assets/WhatsTheQuote/Quote.unity
-    guid: 67063afd428d49c418be5af66f37ebfd
+  m_Scenes: []
   m_configObjects: {}

@@ -15,6 +15,10 @@ public class GameManager : MonoBehaviour
     [HideInInspector]
     [SerializeField] TMP_Text questionText;
 
+    private int correctAnswer;
+    private int currentAnswer;
+    [SerializeField] ParticleSystem psConfetti;
+
     // Menus
     [SerializeField] GameObject startMenu;
     [SerializeField] GameObject introMenu;
@@ -33,6 +37,17 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
+        // get all true bool from answers array
+        for (int i = 0; i < answers.Length; i++)
+        {
+            if (answers[i].isCorrect)
+            {
+                correctAnswer++;
+            }
+        }
+
+        Debug.Log("Correct Answer: " + correctAnswer);
+
         scoreDisplay.text = "Score: " + RadialBar.score;
         questionText.text = question;
 
@@ -56,14 +71,42 @@ public class GameManager : MonoBehaviour
     {
         if (answers[index].isCorrect)
         {
+
+            if (!psConfetti.isPlaying)
+            {
+                psConfetti.Play();
+            }
+            else
+            {
+                psConfetti.Stop();
+                psConfetti.Play();
+            }
+
+
             buttons[index].GetComponent<Image>().color = Color.green;
             
             radialBar.Add(20);
             scoreDisplay.text = "Score: " + RadialBar.score;
+
+            currentAnswer++;
+
+            AudioPlayer.Instance.PlayAudio(1);
+
+            //* Win Condition
+            if (currentAnswer == correctAnswer)
+            {
+                for (int i = 0; i < buttons.Length; i++)
+                {
+                    buttons[i].interactable = false;
+                }
+                Invoke("LoadNextScene", 2f);
+            }
         }
         else
         {
             buttons[index].GetComponent<Image>().color = Color.red;
+
+            AudioPlayer.Instance.PlayAudio(0);
 
             radialBar.Subtract(20);
             scoreDisplay.text = "Score: " + RadialBar.score;
@@ -71,6 +114,7 @@ public class GameManager : MonoBehaviour
 
         buttons[index].interactable = false;
     }
+
 
     public void LoadNextScene()
     {

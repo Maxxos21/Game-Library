@@ -19,7 +19,7 @@ public class AudioPlayer : PersistentSingleton<AudioPlayer>
         }
 
         audioSource.PlayOneShot(audioClip[id]);
-        // audioSource.pitch = Random.Range(0.5f, 1.1f);
+        audioSource.pitch = Random.Range(0.5f, 1.1f);
     }
     
     public void PlayAudio(int id, float vol)

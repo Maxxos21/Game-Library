@@ -11,6 +11,14 @@ public class RadialBar : MonoBehaviour
     public int currentValue, maxValue;
     public static int score = 0;
 
+
+    IEnumerator BounceDial()
+    {
+        dial.transform.Rotate(0, 0, -15);
+        yield return new WaitForSeconds(0.2f);
+        dial.transform.Rotate(0, 0, 15);
+    }
+
     public void Add(int value)
     {
         currentValue += value;
@@ -18,6 +26,9 @@ public class RadialBar : MonoBehaviour
         if (currentValue > maxValue)
         {
             currentValue = maxValue;
+
+            // Rotate dial -15 and bounce back to normal
+            StartCoroutine(BounceDial());
         }
         else
         {

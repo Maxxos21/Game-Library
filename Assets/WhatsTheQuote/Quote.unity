@@ -1038,7 +1038,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &482378265
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1053,11 +1053,11 @@ RectTransform:
   m_Children:
   - {fileID: 851818811}
   m_Father: {fileID: 1060490325}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 393, y: 153}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: -97.100006, y: 64.2}
   m_SizeDelta: {x: 120, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &482378266
@@ -1144,7 +1144,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.8, g: 0.8, b: 0.4, a: 1}
+  m_Color: {r: 0.42751083, g: 0.4, b: 0.8, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1996,9 +1996,9 @@ RectTransform:
   - {fileID: 451926600}
   - {fileID: 1533657974}
   - {fileID: 383192695}
+  - {fileID: 1564662805}
   - {fileID: 482378265}
   - {fileID: 6317469104518331893}
-  - {fileID: 1564662805}
   - {fileID: 301702620}
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -2528,11 +2528,11 @@ RectTransform:
   m_Children:
   - {fileID: 390257448}
   m_Father: {fileID: 1060490325}
-  m_RootOrder: 5
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -289, y: 116.11}
+  m_AnchoredPosition: {x: -286, y: 100.71}
   m_SizeDelta: {x: 276.3, y: 287.99}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1564662806
@@ -3157,7 +3157,10 @@ MonoBehaviour:
 
 
     If you select the correct word, it will appear in the
-    box above.'
+    box above.
+
+
+    <color=#fasd>Inclusion starts with you</color>'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3a32ef9bd9b201e4aa6671dfab414c89, type: 2}
   m_sharedMaterial: {fileID: 4972729598996063400, guid: 3a32ef9bd9b201e4aa6671dfab414c89,
@@ -3487,7 +3490,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -225}
+  m_AnchoredPosition: {x: 0, y: -225.00003}
   m_SizeDelta: {x: 0, y: -450}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &6317469104518331888
@@ -3570,7 +3573,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &6317469104518331893
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3585,7 +3588,7 @@ RectTransform:
   m_Children:
   - {fileID: 6317469104235460918}
   m_Father: {fileID: 1060490325}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
