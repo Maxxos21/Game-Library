@@ -20,19 +20,12 @@ public class PreviewObject : MonoBehaviour
     [SerializeField] private Vector3 clampMin;
     [SerializeField] private Vector3 clampMax;
 
-    [Header("Cursor")]
-    [SerializeField] private Texture2D cursorTexture;
-    private CursorMode cursorMode = CursorMode.Auto;
-    private Vector2 hotSpot = Vector2.zero;
-
     void Update()
     {
         if (isRotating)
         {
             mPosDelta = Input.mousePosition - mPrevPos;
             mPrevPos = Input.mousePosition;
-
-            Cursor.SetCursor(cursorTexture, hotSpot, cursorMode);
             RotateObject();
         }
         else
@@ -42,26 +35,18 @@ public class PreviewObject : MonoBehaviour
 
         if (Input.GetMouseButtonUp(0))
         {
-            Cursor.SetCursor(null, Vector2.zero, cursorMode);
             isRotating = false;
         }
     }
 
     void OnMouseOver()
     {
-        Cursor.SetCursor(cursorTexture, hotSpot, cursorMode);
-
         if (Input.GetMouseButtonDown(0))
         {
             isRotating = true;
         }
     }
 
-    void OnMouseExit()
-    {
-        Cursor.SetCursor(null, Vector2.zero, cursorMode);
-    }
-    
     void RotateObject()
     {
 
