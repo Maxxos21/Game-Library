@@ -28,14 +28,16 @@ public class SpiderNPCController : MonoBehaviour {
     private float perlinDirectionStep = 0.07f;
     private float perlinSpeedStep = 0.5f;
     private float startValue;
+    private int seed;
 
     private Vector3 Z;
     private Vector3 X;
     private Vector3 Y;
 
-    private void Awake() {
-        Random.InitState(System.DateTime.Now.Millisecond);
-        startValue = Random.value;
+    private void Awake() 
+    {
+        seed = Random.Range(0, 256);
+        startValue = seed;
 
         //Initialize Coordinate System
         Z = transform.forward;
