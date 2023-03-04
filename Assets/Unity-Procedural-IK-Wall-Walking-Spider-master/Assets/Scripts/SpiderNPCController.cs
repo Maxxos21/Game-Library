@@ -28,7 +28,7 @@ public class SpiderNPCController : MonoBehaviour {
     private float perlinDirectionStep = 0.07f;
     private float perlinSpeedStep = 0.5f;
     private float startValue;
-    private int seed;
+    public int seed;
 
     private Vector3 Z;
     private Vector3 X;

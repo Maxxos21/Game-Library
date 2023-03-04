@@ -5,11 +5,7 @@ public class AudioPlayer : PersistentSingleton<AudioPlayer>
 {
     [SerializeField] private AudioSource audioSource;
     [SerializeField] private AudioClip[] audioClip;
-
-    void Start()
-    {
-        AudioListener.volume = 0.5f;
-    }
+    [SerializeField] private string[] audioClipName;
 
     public void PlayAudio(int id)
     {
@@ -26,5 +22,4 @@ public class AudioPlayer : PersistentSingleton<AudioPlayer>
     {
         audioSource.PlayOneShot(audioClip[id], vol);
     }
-
 }
