@@ -185,8 +185,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Every week your watch will be one second slower since the Earth\u2019s
     rotation is slowing down. However, the faster we travel the slower time moves.
-    Every year we travel faster but at a slower rotation. In our session, did a fun
-    thought-experiment to learn how to synchronize internal & external time!"
+    Every year we travel faster but at a slower rotation. In our session, we did
+    a fun thought-experiment to learn how to synchronize internal & external time!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3a32ef9bd9b201e4aa6671dfab414c89, type: 2}
   m_sharedMaterial: {fileID: 4972729598996063400, guid: 3a32ef9bd9b201e4aa6671dfab414c89,
@@ -23916,7 +23916,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 95.118}
+  m_SizeDelta: {x: 0, y: 123.5376}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1976825147
 MonoBehaviour:

@@ -10903,7 +10903,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Game Complete!
+  m_text: "Congratulations! You\u2019ve unlocked the secrets to effective time management!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3a32ef9bd9b201e4aa6671dfab414c89, type: 2}
   m_sharedMaterial: {fileID: 5390953947994167728, guid: 9c44384aacadd8e439541b86e1cef6d9,

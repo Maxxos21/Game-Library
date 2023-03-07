@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Games/Source/_WIP/WhatsTheQuote/WhatsTheQuoteSample.unity
     guid: 67063afd428d49c418be5af66f37ebfd
+  - enabled: 1
+    path: Assets/Games/Source/_WIP/WhatsTheQuote/Win.unity
+    guid: b8437a4fb30f38640a3ff310a2be7c68
   m_configObjects: {}

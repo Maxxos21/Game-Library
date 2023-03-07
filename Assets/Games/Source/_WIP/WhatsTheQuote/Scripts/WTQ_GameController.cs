@@ -3,6 +3,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class WTQ_GameController : MonoBehaviour
 {
@@ -121,6 +122,9 @@ public class WTQ_GameController : MonoBehaviour
             Debug.Log("Game end");
 
             endGameActions.Invoke();
+
+            // start next scene
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
 
