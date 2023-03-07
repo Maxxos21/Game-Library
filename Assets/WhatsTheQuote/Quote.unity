@@ -367,6 +367,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Help Button
       objectReference: {fileID: 0}
+    - target: {fileID: 918564692173106758, guid: 52adecebdef831c49aff0522aec08d27,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3923677416747549861, guid: 52adecebdef831c49aff0522aec08d27,
         type: 3}
       propertyPath: m_Color.a
@@ -713,7 +718,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1060490325}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
@@ -808,7 +813,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -0.0004272461, y: -0.000015258789}
+  m_AnchoredPosition: {x: -0.00048828125, y: 0}
   m_SizeDelta: {x: 276.3, y: 62.31}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &390257449
@@ -1978,8 +1983,8 @@ RectTransform:
   m_Children:
   - {fileID: 451926600}
   - {fileID: 1533657974}
-  - {fileID: 383192695}
   - {fileID: 1564662805}
+  - {fileID: 383192695}
   - {fileID: 482378265}
   - {fileID: 6317469104518331893}
   - {fileID: 301702620}
@@ -2511,12 +2516,12 @@ RectTransform:
   m_Children:
   - {fileID: 390257448}
   m_Father: {fileID: 1060490325}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -286, y: 100.71}
-  m_SizeDelta: {x: 276.3, y: 287.99}
+  m_AnchoredPosition: {x: -277.61005, y: 56}
+  m_SizeDelta: {x: 295.2, y: 189.54}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1564662806
 MonoBehaviour:
@@ -2538,7 +2543,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b86790da370c9134cbeb39f92633c7db, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a4e02d65f52f27e4a8800e9c1f6c4103, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3473,7 +3478,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -225.00003}
+  m_AnchoredPosition: {x: 0, y: -225}
   m_SizeDelta: {x: 0, y: -450}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &6317469104518331888
