@@ -1285,7 +1285,7 @@ MonoBehaviour:
   gameMenu: {fileID: 572731030}
   question: after 3 months on the job, katima shares her ideas on women being cross-trained
     in other areas of the finance business. if you were her manager, what would be
-    an inclusive response?<br><br><color=blue><size=80%>select all that apply</color>
+    an inclusive response?<br><br><color=#63C2EB><size=80%>select all that apply</color>
   radialBar: {fileID: 74751352}
 --- !u!1 &545666319
 GameObject:

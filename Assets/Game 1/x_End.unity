@@ -350,7 +350,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: <color=green>Congratulations!</color> By actively promoting and practicing
+  m_text: <color=#63C2EB>Congratulations!</color> By actively promoting and practicing
     inclusivity, you're making the world a better place for everyone. Keep up the
     great work!
   m_isRightToLeft: 0

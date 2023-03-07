@@ -848,7 +848,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '<color=green>Eric</color>: a young programmer who is also hearing-impaired'
+  m_text: '<color=#63C2EB>Eric</color>: a young programmer who is also hearing-impaired'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 34955942d77c2644685db13d400defb7, type: 2}
   m_sharedMaterial: {fileID: -1291514919620343735, guid: 34955942d77c2644685db13d400defb7,
@@ -1561,7 +1561,7 @@ MonoBehaviour:
   introMenu: {fileID: 1674030436}
   gameMenu: {fileID: 572731030}
   question: 'How should the team increase inclusivity for the diverse group of new
-    hires?<br><br><color=blue><size=80%>select all that apply</color>  '
+    hires?<br><br><color=#63C2EB><size=80%>select all that apply</color>  '
   radialBar: {fileID: 74751352}
 --- !u!1 &545666319
 GameObject:
@@ -1942,8 +1942,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4291257708
-  m_fontColor: {r: 0.42352945, g: 0.39607847, b: 0.7803922, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -2215,7 +2215,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '<color=yellow>lance</color>: a system admin who is African-American'
+  m_text: '<color=#EB6F50>lance</color>: a system admin who is African-American'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 34955942d77c2644685db13d400defb7, type: 2}
   m_sharedMaterial: {fileID: -1291514919620343735, guid: 34955942d77c2644685db13d400defb7,
@@ -7364,7 +7364,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.5428245, g: 0.37647057, b: 0.94509804, a: 0.8}
+  m_Color: {r: 0.6784314, g: 0.42352942, b: 0.65882355, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -9480,8 +9480,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '<color=blue>Bettie</color>: a tech support rep who is retired, but wants
-    to continue part-time'
+  m_text: '<color=#AD6CA8>Bettie</color>: a tech support rep who is retired, but
+    wants to continue part-time'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 34955942d77c2644685db13d400defb7, type: 2}
   m_sharedMaterial: {fileID: -1291514919620343735, guid: 34955942d77c2644685db13d400defb7,

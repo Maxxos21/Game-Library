@@ -8,8 +8,8 @@ public class WTQ_WordButton : MonoBehaviour
     [Tooltip("This note does not do anything. It is for information purposes only.")]
     public string note = "Colors can be be edited from within the WTQ_WordButton script.";
 
-    private static Color c_unselected = new Vector4(0.13f, 0.11f, 0.57f, 1.0f);
-    private static Color c_selected = new Vector4(0.863f, 0.153f, 0.141f, 1.0f);
+    private static Color c_unselected = new Vector4(0.098f, 0.301f, 0.588f, 1.0f);
+    private static Color c_selected = new Vector4(0.921f, 0.431f, 0.313f, 1.0f);
 
     private string word;
     private WTQ_GameController gameManager;

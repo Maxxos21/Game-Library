@@ -1561,8 +1561,9 @@ MonoBehaviour:
   startMenu: {fileID: 1196648820}
   introMenu: {fileID: 1674030436}
   gameMenu: {fileID: 572731030}
-  question: 'How might Lance and others on the team respond to the situation?<br><br><color=blue><size=80%>select
-    all that apply</color>  '
+  question: 'During a kick-off meeting, Lance, the SME, is interrupted by senior
+    members while giving his assessment on the timeline. Lance and his team must
+    respond accordingly.<br><br><color=#63C2EB><size=80%>select all that apply</color>  '
   radialBar: {fileID: 74751352}
 --- !u!1 &545666319
 GameObject:
@@ -9116,7 +9117,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1674030437
 RectTransform:
   m_ObjectHideFlags: 0
