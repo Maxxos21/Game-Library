@@ -27582,6 +27582,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pages:
   - {fileID: 3477037424733456147}
+  pipPrefab: {fileID: 0}
+  pipDock: {fileID: 0}
+  pipFilled: {fileID: 0}
+  pipEmpty: {fileID: 0}
+  pipWidth: 0
+  pipSpacing: 0
+  helpWindow: {fileID: 0}
+  pageButtons: []
 --- !u!223 &3477037424362664444
 Canvas:
   m_ObjectHideFlags: 0
@@ -28003,7 +28011,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 600, y: 300}
+  m_SizeDelta: {x: 836.5159, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &3477037426070144929
 MonoBehaviour:
@@ -28025,24 +28033,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Mirrors can be dragged with <color=red>left click</color>.
-
-    Mirrors
-    can be rotated with <color=red>right click</color>.
-
-    Use <color=red>A/D</color>
-    or <color=red>Left/Right</color> arrows to rotate camera.
-
-    Press <color=red>
-    R </color> to reset current level
-
-
-    Some mirrors can reflect on both sides.
-
-    Red
-    mirrors cannot be rotated or moved.
-
-'
+  m_text: "In this game, you will learn some interesting facts about time while you
+    test your time management comprehension and logic skills and play through three
+    levels of challenging laser puzzles. \n\nMirrors can be dragged with <color=red>left
+    click</color>. Mirrors can be rotated with <color=red>right click</color>.\nUse
+    <color=red>A/D</color> or <color=red>Left/Right</color> arrows to rotate camera.
+    Press <color=red> R </color> to reset current level\n\nSome mirrors can reflect
+    on both sides. Red mirrors cannot be rotated or moved.\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3a32ef9bd9b201e4aa6671dfab414c89, type: 2}
   m_sharedMaterial: {fileID: 4972729598996063400, guid: 3a32ef9bd9b201e4aa6671dfab414c89,
