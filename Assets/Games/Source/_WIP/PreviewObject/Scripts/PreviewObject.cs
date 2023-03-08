@@ -19,6 +19,7 @@ public class PreviewObject : MonoBehaviour
     [SerializeField] private float sensitivity = 1.0f;
     [SerializeField] private Vector3 clampMin;
     [SerializeField] private Vector3 clampMax;
+    [SerializeField] private float step;
 
     void Update()
     {
@@ -49,34 +50,37 @@ public class PreviewObject : MonoBehaviour
 
     void RotateObject()
     {
-
+        float rotationAngle;
         if (axes == RotationAxes.MouseXAndY)
         {
             if (Vector3.Dot(transform.up, Vector3.up) >= 0)
             {
-                transform.Rotate(transform.up, -Vector3.Dot(mPosDelta, Camera.main.transform.right) * sensitivity, Space.World);
+                rotationAngle = -Vector3.Dot(mPosDelta, Camera.main.transform.right) * sensitivity;
             }
             else
             {
-                transform.Rotate(transform.up, Vector3.Dot(mPosDelta, Camera.main.transform.right) * sensitivity, Space.World);
+                rotationAngle = Vector3.Dot(mPosDelta, Camera.main.transform.right) * sensitivity;
             }
-
-            transform.Rotate(Camera.main.transform.right, Vector3.Dot(mPosDelta, Camera.main.transform.up) * sensitivity, Space.World);
+            transform.Rotate(transform.up, rotationAngle, Space.World);
+            rotationAngle = Vector3.Dot(mPosDelta, Camera.main.transform.up) * sensitivity;
         }
         else if (axes == RotationAxes.MouseX)
         {
             if (Vector3.Dot(transform.up, Vector3.up) >= 0)
             {
-                transform.Rotate(transform.up, -Vector3.Dot(mPosDelta, Camera.main.transform.right) * sensitivity, Space.World);
+                rotationAngle = -Vector3.Dot(mPosDelta, Camera.main.transform.right) * sensitivity;
             }
             else
             {
-                transform.Rotate(transform.up, Vector3.Dot(mPosDelta, Camera.main.transform.right) * sensitivity, Space.World);
+                rotationAngle = Vector3.Dot(mPosDelta, Camera.main.transform.right) * sensitivity;
             }
         }
         else
         {
-            transform.Rotate(Camera.main.transform.right, Vector3.Dot(mPosDelta, Camera.main.transform.up) * sensitivity, Space.World);
+            rotationAngle = Vector3.Dot(mPosDelta, Camera.main.transform.up) * sensitivity;
         }
+
+        float roundedAngle = Mathf.Round(rotationAngle / step) * step;
+        transform.Rotate(Camera.main.transform.right, roundedAngle, Space.World);
     }
 }
