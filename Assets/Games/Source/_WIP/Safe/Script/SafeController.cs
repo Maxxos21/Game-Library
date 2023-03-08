@@ -25,7 +25,10 @@ public class SafeController : MonoBehaviour
     public enum RotationValue
     {
         Zero, One, Two, Three, Four, 
-        Five, Six, Seven, Eight, Nine
+        Five, Six, Seven, Eight, Nine,
+        Ten, Eleven, Twelve, Thirteen, Fourteen,
+        Fifteen, Sixteen, Seventeen, Eighteen, Nineteen,
+
     }
 
     public RotationValue currentRotationValue = RotationValue.Zero;
@@ -35,10 +38,11 @@ public class SafeController : MonoBehaviour
         if (!isRotating)
         {
             isRotating = true;
-            currentRotationValue = (RotationValue)(((int)currentRotationValue + 1) % 10);
+            // numbers between 0 - 95, increment by 5
+            currentRotationValue = (RotationValue)(((int)currentRotationValue + 1) % 20);
 
             // Dial to Text
-            _currentRotationValue = (int)currentRotationValue * 10;
+            _currentRotationValue = (int)currentRotationValue * 5;
 
             // check wich toggle is active and set the text
             int active = _toggleGroup.GetFirstActiveToggle().transform.GetSiblingIndex();
@@ -66,10 +70,10 @@ public class SafeController : MonoBehaviour
         if (!isRotating)
         {
             isRotating = true;
-            currentRotationValue = (RotationValue)(((int)currentRotationValue + 9) % 10);
+            currentRotationValue = (RotationValue)(((int)currentRotationValue + 19) % 20);
 
             // Dial to Text
-            _currentRotationValue = (int)currentRotationValue * 10;
+            _currentRotationValue = (int)currentRotationValue * 5;
 
             // check wich toggle is active and set the text
             int active = _toggleGroup.GetFirstActiveToggle().transform.GetSiblingIndex();
