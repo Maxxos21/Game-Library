@@ -16,9 +16,8 @@ public class SafeController : MonoBehaviour
     private int _currentRotationValue = 0;
 
 
-    [HideInInspector]
     [SerializeField] private TMP_Text _firstDigit, _secondDigit, _thirdDigit;
-    [HideInInspector]
+
     [SerializeField] private ToggleGroup _toggleGroup;
 
     // Enum to store the current rotation value
@@ -59,7 +58,7 @@ public class SafeController : MonoBehaviour
                     break;
             }
             // Start the rotation
-            StartCoroutine(Rotate(Vector3.down));
+            StartCoroutine(Rotate(Vector3.right));
             AudioPlayer.Instance.PlayAudio(0);
         }
     }
@@ -92,7 +91,7 @@ public class SafeController : MonoBehaviour
 
 
             // Start the rotation
-            StartCoroutine(Rotate(Vector3.up));
+            StartCoroutine(Rotate(Vector3.left));
             AudioPlayer.Instance.PlayAudio(0);
         }
     }
