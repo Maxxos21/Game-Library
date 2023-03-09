@@ -9,15 +9,17 @@ public class SafeController : MonoBehaviour
     // Public Variables
     public float rotationTarget = 36.0f;
     public string[] solution;
+    public GameObject safeDoor;
+    public GameObject safeCanvas;
 
     // Private Variables
     public float rotationSpeed = 10.0f;
     private bool isRotating = false;
     private int _currentRotationValue = 0;
 
-
+    [HideInInspector]
     [SerializeField] private TMP_Text _firstDigit, _secondDigit, _thirdDigit;
-
+    [HideInInspector]
     [SerializeField] private ToggleGroup _toggleGroup;
 
     // Enum to store the current rotation value
@@ -120,7 +122,23 @@ public class SafeController : MonoBehaviour
     {
         if (_firstDigit.text == solution[0].ToString() && _secondDigit.text == solution[1].ToString() && _thirdDigit.text == solution[2].ToString())
         {
-            Debug.Log("You Win!");
+            safeCanvas.SetActive(false);
+            StartCoroutine(RotateDoor());
         }
+    }
+
+    IEnumerator RotateDoor()
+    {
+        float angleRemaining = 180.0f;
+        float doorSpeed = 20.0f;
+
+        while (angleRemaining > 0)
+        {
+            float angle = Mathf.Min(angleRemaining, doorSpeed * Time.deltaTime);
+            safeDoor.transform.Rotate(-Vector3.up * angle);
+            angleRemaining -= angle;
+            yield return null;
+        }
+
     }
 }
