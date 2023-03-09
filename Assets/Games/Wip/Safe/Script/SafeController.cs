@@ -29,7 +29,6 @@ public class SafeController : MonoBehaviour
         Five, Six, Seven, Eight, Nine,
         Ten, Eleven, Twelve, Thirteen, Fourteen,
         Fifteen, Sixteen, Seventeen, Eighteen, Nineteen,
-
     }
 
     public RotationValue currentRotationValue = RotationValue.Zero;
@@ -139,6 +138,6 @@ public class SafeController : MonoBehaviour
             angleRemaining -= angle;
             yield return null;
         }
-
     }
+
 }
