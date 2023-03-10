@@ -25,17 +25,15 @@ public class CraftingManager : MonoBehaviour
                 Slot nearestSlot = null;
                 float nearestDistance = float.MaxValue;
 
-                // if where closer to an item than the nearest slot, then we are trying to pick up an item
-
                 foreach (Slot slot in craftingSlots)
                 {
-                    float distance = Vector2.Distance(Input.mousePosition, slot.transform.position);
-
+                    float distance = Vector3.Distance(slot.transform.position, Input.mousePosition);
                     if (distance < nearestDistance)
                     {
                         nearestDistance = distance;
                         nearestSlot = slot;
                     }
+
                 }
 
                 nearestSlot.gameObject.SetActive(true);
@@ -56,9 +54,16 @@ public class CraftingManager : MonoBehaviour
         if (currentItem == null)
         {
             currentItem = item;
-            customCursor.gameObject.SetActive(true);
             customCursor.sprite = item.GetComponent<Image>().sprite;
+            
+            StartCoroutine(ActivateCursor());
         }
+    }
+
+    IEnumerator ActivateCursor()
+    {
+        yield return new WaitForEndOfFrame();
+        customCursor.gameObject.SetActive(true);
     }
 
     void CheckForCreatedRecipe()
