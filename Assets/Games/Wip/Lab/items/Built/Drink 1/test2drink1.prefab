@@ -67,7 +67,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d6f4c321a338dc649b4ec77f4f134f9b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 19964dcbf295b90488886fd6eda9a484, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -90,5 +90,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemName: 
-  itemDescription: You conduct a flame test on the Pink Mermaid drink.     The liquid
+  itemDescription: You conduct a flame test on the Pink Mermaid drink. The liquid
     ignites, leaving behind the smell of burnt feathers.

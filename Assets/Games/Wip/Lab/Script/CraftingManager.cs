@@ -10,10 +10,21 @@ public class CraftingManager : MonoBehaviour
     public Image customCursor;
     public Slot[] craftingSlots;
     public List<Item> itemList;
-    public string[] recipes;
+    private string[] recipes;
     public Item[] recipeResult;
     public Slot resultSlot;
     public TMP_Text resultText;
+
+    void Start()
+    {
+        recipes = new string[recipeResult.Length];
+
+        for (int i = 0; i < recipeResult.Length; i++)
+        {
+            string recipeResultName = recipeResult[i].gameObject.name;
+            recipes[i] = recipeResultName;
+        }
+    }
 
     private void Update()
     {

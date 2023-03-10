@@ -264,6 +264,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1117811230}
     m_Modifications:
     - target: {fileID: 1354340841, guid: 4e6d53a0ccbe1dc4499db66eedefd384, type: 3}
+      propertyPath: m_text
+      value: Smooth Gentleman
+      objectReference: {fileID: 0}
+    - target: {fileID: 1354340841, guid: 4e6d53a0ccbe1dc4499db66eedefd384, type: 3}
       propertyPath: m_fontSize
       value: 25
       objectReference: {fileID: 0}
@@ -1179,6 +1183,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1117811230}
     m_Modifications:
     - target: {fileID: 887779185, guid: 442c6d3c2dca29f4d9441ff065566a41, type: 3}
+      propertyPath: m_text
+      value: Moldy Fizz
+      objectReference: {fileID: 0}
+    - target: {fileID: 887779185, guid: 442c6d3c2dca29f4d9441ff065566a41, type: 3}
       propertyPath: m_fontSize
       value: 25
       objectReference: {fileID: 0}
@@ -1672,6 +1680,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1117811230}
     m_Modifications:
+    - target: {fileID: 1915011414, guid: 70c4ccf480d789a48ba4ec353ebf63a1, type: 3}
+      propertyPath: m_text
+      value: Jolly Roger
+      objectReference: {fileID: 0}
     - target: {fileID: 1915011414, guid: 70c4ccf480d789a48ba4ec353ebf63a1, type: 3}
       propertyPath: m_fontSize
       value: 25
@@ -2404,13 +2416,6 @@ MonoBehaviour:
   itemList:
   - {fileID: 0}
   - {fileID: 0}
-  recipes:
-  - test1drink1
-  - test2drink1
-  - test3drink1
-  - test4drink1
-  - test5drink1
-  - test6drink1
   recipeResult:
   - {fileID: 3584119982503083382, guid: 02c7705f023e77c45934b433add884ea, type: 3}
   - {fileID: 3584119982503083382, guid: 07259fcb425381641a65c9baec03e654, type: 3}
@@ -2418,6 +2423,30 @@ MonoBehaviour:
   - {fileID: 3584119982503083382, guid: e419c5fab14b98f42bc27fe41342eddc, type: 3}
   - {fileID: 3584119982503083382, guid: 83fbb15d24b145c4c9cb3700d1c1d1b6, type: 3}
   - {fileID: 3584119982503083382, guid: d4738a4e68768064990da3c787988c7b, type: 3}
+  - {fileID: 3584119982503083382, guid: 38e76d00854ac7d469bd2841566b4a22, type: 3}
+  - {fileID: 3584119982503083382, guid: 5ee00131485d6d04f8f4238638459c32, type: 3}
+  - {fileID: 3584119982503083382, guid: ba200b2ae9af75b4184a6e9253cbc277, type: 3}
+  - {fileID: 3584119982503083382, guid: 51c065cc47ccc3c49a9911ca037d06b7, type: 3}
+  - {fileID: 3584119982503083382, guid: 21e5e37120ebb784d84232e7fc6f29a1, type: 3}
+  - {fileID: 3584119982503083382, guid: f339c926b36d51343ae2c4ddd48dffd1, type: 3}
+  - {fileID: 3584119982503083382, guid: 2559cd772cc9d75468e92ffa33a467b8, type: 3}
+  - {fileID: 3584119982503083382, guid: e190bb43deec31546a19ed0b8b9e9daf, type: 3}
+  - {fileID: 3584119982503083382, guid: 0816fdaafb5d1d24cac71a77a013d78a, type: 3}
+  - {fileID: 3584119982503083382, guid: 8267e0bab0a30884a85990292c35adfe, type: 3}
+  - {fileID: 3584119982503083382, guid: 355ad237069ae5a4ab36fb79171fd803, type: 3}
+  - {fileID: 3584119982503083382, guid: 37f7d1b51f7b8b94792be35946bb677a, type: 3}
+  - {fileID: 3584119982503083382, guid: f91aacc854cede84db66094afbf04cf0, type: 3}
+  - {fileID: 3584119982503083382, guid: 74b8629a5214f8d41be94940dd5c3ed7, type: 3}
+  - {fileID: 3584119982503083382, guid: 4b5a8a10fc9a8c2488ac6b22fdd74013, type: 3}
+  - {fileID: 3584119982503083382, guid: 270edd931d2885f498908e0c4e713e14, type: 3}
+  - {fileID: 3584119982503083382, guid: 01581234a3de87540b53ad1080bd1364, type: 3}
+  - {fileID: 3584119982503083382, guid: 9d094af14c991b54ca4566a79224766a, type: 3}
+  - {fileID: 3584119982503083382, guid: 3413f832b3cb89d49942d81dbfba28ba, type: 3}
+  - {fileID: 3584119982503083382, guid: f5116855237a69944928ec1060ff4d29, type: 3}
+  - {fileID: 3584119982503083382, guid: 832f8fe75a6822e479a96a2efebef96a, type: 3}
+  - {fileID: 3584119982503083382, guid: 19390745aa97a6342a475a541cea4414, type: 3}
+  - {fileID: 3584119982503083382, guid: 9e1d9680b47502046897f6755033ee27, type: 3}
+  - {fileID: 3584119982503083382, guid: 507b5afd2101aa941ac6269d14dc571b, type: 3}
   resultSlot: {fileID: 160507425}
   resultText: {fileID: 751393301}
 --- !u!4 &1526425767
@@ -2576,6 +2605,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1117811230}
     m_Modifications:
+    - target: {fileID: 1837351179, guid: a9e8e85b9a76a95469934a7cb4abda6c, type: 3}
+      propertyPath: m_text
+      value: Pink Coconut Coquette
+      objectReference: {fileID: 0}
     - target: {fileID: 1837351179, guid: a9e8e85b9a76a95469934a7cb4abda6c, type: 3}
       propertyPath: m_fontSize
       value: 25
@@ -3159,6 +3192,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1117811230}
     m_Modifications:
+    - target: {fileID: 936318346, guid: b5c335163f76fed46a9b6cf1923e0261, type: 3}
+      propertyPath: m_text
+      value: Pink Mermaid
+      objectReference: {fileID: 0}
     - target: {fileID: 936318346, guid: b5c335163f76fed46a9b6cf1923e0261, type: 3}
       propertyPath: m_fontSize
       value: 25

@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3584119982503083383}
   - component: {fileID: 3584119982503083382}
   m_Layer: 5
-  m_Name: test3drink1
+  m_Name: test2drink2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -67,7 +67,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 49cdead5ada1ca745ba85f450915fd4e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a2fdb419c8dd60c4c90cb3a682d9f750, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -90,5 +90,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemName: 
-  itemDescription: You perform the Iron (II) Sulfate test and wait for the solution
-    to turn to its final color. The solution turns a rich purple.
+  itemDescription: You conduct a flame test on the beverage. There isn't a visible
+    residue, and you don't notice any distinct smells. The test is inconclusive.
