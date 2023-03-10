@@ -129,7 +129,7 @@ public class SafeController : MonoBehaviour
     IEnumerator RotateDoor()
     {
         float angleRemaining = 180.0f;
-        float doorSpeed = 20.0f;
+        float doorSpeed = 30.0f;
 
         while (angleRemaining > 0)
         {
