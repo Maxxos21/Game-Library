@@ -4,24 +4,11 @@ using UnityEngine;
 
 public class PianoKey : MonoBehaviour
 {
-    private AudioSource audioPlayer;
+    [SerializeField] private AudioClip audioClip;
+    [SerializeField] private AudioSource audioSource;
 
-    private PianoController piano;
-
-    void Awake()
+    public void PlaySound()
     {
-        audioPlayer = GetComponent<AudioSource>();
-    }
-
-    void Start()
-    {
-        piano = FindObjectOfType<PianoController>();
-    }
-
-    public void OnClick()
-    {
-        audioPlayer.Play();
-
-        piano.TestKey(this);
+        audioSource.PlayOneShot(audioClip);
     }
 }

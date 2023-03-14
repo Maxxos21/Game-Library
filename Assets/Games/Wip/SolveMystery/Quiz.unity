@@ -7332,22 +7332,22 @@ PrefabInstance:
     - target: {fileID: 4921414439111921643, guid: c823a4680712d674194e4375caf21e54,
         type: 3}
       propertyPath: InitialModule.startColor.maxColor.a
-      value: 0.4627451
+      value: 0.36862746
       objectReference: {fileID: 0}
     - target: {fileID: 4921414439111921643, guid: c823a4680712d674194e4375caf21e54,
         type: 3}
       propertyPath: InitialModule.startColor.maxColor.b
-      value: 0.09656461
+      value: 0.14231041
       objectReference: {fileID: 0}
     - target: {fileID: 4921414439111921643, guid: c823a4680712d674194e4375caf21e54,
         type: 3}
       propertyPath: InitialModule.startColor.maxColor.g
-      value: 0.6603774
+      value: 0.735849
       objectReference: {fileID: 0}
     - target: {fileID: 4921414439111921643, guid: c823a4680712d674194e4375caf21e54,
         type: 3}
       propertyPath: InitialModule.startColor.maxColor.r
-      value: 0.17415853
+      value: 0.22117217
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c823a4680712d674194e4375caf21e54, type: 3}
@@ -8095,8 +8095,8 @@ MonoBehaviour:
   m_text: 'You got all three answers correct.
 
 
-    You submit the evidence and
-    proceed to make the arrest.
+    You submit the evidence and proceed
+    to make the arrest.
 
 
     The culprit readily admits to the crime.'
