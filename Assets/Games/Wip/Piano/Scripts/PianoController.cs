@@ -1,30 +1,53 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class PianoController : MonoBehaviour
 {
-    [SerializeField] private PianoKey[] sequence;
+    [SerializeField] private List<PianoKey> correctSequence = new List<PianoKey>();
+    private List<PianoKey> playerSequence = new List<PianoKey>();
 
-    private int currentSequenceIndex;
-
-    public void TestKey(PianoKey keyPlayed)
+    public void AddToSequence(PianoKey currentKey)
     {
-        if (keyPlayed == sequence[currentSequenceIndex])
-        {
-            // DEBUG CURR
-            Debug.Log("Correct");
+        // Add the key from event to the player sequence
+        playerSequence.Add(currentKey);
 
-            currentSequenceIndex++;
-            if (currentSequenceIndex > sequence.Length - 1)
+        // Check if the player played an incorrect key
+        for (int i = 0; i < playerSequence.Count; i++)
+        {
+            if (playerSequence[i] != correctSequence[i])
             {
-                Debug.Log("Game end");
+                // Clear the player sequence and return
+                playerSequence.Clear();
+                return;
             }
         }
-        else
+
+        // If the player sequence is the same length as the correct sequence, check if it's correct
+        if (playerSequence.Count == correctSequence.Count)
         {
-            Debug.Log("Incorrect");
-            currentSequenceIndex = 0;
+            bool isCorrect = true; // set to true, assume correct until proven wrong
+            for (int i = 0; i < correctSequence.Count; i++)
+            {
+                if (playerSequence[i].name != correctSequence[i].name)
+                {
+                    isCorrect = false;
+                    break;
+                }
+            }
+
+            if (isCorrect)
+            {
+                Debug.Log("Win");
+            }
+            else
+            {
+                Debug.Log("Lost");
+            }
+
+            // Clear the player sequence for the next round
+            playerSequence.Clear();
         }
     }
 }
