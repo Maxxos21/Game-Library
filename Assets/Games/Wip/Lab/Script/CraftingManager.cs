@@ -50,8 +50,12 @@ public class CraftingManager : MonoBehaviour
                 nearestSlot.gameObject.SetActive(true);
                 nearestSlot.GetComponent<Image>().sprite = currentItem.GetComponent<Image>().sprite;
                 nearestSlot.item = currentItem;
+                nearestSlot.objectText.text = currentItem.gameObject.name;
 
                 itemList[nearestSlot.index] = currentItem;
+
+
+
 
                 currentItem = null;
 
@@ -101,6 +105,13 @@ public class CraftingManager : MonoBehaviour
             {
                 resultSlot.gameObject.SetActive(true);
                 resultSlot.GetComponent<Image>().sprite = recipeResult[i].GetComponent<Image>().sprite;
+
+                // Set Alpha to 1
+                Color color = resultSlot.GetComponent<Image>().color;
+                color.a = 1;
+                resultSlot.GetComponent<Image>().color = color;
+
+                // Set item
                 resultSlot.item = recipeResult[i];
 
                 resultText.text = recipeResult[i].itemDescription;

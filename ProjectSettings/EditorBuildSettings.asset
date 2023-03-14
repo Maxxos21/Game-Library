@@ -4,20 +4,5 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes:
-  - enabled: 1
-    path: Assets/Games/Source/Pipe/Pipe 1.unity
-    guid: 53752ec8db799f9438b2bfc278d39ac3
-  - enabled: 1
-    path: Assets/Games/Source/Pipe/Pipe 2.unity
-    guid: 2692b07ff7aa76c42826c5f28a26b41d
-  - enabled: 1
-    path: Assets/Games/Source/Pipe/Pipe 3.unity
-    guid: 04d6e64cb0cae414081257433e2d6f93
-  - enabled: 1
-    path: Assets/Games/Source/Pipe/Pipe 4.unity
-    guid: ac006e963eeeae94583653febccc0424
-  - enabled: 1
-    path: Assets/Games/Source/Pipe/Pipe 5.unity
-    guid: afc83cfcf294e9b4985568bfed2e3d66
+  m_Scenes: []
   m_configObjects: {}
