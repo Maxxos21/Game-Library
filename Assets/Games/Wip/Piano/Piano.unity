@@ -190,7 +190,11 @@ PrefabInstance:
       propertyPath: m_SizeDelta.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 44
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -243,7 +247,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 594
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -256,7 +264,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: -200
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -284,11 +296,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: White Key (4) b4
 <<<<<<< HEAD
+<<<<<<< HEAD
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925423, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_IsActive
       value: 1
+=======
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
 >>>>>>> parent of 0bb8ce5 (Clean up more)
       objectReference: {fileID: 0}
@@ -410,7 +425,11 @@ PrefabInstance:
       propertyPath: m_SizeDelta.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 44
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -463,7 +482,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 66
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -476,7 +499,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: -200
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -504,11 +531,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: White Key (2) d3 -W
 <<<<<<< HEAD
+<<<<<<< HEAD
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925423, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_IsActive
       value: 1
+=======
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
 >>>>>>> parent of 0bb8ce5 (Clean up more)
       objectReference: {fileID: 0}
@@ -522,7 +552,11 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &42265418
+=======
+--- !u!1 &43948430
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
 --- !u!1 &43948430
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -538,10 +572,13 @@ GameObject:
   m_Component:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - component: {fileID: 42265419}
   m_Layer: 5
   m_Name: Test
 =======
+=======
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
 >>>>>>> parent of 0bb8ce5 (Clean up more)
   - component: {fileID: 43948431}
@@ -550,6 +587,9 @@ GameObject:
   m_Layer: 5
   m_Name: Text (TMP) (2)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 0bb8ce5 (Clean up more)
+=======
 >>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -560,7 +600,11 @@ GameObject:
   m_IsActive: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!224 &42265419
+=======
+--- !u!224 &43948431
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
 --- !u!224 &43948431
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -572,6 +616,7 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 42265418}
@@ -599,6 +644,8 @@ RectTransform:
 =======
 =======
 >>>>>>> parent of 0bb8ce5 (Clean up more)
+=======
+>>>>>>> parent of 0bb8ce5 (Clean up more)
   m_GameObject: {fileID: 43948430}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -607,6 +654,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1827449714}
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 0bb8ce5 (Clean up more)
+=======
 >>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -616,10 +666,13 @@ RectTransform:
   m_AnchorMax: {x: 0.5, y: 0.5}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 =======
+=======
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
 >>>>>>> parent of 0bb8ce5 (Clean up more)
   m_AnchoredPosition: {x: -95, y: 180}
@@ -723,6 +776,9 @@ CanvasRenderer:
   m_GameObject: {fileID: 43948430}
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 0bb8ce5 (Clean up more)
+=======
 >>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -805,7 +861,11 @@ PrefabInstance:
       propertyPath: m_SizeDelta.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 44
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -858,7 +918,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 682
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -871,7 +935,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: -200
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -899,11 +967,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: White Key (2) d5
 <<<<<<< HEAD
+<<<<<<< HEAD
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925423, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_IsActive
       value: 1
+=======
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
 >>>>>>> parent of 0bb8ce5 (Clean up more)
       objectReference: {fileID: 0}
@@ -922,7 +993,11 @@ PrefabInstance:
   m_Modification:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_TransformParent: {fileID: 42265419}
+=======
+    m_TransformParent: {fileID: 1482404324}
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
     m_TransformParent: {fileID: 1482404324}
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -935,11 +1010,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Black Key (1) c-5
 <<<<<<< HEAD
+<<<<<<< HEAD
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385570, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_IsActive
       value: 0
+=======
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
 >>>>>>> parent of 0bb8ce5 (Clean up more)
       objectReference: {fileID: 0}
@@ -958,7 +1036,11 @@ PrefabInstance:
       propertyPath: m_RootOrder
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 10
+=======
+      value: 3
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 3
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -991,7 +1073,11 @@ PrefabInstance:
       propertyPath: m_SizeDelta.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 9.811432
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -1044,7 +1130,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 227.80856
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -1057,7 +1147,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 55.000004
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -1099,7 +1193,11 @@ PrefabInstance:
   m_Modification:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_TransformParent: {fileID: 42265419}
+=======
+    m_TransformParent: {fileID: 1053921538}
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
     m_TransformParent: {fileID: 1053921538}
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -1112,11 +1210,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Black Key (2) d-4
 <<<<<<< HEAD
+<<<<<<< HEAD
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385570, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_IsActive
       value: 0
+=======
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
 >>>>>>> parent of 0bb8ce5 (Clean up more)
       objectReference: {fileID: 0}
@@ -1135,7 +1236,11 @@ PrefabInstance:
       propertyPath: m_RootOrder
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 6
+=======
+      value: 4
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 4
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -1168,7 +1273,11 @@ PrefabInstance:
       propertyPath: m_SizeDelta.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 9.85144
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -1221,7 +1330,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: -87.78856
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -1234,7 +1347,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 55.000004
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -1429,7 +1546,11 @@ PrefabInstance:
   m_Modification:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_TransformParent: {fileID: 42265419}
+=======
+    m_TransformParent: {fileID: 1482404324}
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
     m_TransformParent: {fileID: 1482404324}
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -1442,11 +1563,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Black Key (2) d-5
 <<<<<<< HEAD
+<<<<<<< HEAD
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385570, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_IsActive
       value: 0
+=======
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
 >>>>>>> parent of 0bb8ce5 (Clean up more)
       objectReference: {fileID: 0}
@@ -1465,7 +1589,11 @@ PrefabInstance:
       propertyPath: m_RootOrder
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 11
+=======
+      value: 4
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 4
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -1498,7 +1626,11 @@ PrefabInstance:
       propertyPath: m_SizeDelta.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 9.85144
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -1551,7 +1683,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 242.21141
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -1564,7 +1700,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 55.000004
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -1672,7 +1812,11 @@ PrefabInstance:
       propertyPath: m_SizeDelta.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 44
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -1725,7 +1869,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 418
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -1738,7 +1886,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: -200
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -1766,11 +1918,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: White Key (3) e4
 <<<<<<< HEAD
+<<<<<<< HEAD
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925423, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_IsActive
       value: 1
+=======
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
 >>>>>>> parent of 0bb8ce5 (Clean up more)
       objectReference: {fileID: 0}
@@ -1871,9 +2026,12 @@ RectTransform:
   - {fileID: 488578187}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 760468809}
   - {fileID: 42265419}
 =======
+=======
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
 >>>>>>> parent of 0bb8ce5 (Clean up more)
   - {fileID: 602060397}
@@ -1884,6 +2042,9 @@ RectTransform:
   - {fileID: 1968784629}
   - {fileID: 1827449714}
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 0bb8ce5 (Clean up more)
+=======
 >>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -1968,7 +2129,11 @@ PrefabInstance:
       propertyPath: m_SizeDelta.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 44
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -2021,7 +2186,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 110
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -2034,7 +2203,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: -200
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -2062,11 +2235,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: White Key (3) e3 - E
 <<<<<<< HEAD
+<<<<<<< HEAD
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925423, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_IsActive
       value: 1
+=======
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
 >>>>>>> parent of 0bb8ce5 (Clean up more)
       objectReference: {fileID: 0}
@@ -2193,7 +2369,11 @@ PrefabInstance:
       propertyPath: m_SizeDelta.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 44
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -2246,7 +2426,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 22
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -2259,7 +2443,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: -200
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -2287,11 +2475,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: White Key (1) c3 - Q
 <<<<<<< HEAD
+<<<<<<< HEAD
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925423, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_IsActive
       value: 1
+=======
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
 >>>>>>> parent of 0bb8ce5 (Clean up more)
       objectReference: {fileID: 0}
@@ -2310,7 +2501,11 @@ PrefabInstance:
   m_Modification:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_TransformParent: {fileID: 42265419}
+=======
+    m_TransformParent: {fileID: 19542970}
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
     m_TransformParent: {fileID: 19542970}
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -2323,11 +2518,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Black Key (3) a-4
 <<<<<<< HEAD
+<<<<<<< HEAD
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385570, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_IsActive
       value: 0
+=======
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
 >>>>>>> parent of 0bb8ce5 (Clean up more)
       objectReference: {fileID: 0}
@@ -2346,7 +2544,11 @@ PrefabInstance:
       propertyPath: m_RootOrder
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 9
+=======
+      value: 6
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 6
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -2379,7 +2581,11 @@ PrefabInstance:
       propertyPath: m_SizeDelta.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 16.356323
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -2432,7 +2638,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 92.848145
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -2445,7 +2655,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 55.000004
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -2623,7 +2837,11 @@ PrefabInstance:
       propertyPath: m_SizeDelta.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 44
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -2676,7 +2894,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 902
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -2689,7 +2911,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: -200
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -2717,11 +2943,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: White Key (4) b5
 <<<<<<< HEAD
+<<<<<<< HEAD
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925423, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_IsActive
       value: 1
+=======
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
 >>>>>>> parent of 0bb8ce5 (Clean up more)
       objectReference: {fileID: 0}
@@ -3077,7 +3306,11 @@ PrefabInstance:
       propertyPath: m_SizeDelta.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 44
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -3130,7 +3363,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 814
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -3143,7 +3380,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: -200
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -3171,11 +3412,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: White Key (2) g5
 <<<<<<< HEAD
+<<<<<<< HEAD
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925423, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_IsActive
       value: 1
+=======
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
 >>>>>>> parent of 0bb8ce5 (Clean up more)
       objectReference: {fileID: 0}
@@ -3241,7 +3485,11 @@ PrefabInstance:
   m_Modification:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_TransformParent: {fileID: 42265419}
+=======
+    m_TransformParent: {fileID: 1968784629}
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
     m_TransformParent: {fileID: 1968784629}
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -3254,11 +3502,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Black Key (1) f-5
 <<<<<<< HEAD
+<<<<<<< HEAD
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385570, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_IsActive
       value: 0
+=======
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
 >>>>>>> parent of 0bb8ce5 (Clean up more)
       objectReference: {fileID: 0}
@@ -3277,7 +3528,11 @@ PrefabInstance:
       propertyPath: m_RootOrder
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 12
+=======
+      value: 4
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 4
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -3310,7 +3565,11 @@ PrefabInstance:
       propertyPath: m_SizeDelta.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 16.285263
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -3363,7 +3622,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 377.20636
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -3376,7 +3639,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 55.000004
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -3423,6 +3690,7 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 954232067}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1 &760468808
@@ -3482,6 +3750,8 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 924, y: 400}
   m_Pivot: {x: 0.5, y: 0.5}
+=======
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
 >>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
@@ -3559,7 +3829,11 @@ PrefabInstance:
       propertyPath: m_SizeDelta.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 44
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -3612,7 +3886,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 198
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -3625,7 +3903,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: -200
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -3653,11 +3935,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: White Key (2) g3
 <<<<<<< HEAD
+<<<<<<< HEAD
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925423, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_IsActive
       value: 1
+=======
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
 >>>>>>> parent of 0bb8ce5 (Clean up more)
       objectReference: {fileID: 0}
@@ -3676,7 +3961,11 @@ PrefabInstance:
   m_Modification:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_TransformParent: {fileID: 42265419}
+=======
+    m_TransformParent: {fileID: 19542970}
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
     m_TransformParent: {fileID: 19542970}
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -3689,11 +3978,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Black Key (1) f-4
 <<<<<<< HEAD
+<<<<<<< HEAD
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385570, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_IsActive
       value: 0
+=======
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
 >>>>>>> parent of 0bb8ce5 (Clean up more)
       objectReference: {fileID: 0}
@@ -3712,7 +4004,11 @@ PrefabInstance:
       propertyPath: m_RootOrder
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 7
+=======
+      value: 4
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 4
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -3745,7 +4041,11 @@ PrefabInstance:
       propertyPath: m_SizeDelta.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 16.285263
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -3798,7 +4098,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 47.206345
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -3811,7 +4115,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 55.000004
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -3853,7 +4161,11 @@ PrefabInstance:
   m_Modification:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_TransformParent: {fileID: 42265419}
+=======
+    m_TransformParent: {fileID: 416924338}
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
     m_TransformParent: {fileID: 416924338}
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -3881,11 +4193,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Black Key (3) a-3
 <<<<<<< HEAD
+<<<<<<< HEAD
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385570, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_IsActive
       value: 0
+=======
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
 >>>>>>> parent of 0bb8ce5 (Clean up more)
       objectReference: {fileID: 0}
@@ -3904,7 +4219,11 @@ PrefabInstance:
       propertyPath: m_RootOrder
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 4
+=======
+      value: 6
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 6
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -3937,7 +4256,11 @@ PrefabInstance:
       propertyPath: m_SizeDelta.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 16.356323
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -3990,7 +4313,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: -237.15186
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -4003,7 +4330,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 55.000004
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -4105,7 +4436,11 @@ PrefabInstance:
       propertyPath: m_SizeDelta.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 44
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -4158,7 +4493,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 286
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -4171,7 +4510,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: -200
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -4199,11 +4542,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: White Key (4) b3
 <<<<<<< HEAD
+<<<<<<< HEAD
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925423, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_IsActive
       value: 1
+=======
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
 >>>>>>> parent of 0bb8ce5 (Clean up more)
       objectReference: {fileID: 0}
@@ -4216,7 +4562,11 @@ PrefabInstance:
   m_Modification:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_TransformParent: {fileID: 42265419}
+=======
+    m_TransformParent: {fileID: 1968784629}
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
     m_TransformParent: {fileID: 1968784629}
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -4229,11 +4579,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Black Key (2) g-5
 <<<<<<< HEAD
+<<<<<<< HEAD
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385570, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_IsActive
       value: 0
+=======
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
 >>>>>>> parent of 0bb8ce5 (Clean up more)
       objectReference: {fileID: 0}
@@ -4252,7 +4605,11 @@ PrefabInstance:
       propertyPath: m_RootOrder
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 13
+=======
+      value: 5
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 5
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -4285,7 +4642,11 @@ PrefabInstance:
       propertyPath: m_SizeDelta.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 16.09105
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -4338,7 +4699,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 400.01187
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -4351,7 +4716,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 55.000004
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -4448,6 +4817,9 @@ RectTransform:
   m_SizeDelta: {x: 140, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 0bb8ce5 (Clean up more)
+=======
 >>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -4518,7 +4890,11 @@ PrefabInstance:
       propertyPath: m_SizeDelta.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 44
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -4571,7 +4947,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 330
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -4584,7 +4964,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: -200
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -4612,11 +4996,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: White Key (1) c4
 <<<<<<< HEAD
+<<<<<<< HEAD
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925423, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_IsActive
       value: 1
+=======
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
 >>>>>>> parent of 0bb8ce5 (Clean up more)
       objectReference: {fileID: 0}
@@ -4629,7 +5016,11 @@ PrefabInstance:
   m_Modification:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_TransformParent: {fileID: 42265419}
+=======
+    m_TransformParent: {fileID: 416924338}
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
     m_TransformParent: {fileID: 416924338}
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -4642,11 +5033,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Black Key (2) g-3
 <<<<<<< HEAD
+<<<<<<< HEAD
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385570, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_IsActive
       value: 0
+=======
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
 >>>>>>> parent of 0bb8ce5 (Clean up more)
       objectReference: {fileID: 0}
@@ -4665,7 +5059,11 @@ PrefabInstance:
       propertyPath: m_RootOrder
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 3
+=======
+      value: 5
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 5
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -4698,7 +5096,11 @@ PrefabInstance:
       propertyPath: m_SizeDelta.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 16.09105
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -4751,7 +5153,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: -259.98813
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -4764,7 +5170,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 55.000004
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -4896,7 +5306,11 @@ PrefabInstance:
       propertyPath: m_SizeDelta.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 44
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -4949,7 +5363,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 726
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -4962,7 +5380,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: -200
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -4990,11 +5412,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: White Key (3) e5
 <<<<<<< HEAD
+<<<<<<< HEAD
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925423, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_IsActive
       value: 1
+=======
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
 >>>>>>> parent of 0bb8ce5 (Clean up more)
       objectReference: {fileID: 0}
@@ -5073,7 +5498,11 @@ PrefabInstance:
       propertyPath: m_SizeDelta.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 44
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -5126,7 +5555,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 770
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -5139,7 +5572,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: -200
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -5167,11 +5604,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: White Key (1) f5
 <<<<<<< HEAD
+<<<<<<< HEAD
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925423, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_IsActive
       value: 1
+=======
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
 >>>>>>> parent of 0bb8ce5 (Clean up more)
       objectReference: {fileID: 0}
@@ -5261,7 +5701,11 @@ PrefabInstance:
       propertyPath: m_SizeDelta.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 44
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -5314,7 +5758,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 638
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -5327,7 +5775,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: -200
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -5355,11 +5807,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: White Key (1) c5
 <<<<<<< HEAD
+<<<<<<< HEAD
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925423, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_IsActive
       value: 1
+=======
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
 >>>>>>> parent of 0bb8ce5 (Clean up more)
       objectReference: {fileID: 0}
@@ -5372,7 +5827,11 @@ PrefabInstance:
   m_Modification:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_TransformParent: {fileID: 42265419}
+=======
+    m_TransformParent: {fileID: 1053921538}
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
     m_TransformParent: {fileID: 1053921538}
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -5385,11 +5844,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Black Key (1) c-4
 <<<<<<< HEAD
+<<<<<<< HEAD
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385570, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_IsActive
       value: 0
+=======
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
 >>>>>>> parent of 0bb8ce5 (Clean up more)
       objectReference: {fileID: 0}
@@ -5408,7 +5870,11 @@ PrefabInstance:
       propertyPath: m_RootOrder
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 5
+=======
+      value: 3
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 3
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -5441,7 +5907,11 @@ PrefabInstance:
       propertyPath: m_SizeDelta.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 9.811432
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -5494,7 +5964,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: -102.19142
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -5507,7 +5981,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 55.000004
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -5656,7 +6134,11 @@ PrefabInstance:
       propertyPath: m_SizeDelta.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 44
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -5709,7 +6191,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 154
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -5722,7 +6208,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: -200
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -5750,11 +6240,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: White Key (1) f3
 <<<<<<< HEAD
+<<<<<<< HEAD
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925423, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_IsActive
       value: 1
+=======
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
 >>>>>>> parent of 0bb8ce5 (Clean up more)
       objectReference: {fileID: 0}
@@ -5839,7 +6332,11 @@ PrefabInstance:
       propertyPath: m_SizeDelta.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 44
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -5892,7 +6389,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 462
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -5905,7 +6406,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: -200
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -5933,11 +6438,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: White Key (1) f4
 <<<<<<< HEAD
+<<<<<<< HEAD
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925423, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_IsActive
       value: 1
+=======
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
 >>>>>>> parent of 0bb8ce5 (Clean up more)
       objectReference: {fileID: 0}
@@ -5950,7 +6458,11 @@ PrefabInstance:
   m_Modification:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_TransformParent: {fileID: 42265419}
+=======
+    m_TransformParent: {fileID: 19542970}
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
     m_TransformParent: {fileID: 19542970}
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -5963,11 +6475,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Black Key (2) g-4
 <<<<<<< HEAD
+<<<<<<< HEAD
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385570, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_IsActive
       value: 0
+=======
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
 >>>>>>> parent of 0bb8ce5 (Clean up more)
       objectReference: {fileID: 0}
@@ -5986,7 +6501,11 @@ PrefabInstance:
       propertyPath: m_RootOrder
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 8
+=======
+      value: 5
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 5
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -6019,7 +6538,11 @@ PrefabInstance:
       propertyPath: m_SizeDelta.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 16.09105
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -6072,7 +6595,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 70.011856
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -6085,7 +6612,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 55.000004
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -6322,7 +6853,11 @@ PrefabInstance:
       propertyPath: m_SizeDelta.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 44
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -6375,7 +6910,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 374
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -6388,7 +6927,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: -200
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -6416,11 +6959,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: White Key (2) d4
 <<<<<<< HEAD
+<<<<<<< HEAD
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925423, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_IsActive
       value: 1
+=======
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
 >>>>>>> parent of 0bb8ce5 (Clean up more)
       objectReference: {fileID: 0}
@@ -6505,7 +7051,11 @@ PrefabInstance:
       propertyPath: m_SizeDelta.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 44
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -6558,7 +7108,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 506
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -6571,7 +7125,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: -200
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -6599,11 +7157,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: White Key (2) g4
 <<<<<<< HEAD
+<<<<<<< HEAD
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925423, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_IsActive
       value: 1
+=======
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
 >>>>>>> parent of 0bb8ce5 (Clean up more)
       objectReference: {fileID: 0}
@@ -6616,7 +7177,11 @@ PrefabInstance:
   m_Modification:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_TransformParent: {fileID: 42265419}
+=======
+    m_TransformParent: {fileID: 602060397}
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
     m_TransformParent: {fileID: 602060397}
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -6634,11 +7199,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Black Key (1) c-3 - 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385570, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_IsActive
       value: 0
+=======
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
 >>>>>>> parent of 0bb8ce5 (Clean up more)
       objectReference: {fileID: 0}
@@ -6657,7 +7225,11 @@ PrefabInstance:
       propertyPath: m_RootOrder
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: 3
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 3
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -6690,7 +7262,11 @@ PrefabInstance:
       propertyPath: m_SizeDelta.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 9.811432
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -6743,7 +7319,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: -432.1914
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -6756,7 +7336,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 55.000004
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -6805,7 +7389,10 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
 >>>>>>> parent of 0bb8ce5 (Clean up more)
 --- !u!1 &1764929251
@@ -6975,7 +7562,11 @@ PrefabInstance:
   m_Modification:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_TransformParent: {fileID: 42265419}
+=======
+    m_TransformParent: {fileID: 1968784629}
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
     m_TransformParent: {fileID: 1968784629}
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -6988,11 +7579,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Black Key (3) a-5
 <<<<<<< HEAD
+<<<<<<< HEAD
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385570, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_IsActive
       value: 0
+=======
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
 >>>>>>> parent of 0bb8ce5 (Clean up more)
       objectReference: {fileID: 0}
@@ -7011,7 +7605,11 @@ PrefabInstance:
       propertyPath: m_RootOrder
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 14
+=======
+      value: 6
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 6
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -7044,7 +7642,11 @@ PrefabInstance:
       propertyPath: m_SizeDelta.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 16.356323
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -7097,7 +7699,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 422.8482
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -7110,7 +7716,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 55.000004
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -7470,7 +8080,11 @@ PrefabInstance:
   m_Modification:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_TransformParent: {fileID: 42265419}
+=======
+    m_TransformParent: {fileID: 416924338}
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
     m_TransformParent: {fileID: 416924338}
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -7483,11 +8097,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Black Key (1) f-3
 <<<<<<< HEAD
+<<<<<<< HEAD
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385570, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_IsActive
       value: 0
+=======
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
 >>>>>>> parent of 0bb8ce5 (Clean up more)
       objectReference: {fileID: 0}
@@ -7506,7 +8123,11 @@ PrefabInstance:
       propertyPath: m_RootOrder
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 2
+=======
+      value: 4
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 4
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -7539,7 +8160,11 @@ PrefabInstance:
       propertyPath: m_SizeDelta.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 16.285263
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -7592,7 +8217,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: -282.79376
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -7605,7 +8234,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 55.000004
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -7707,7 +8340,11 @@ PrefabInstance:
       propertyPath: m_SizeDelta.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 44
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -7760,7 +8397,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 550
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -7773,7 +8414,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: -200
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -7801,11 +8446,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: White Key (3) a4
 <<<<<<< HEAD
+<<<<<<< HEAD
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925423, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_IsActive
       value: 1
+=======
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
 >>>>>>> parent of 0bb8ce5 (Clean up more)
       objectReference: {fileID: 0}
@@ -7867,7 +8515,11 @@ PrefabInstance:
   m_Modification:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_TransformParent: {fileID: 42265419}
+=======
+    m_TransformParent: {fileID: 602060397}
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
     m_TransformParent: {fileID: 602060397}
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -7885,11 +8537,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Black Key (2) d-3 - 3
 <<<<<<< HEAD
+<<<<<<< HEAD
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385570, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_IsActive
       value: 0
+=======
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
 >>>>>>> parent of 0bb8ce5 (Clean up more)
       objectReference: {fileID: 0}
@@ -7908,7 +8563,11 @@ PrefabInstance:
       propertyPath: m_RootOrder
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 1
+=======
+      value: 4
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 4
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -7941,7 +8600,11 @@ PrefabInstance:
       propertyPath: m_SizeDelta.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 9.85144
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -7994,7 +8657,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: -417.78857
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -8007,7 +8674,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 55.000004
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -8115,7 +8786,11 @@ PrefabInstance:
       propertyPath: m_SizeDelta.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 44
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -8168,7 +8843,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 858
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -8181,7 +8860,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: -200
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -8209,11 +8892,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: White Key (3) a5
 <<<<<<< HEAD
+<<<<<<< HEAD
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925423, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_IsActive
       value: 1
+=======
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
 >>>>>>> parent of 0bb8ce5 (Clean up more)
       objectReference: {fileID: 0}
@@ -8425,7 +9111,11 @@ PrefabInstance:
       propertyPath: m_SizeDelta.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 44
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -8478,7 +9168,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 242
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -8491,7 +9185,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: -200
+=======
+      value: 0
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
       value: 0
 >>>>>>> parent of 0bb8ce5 (Clean up more)
@@ -8519,11 +9217,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: White Key (3) a3
 <<<<<<< HEAD
+<<<<<<< HEAD
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925423, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_IsActive
       value: 1
+=======
+>>>>>>> parent of 0bb8ce5 (Clean up more)
 =======
 >>>>>>> parent of 0bb8ce5 (Clean up more)
       objectReference: {fileID: 0}
