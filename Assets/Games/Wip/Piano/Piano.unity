@@ -189,7 +189,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: -199.99995
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: -199.99995
 >>>>>>> parent of f7413fb (sdg)
@@ -238,7 +242,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: -230.00003
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: -230.00003
 >>>>>>> parent of f7413fb (sdg)
@@ -270,6 +278,9 @@ PrefabInstance:
       value: White Key (4) b4
 =======
       value: White Key V
+<<<<<<< HEAD
+>>>>>>> parent of f7413fb (sdg)
+=======
 >>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -389,7 +400,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: -285.1143
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: -285.1143
 >>>>>>> parent of f7413fb (sdg)
@@ -438,7 +453,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: -424.99994
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: -424.99994
 >>>>>>> parent of f7413fb (sdg)
@@ -470,6 +489,9 @@ PrefabInstance:
       value: White Key (2) d3 -W
 =======
       value: White Key W
+<<<<<<< HEAD
+>>>>>>> parent of f7413fb (sdg)
+=======
 >>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -480,6 +502,7 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 34906043}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1 &43948430
 GameObject:
@@ -618,6 +641,8 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 =======
 >>>>>>> parent of f7413fb (sdg)
+=======
+>>>>>>> parent of f7413fb (sdg)
 --- !u!224 &74215795 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
@@ -696,7 +721,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: -285.1143
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: -285.1143
 >>>>>>> parent of f7413fb (sdg)
@@ -745,7 +774,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: 235.00003
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: 235.00003
 >>>>>>> parent of f7413fb (sdg)
@@ -777,6 +810,9 @@ PrefabInstance:
       value: White Key (2) d5
 =======
       value: White Key N
+<<<<<<< HEAD
+>>>>>>> parent of f7413fb (sdg)
+=======
 >>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -793,7 +829,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_TransformParent: {fileID: 1482404324}
+=======
+    m_TransformParent: {fileID: 760468809}
+>>>>>>> parent of f7413fb (sdg)
 =======
     m_TransformParent: {fileID: 760468809}
 >>>>>>> parent of f7413fb (sdg)
@@ -805,6 +845,9 @@ PrefabInstance:
       value: Black Key (1) c-5
 =======
       value: Black Key H
+<<<<<<< HEAD
+>>>>>>> parent of f7413fb (sdg)
+=======
 >>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
@@ -821,7 +864,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 3
+=======
+      value: 31
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: 31
 >>>>>>> parent of f7413fb (sdg)
@@ -850,7 +897,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: -208.49286
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: -208.49286
 >>>>>>> parent of f7413fb (sdg)
@@ -899,7 +950,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: 387.81784
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: 387.81784
 >>>>>>> parent of f7413fb (sdg)
@@ -908,7 +963,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: 5
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: 5
 >>>>>>> parent of f7413fb (sdg)
@@ -946,7 +1005,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_TransformParent: {fileID: 1053921538}
+=======
+    m_TransformParent: {fileID: 760468809}
+>>>>>>> parent of f7413fb (sdg)
 =======
     m_TransformParent: {fileID: 760468809}
 >>>>>>> parent of f7413fb (sdg)
@@ -958,6 +1021,9 @@ PrefabInstance:
       value: Black Key (2) d-4
 =======
       value: Black Key 0
+<<<<<<< HEAD
+>>>>>>> parent of f7413fb (sdg)
+=======
 >>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
@@ -974,7 +1040,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 4
+=======
+      value: 27
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: 27
 >>>>>>> parent of f7413fb (sdg)
@@ -1003,7 +1073,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: -209.34286
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: -209.34286
 >>>>>>> parent of f7413fb (sdg)
@@ -1052,7 +1126,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: -248.24283
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: -248.24283
 >>>>>>> parent of f7413fb (sdg)
@@ -1061,7 +1139,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: 5
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: 5
 >>>>>>> parent of f7413fb (sdg)
@@ -1252,7 +1334,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_TransformParent: {fileID: 1482404324}
+=======
+    m_TransformParent: {fileID: 760468809}
+>>>>>>> parent of f7413fb (sdg)
 =======
     m_TransformParent: {fileID: 760468809}
 >>>>>>> parent of f7413fb (sdg)
@@ -1264,6 +1350,9 @@ PrefabInstance:
       value: Black Key (2) d-5
 =======
       value: Black Key J
+<<<<<<< HEAD
+>>>>>>> parent of f7413fb (sdg)
+=======
 >>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
@@ -1280,7 +1369,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 4
+=======
+      value: 32
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: 32
 >>>>>>> parent of f7413fb (sdg)
@@ -1309,7 +1402,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: -209.34286
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: -209.34286
 >>>>>>> parent of f7413fb (sdg)
@@ -1358,7 +1455,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: 81.75714
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: 81.75714
 >>>>>>> parent of f7413fb (sdg)
@@ -1367,7 +1468,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: 5
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: 5
 >>>>>>> parent of f7413fb (sdg)
@@ -1471,7 +1576,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: -276.37146
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: -276.37146
 >>>>>>> parent of f7413fb (sdg)
@@ -1520,7 +1629,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: -381.81427
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: -381.81427
 >>>>>>> parent of f7413fb (sdg)
@@ -1552,6 +1665,9 @@ PrefabInstance:
       value: White Key (3) e4
 =======
       value: White Key P
+<<<<<<< HEAD
+>>>>>>> parent of f7413fb (sdg)
+=======
 >>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -1659,6 +1775,9 @@ RectTransform:
   - {fileID: 1827449714}
 =======
   - {fileID: 760468809}
+<<<<<<< HEAD
+>>>>>>> parent of f7413fb (sdg)
+=======
 >>>>>>> parent of f7413fb (sdg)
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -1740,7 +1859,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: -276.37146
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: -276.37146
 >>>>>>> parent of f7413fb (sdg)
@@ -1789,7 +1912,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: -711.8143
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: -711.8143
 >>>>>>> parent of f7413fb (sdg)
@@ -1821,6 +1948,9 @@ PrefabInstance:
       value: White Key (3) e3 - E
 =======
       value: White Key E
+<<<<<<< HEAD
+>>>>>>> parent of f7413fb (sdg)
+=======
 >>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -1945,7 +2075,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: -277.2619
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: -277.2619
 >>>>>>> parent of f7413fb (sdg)
@@ -1994,7 +2128,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: -138.63098
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: -138.63098
 >>>>>>> parent of f7413fb (sdg)
@@ -2026,6 +2164,9 @@ PrefabInstance:
       value: White Key (1) c3 - Q
 =======
       value: White Key Q
+<<<<<<< HEAD
+>>>>>>> parent of f7413fb (sdg)
+=======
 >>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -2042,7 +2183,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_TransformParent: {fileID: 19542970}
+=======
+    m_TransformParent: {fileID: 760468809}
+>>>>>>> parent of f7413fb (sdg)
 =======
     m_TransformParent: {fileID: 760468809}
 >>>>>>> parent of f7413fb (sdg)
@@ -2054,6 +2199,9 @@ PrefabInstance:
       value: Black Key (3) a-4
 =======
       value: Black Key F
+<<<<<<< HEAD
+>>>>>>> parent of f7413fb (sdg)
+=======
 >>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
@@ -2070,7 +2218,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 6
+=======
+      value: 30
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: 30
 >>>>>>> parent of f7413fb (sdg)
@@ -2099,7 +2251,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: -145.38943
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: -145.38943
 >>>>>>> parent of f7413fb (sdg)
@@ -2148,7 +2304,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: -133.09477
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: -133.09477
 >>>>>>> parent of f7413fb (sdg)
@@ -2157,7 +2317,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: 5
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: 5
 >>>>>>> parent of f7413fb (sdg)
@@ -2331,7 +2495,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: -199.99995
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: -199.99995
 >>>>>>> parent of f7413fb (sdg)
@@ -2380,7 +2548,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: 99.99997
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: 99.99997
 >>>>>>> parent of f7413fb (sdg)
@@ -2412,6 +2584,9 @@ PrefabInstance:
       value: White Key (4) b5
 =======
       value: White Key NA
+<<<<<<< HEAD
+>>>>>>> parent of f7413fb (sdg)
+=======
 >>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -2777,7 +2952,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: -203.41052
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: -203.41052
 >>>>>>> parent of f7413fb (sdg)
@@ -2826,7 +3005,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: 501.7053
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: 501.7053
 >>>>>>> parent of f7413fb (sdg)
@@ -2858,6 +3041,9 @@ PrefabInstance:
       value: White Key (2) g5
 =======
       value: White Key .
+<<<<<<< HEAD
+>>>>>>> parent of f7413fb (sdg)
+=======
 >>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -2921,7 +3107,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_TransformParent: {fileID: 1968784629}
+=======
+    m_TransformParent: {fileID: 760468809}
+>>>>>>> parent of f7413fb (sdg)
 =======
     m_TransformParent: {fileID: 760468809}
 >>>>>>> parent of f7413fb (sdg)
@@ -2933,6 +3123,9 @@ PrefabInstance:
       value: Black Key (1) f-5
 =======
       value: Black Key L
+<<<<<<< HEAD
+>>>>>>> parent of f7413fb (sdg)
+=======
 >>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
@@ -2949,7 +3142,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 4
+=======
+      value: 33
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: 33
 >>>>>>> parent of f7413fb (sdg)
@@ -2978,7 +3175,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: -144.7579
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: -144.7579
 >>>>>>> parent of f7413fb (sdg)
@@ -3027,7 +3228,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: 602.61053
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: 602.61053
 >>>>>>> parent of f7413fb (sdg)
@@ -3036,7 +3241,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: 5
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: 5
 >>>>>>> parent of f7413fb (sdg)
@@ -3227,7 +3436,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: -203.41052
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: -203.41052
 >>>>>>> parent of f7413fb (sdg)
@@ -3276,7 +3489,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: -158.29468
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: -158.29468
 >>>>>>> parent of f7413fb (sdg)
@@ -3308,6 +3525,9 @@ PrefabInstance:
       value: White Key (2) g3
 =======
       value: White Key T
+<<<<<<< HEAD
+>>>>>>> parent of f7413fb (sdg)
+=======
 >>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -3324,7 +3544,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_TransformParent: {fileID: 19542970}
+=======
+    m_TransformParent: {fileID: 760468809}
+>>>>>>> parent of f7413fb (sdg)
 =======
     m_TransformParent: {fileID: 760468809}
 >>>>>>> parent of f7413fb (sdg)
@@ -3336,6 +3560,9 @@ PrefabInstance:
       value: Black Key (1) f-4
 =======
       value: Black Key S
+<<<<<<< HEAD
+>>>>>>> parent of f7413fb (sdg)
+=======
 >>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
@@ -3352,7 +3579,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 4
+=======
+      value: 28
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: 28
 >>>>>>> parent of f7413fb (sdg)
@@ -3381,7 +3612,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: -144.7579
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: -144.7579
 >>>>>>> parent of f7413fb (sdg)
@@ -3430,7 +3665,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: 272.6105
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: 272.6105
 >>>>>>> parent of f7413fb (sdg)
@@ -3439,7 +3678,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: 5
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: 5
 >>>>>>> parent of f7413fb (sdg)
@@ -3477,7 +3720,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_TransformParent: {fileID: 416924338}
+=======
+    m_TransformParent: {fileID: 760468809}
+>>>>>>> parent of f7413fb (sdg)
 =======
     m_TransformParent: {fileID: 760468809}
 >>>>>>> parent of f7413fb (sdg)
@@ -3504,6 +3751,9 @@ PrefabInstance:
       value: Black Key (3) a-3
 =======
       value: Black Key 7
+<<<<<<< HEAD
+>>>>>>> parent of f7413fb (sdg)
+=======
 >>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
@@ -3520,7 +3770,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 6
+=======
+      value: 25
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: 25
 >>>>>>> parent of f7413fb (sdg)
@@ -3549,7 +3803,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: -145.38943
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: -145.38943
 >>>>>>> parent of f7413fb (sdg)
@@ -3598,7 +3856,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: -463.09476
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: -463.09476
 >>>>>>> parent of f7413fb (sdg)
@@ -3607,7 +3869,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: 5
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: 5
 >>>>>>> parent of f7413fb (sdg)
@@ -3705,7 +3971,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: -199.99995
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: -199.99995
 >>>>>>> parent of f7413fb (sdg)
@@ -3754,7 +4024,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: -560
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: -560
 >>>>>>> parent of f7413fb (sdg)
@@ -3786,6 +4060,9 @@ PrefabInstance:
       value: White Key (4) b3
 =======
       value: White Key U
+<<<<<<< HEAD
+>>>>>>> parent of f7413fb (sdg)
+=======
 >>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -3796,7 +4073,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_TransformParent: {fileID: 1968784629}
+=======
+    m_TransformParent: {fileID: 760468809}
+>>>>>>> parent of f7413fb (sdg)
 =======
     m_TransformParent: {fileID: 760468809}
 >>>>>>> parent of f7413fb (sdg)
@@ -3808,6 +4089,9 @@ PrefabInstance:
       value: Black Key (2) g-5
 =======
       value: Black Key ;
+<<<<<<< HEAD
+>>>>>>> parent of f7413fb (sdg)
+=======
 >>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
@@ -3824,7 +4108,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 5
+=======
+      value: 34
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: 34
 >>>>>>> parent of f7413fb (sdg)
@@ -3853,7 +4141,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: -143.03162
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: -143.03162
 >>>>>>> parent of f7413fb (sdg)
@@ -3902,7 +4194,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: 399.8947
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: 399.8947
 >>>>>>> parent of f7413fb (sdg)
@@ -3911,7 +4207,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: 5
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: 5
 >>>>>>> parent of f7413fb (sdg)
@@ -3962,6 +4262,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &1053921537
 GameObject:
   m_ObjectHideFlags: 0
@@ -4003,6 +4304,8 @@ RectTransform:
   m_AnchoredPosition: {x: -95, y: 5}
   m_SizeDelta: {x: 140, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
+=======
+>>>>>>> parent of f7413fb (sdg)
 =======
 >>>>>>> parent of f7413fb (sdg)
 --- !u!1001 &1073360635
@@ -4071,7 +4374,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: -277.2619
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: -277.2619
 >>>>>>> parent of f7413fb (sdg)
@@ -4120,7 +4427,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: 191.369
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: 191.369
 >>>>>>> parent of f7413fb (sdg)
@@ -4152,6 +4463,9 @@ PrefabInstance:
       value: White Key (1) c4
 =======
       value: White Key I
+<<<<<<< HEAD
+>>>>>>> parent of f7413fb (sdg)
+=======
 >>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -4162,7 +4476,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_TransformParent: {fileID: 416924338}
+=======
+    m_TransformParent: {fileID: 760468809}
+>>>>>>> parent of f7413fb (sdg)
 =======
     m_TransformParent: {fileID: 760468809}
 >>>>>>> parent of f7413fb (sdg)
@@ -4174,6 +4492,9 @@ PrefabInstance:
       value: Black Key (2) g-3
 =======
       value: Black Key 6
+<<<<<<< HEAD
+>>>>>>> parent of f7413fb (sdg)
+=======
 >>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
@@ -4190,7 +4511,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 5
+=======
+      value: 24
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: 24
 >>>>>>> parent of f7413fb (sdg)
@@ -4219,7 +4544,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: -143.03162
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: -143.03162
 >>>>>>> parent of f7413fb (sdg)
@@ -4268,7 +4597,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: -260.1053
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: -260.1053
 >>>>>>> parent of f7413fb (sdg)
@@ -4277,7 +4610,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: 5
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: 5
 >>>>>>> parent of f7413fb (sdg)
@@ -4405,7 +4742,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: -276.37146
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: -276.37146
 >>>>>>> parent of f7413fb (sdg)
@@ -4454,7 +4795,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: -51.81427
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: -51.81427
 >>>>>>> parent of f7413fb (sdg)
@@ -4486,6 +4831,9 @@ PrefabInstance:
       value: White Key (3) e5
 =======
       value: White Key M
+<<<<<<< HEAD
+>>>>>>> parent of f7413fb (sdg)
+=======
 >>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -4562,7 +4910,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: -196.58948
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: -196.58948
 >>>>>>> parent of f7413fb (sdg)
@@ -4611,7 +4963,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: 701.70526
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: 701.70526
 >>>>>>> parent of f7413fb (sdg)
@@ -4643,6 +4999,9 @@ PrefabInstance:
       value: White Key (1) f5
 =======
       value: White Key ,
+<<<<<<< HEAD
+>>>>>>> parent of f7413fb (sdg)
+=======
 >>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -4718,7 +5077,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: -277.2619
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: -277.2619
 >>>>>>> parent of f7413fb (sdg)
@@ -4767,7 +5130,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: 521.369
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: 521.369
 >>>>>>> parent of f7413fb (sdg)
@@ -4799,6 +5166,9 @@ PrefabInstance:
       value: White Key (1) c5
 =======
       value: White Key B
+<<<<<<< HEAD
+>>>>>>> parent of f7413fb (sdg)
+=======
 >>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -4809,7 +5179,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_TransformParent: {fileID: 1053921538}
+=======
+    m_TransformParent: {fileID: 760468809}
+>>>>>>> parent of f7413fb (sdg)
 =======
     m_TransformParent: {fileID: 760468809}
 >>>>>>> parent of f7413fb (sdg)
@@ -4821,6 +5195,9 @@ PrefabInstance:
       value: Black Key (1) c-4
 =======
       value: Black Key 9
+<<<<<<< HEAD
+>>>>>>> parent of f7413fb (sdg)
+=======
 >>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
@@ -4837,7 +5214,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 3
+=======
+      value: 26
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: 26
 >>>>>>> parent of f7413fb (sdg)
@@ -4866,7 +5247,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: -208.49286
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: -208.49286
 >>>>>>> parent of f7413fb (sdg)
@@ -4915,7 +5300,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: 57.81784
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: 57.81784
 >>>>>>> parent of f7413fb (sdg)
@@ -4924,7 +5313,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: 5
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: 5
 >>>>>>> parent of f7413fb (sdg)
@@ -5069,7 +5462,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: -196.58948
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: -196.58948
 >>>>>>> parent of f7413fb (sdg)
@@ -5118,7 +5515,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: 41.70526
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: 41.70526
 >>>>>>> parent of f7413fb (sdg)
@@ -5150,6 +5551,9 @@ PrefabInstance:
       value: White Key (1) f3
 =======
       value: White Key R
+<<<<<<< HEAD
+>>>>>>> parent of f7413fb (sdg)
+=======
 >>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -5220,7 +5624,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: -196.58948
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: -196.58948
 >>>>>>> parent of f7413fb (sdg)
@@ -5297,6 +5705,9 @@ PrefabInstance:
       value: White Key (1) f4
 =======
       value: White Key Z
+<<<<<<< HEAD
+>>>>>>> parent of f7413fb (sdg)
+=======
 >>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -5307,7 +5718,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_TransformParent: {fileID: 19542970}
+=======
+    m_TransformParent: {fileID: 760468809}
+>>>>>>> parent of f7413fb (sdg)
 =======
     m_TransformParent: {fileID: 760468809}
 >>>>>>> parent of f7413fb (sdg)
@@ -5319,6 +5734,9 @@ PrefabInstance:
       value: Black Key (2) g-4
 =======
       value: Black Key D
+<<<<<<< HEAD
+>>>>>>> parent of f7413fb (sdg)
+=======
 >>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
@@ -5335,7 +5753,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 5
+=======
+      value: 29
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: 29
 >>>>>>> parent of f7413fb (sdg)
@@ -5364,7 +5786,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: -143.03162
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: -143.03162
 >>>>>>> parent of f7413fb (sdg)
@@ -5413,7 +5839,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: 69.894714
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: 69.894714
 >>>>>>> parent of f7413fb (sdg)
@@ -5422,7 +5852,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: 5
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: 5
 >>>>>>> parent of f7413fb (sdg)
@@ -5655,7 +6089,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: -285.1143
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: -285.1143
 >>>>>>> parent of f7413fb (sdg)
@@ -5704,7 +6142,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: -94.99997
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: -94.99997
 >>>>>>> parent of f7413fb (sdg)
@@ -5736,6 +6178,9 @@ PrefabInstance:
       value: White Key (2) d4
 =======
       value: White Key O
+<<<<<<< HEAD
+>>>>>>> parent of f7413fb (sdg)
+=======
 >>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -5806,7 +6251,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: -203.41052
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: -203.41052
 >>>>>>> parent of f7413fb (sdg)
@@ -5855,7 +6304,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: 171.70526
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: 171.70526
 >>>>>>> parent of f7413fb (sdg)
@@ -5887,6 +6340,9 @@ PrefabInstance:
       value: White Key (2) g4
 =======
       value: White Key X
+<<<<<<< HEAD
+>>>>>>> parent of f7413fb (sdg)
+=======
 >>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -5897,7 +6353,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_TransformParent: {fileID: 602060397}
+=======
+    m_TransformParent: {fileID: 760468809}
+>>>>>>> parent of f7413fb (sdg)
 =======
     m_TransformParent: {fileID: 760468809}
 >>>>>>> parent of f7413fb (sdg)
@@ -5914,6 +6374,9 @@ PrefabInstance:
       value: Black Key (1) c-3 - 2
 =======
       value: Black Key 2
+<<<<<<< HEAD
+>>>>>>> parent of f7413fb (sdg)
+=======
 >>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
@@ -5930,7 +6393,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 3
+=======
+      value: 21
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: 21
 >>>>>>> parent of f7413fb (sdg)
@@ -5959,7 +6426,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: -208.49286
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: -208.49286
 >>>>>>> parent of f7413fb (sdg)
@@ -6008,7 +6479,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: -272.18213
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: -272.18213
 >>>>>>> parent of f7413fb (sdg)
@@ -6017,7 +6492,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: 5
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: 5
 >>>>>>> parent of f7413fb (sdg)
@@ -6061,6 +6540,7 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 1440471808}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1 &1764929251
 GameObject:
@@ -6199,6 +6679,8 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 =======
 >>>>>>> parent of f7413fb (sdg)
+=======
+>>>>>>> parent of f7413fb (sdg)
 --- !u!114 &1765420273 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7243773067986925418, guid: 7bc1eba70a2dd2940998b64407303a0a,
@@ -6229,7 +6711,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_TransformParent: {fileID: 1968784629}
+=======
+    m_TransformParent: {fileID: 760468809}
+>>>>>>> parent of f7413fb (sdg)
 =======
     m_TransformParent: {fileID: 760468809}
 >>>>>>> parent of f7413fb (sdg)
@@ -6241,6 +6727,9 @@ PrefabInstance:
       value: Black Key (3) a-5
 =======
       value: Black Key `
+<<<<<<< HEAD
+>>>>>>> parent of f7413fb (sdg)
+=======
 >>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
@@ -6257,7 +6746,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 6
+=======
+      value: 35
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: 35
 >>>>>>> parent of f7413fb (sdg)
@@ -6286,7 +6779,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: -145.38943
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: -145.38943
 >>>>>>> parent of f7413fb (sdg)
@@ -6335,7 +6832,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: 196.90527
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: 196.90527
 >>>>>>> parent of f7413fb (sdg)
@@ -6344,7 +6845,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: 5
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: 5
 >>>>>>> parent of f7413fb (sdg)
@@ -6700,7 +7205,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_TransformParent: {fileID: 416924338}
+=======
+    m_TransformParent: {fileID: 760468809}
+>>>>>>> parent of f7413fb (sdg)
 =======
     m_TransformParent: {fileID: 760468809}
 >>>>>>> parent of f7413fb (sdg)
@@ -6712,6 +7221,9 @@ PrefabInstance:
       value: Black Key (1) f-3
 =======
       value: Black Key 5
+<<<<<<< HEAD
+>>>>>>> parent of f7413fb (sdg)
+=======
 >>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
@@ -6728,7 +7240,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 4
+=======
+      value: 23
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: 23
 >>>>>>> parent of f7413fb (sdg)
@@ -6757,7 +7273,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: -144.7579
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: -144.7579
 >>>>>>> parent of f7413fb (sdg)
@@ -6806,7 +7326,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: -57.38951
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: -57.38951
 >>>>>>> parent of f7413fb (sdg)
@@ -6815,7 +7339,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: 5
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: 5
 >>>>>>> parent of f7413fb (sdg)
@@ -6913,7 +7441,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: -200.00005
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: -200.00005
 >>>>>>> parent of f7413fb (sdg)
@@ -6962,7 +7494,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: -30.000023
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: -30.000023
 >>>>>>> parent of f7413fb (sdg)
@@ -6994,6 +7530,9 @@ PrefabInstance:
       value: White Key (3) a4
 =======
       value: White Key C
+<<<<<<< HEAD
+>>>>>>> parent of f7413fb (sdg)
+=======
 >>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -7053,7 +7592,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_TransformParent: {fileID: 602060397}
+=======
+    m_TransformParent: {fileID: 760468809}
+>>>>>>> parent of f7413fb (sdg)
 =======
     m_TransformParent: {fileID: 760468809}
 >>>>>>> parent of f7413fb (sdg)
@@ -7070,6 +7613,9 @@ PrefabInstance:
       value: Black Key (2) d-3 - 3
 =======
       value: Black Key 3
+<<<<<<< HEAD
+>>>>>>> parent of f7413fb (sdg)
+=======
 >>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
@@ -7086,7 +7632,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 4
+=======
+      value: 22
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: 22
 >>>>>>> parent of f7413fb (sdg)
@@ -7115,7 +7665,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: -209.34286
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: -209.34286
 >>>>>>> parent of f7413fb (sdg)
@@ -7164,7 +7718,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: -578.24286
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: -578.24286
 >>>>>>> parent of f7413fb (sdg)
@@ -7173,7 +7731,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: 5
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: 5
 >>>>>>> parent of f7413fb (sdg)
@@ -7277,7 +7839,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: -200.00005
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: -200.00005
 >>>>>>> parent of f7413fb (sdg)
@@ -7326,7 +7892,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: 300
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: 300
 >>>>>>> parent of f7413fb (sdg)
@@ -7358,6 +7928,9 @@ PrefabInstance:
       value: White Key (3) a5
 =======
       value: White Key /
+<<<<<<< HEAD
+>>>>>>> parent of f7413fb (sdg)
+=======
 >>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -7550,7 +8123,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: -200.00005
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: -200.00005
 >>>>>>> parent of f7413fb (sdg)
@@ -7599,7 +8176,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0
+=======
+      value: -360
+>>>>>>> parent of f7413fb (sdg)
 =======
       value: -360
 >>>>>>> parent of f7413fb (sdg)
@@ -7631,6 +8212,9 @@ PrefabInstance:
       value: White Key (3) a3
 =======
       value: White Key Y
+<<<<<<< HEAD
+>>>>>>> parent of f7413fb (sdg)
+=======
 >>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
