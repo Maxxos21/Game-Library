@@ -2,52 +2,58 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using Lean;
 
-public class PianoController : MonoBehaviour
+namespace Lean.Transition.Method
 {
-    [SerializeField] private List<PianoKey> correctSequence = new List<PianoKey>();
-    private List<PianoKey> playerSequence = new List<PianoKey>();
-
-    public void AddToSequence(PianoKey currentKey)
+    public class PianoController : MonoBehaviour
     {
-        // Add the key from event to the player sequence
-        playerSequence.Add(currentKey);
+        [SerializeField] private List<PianoKey> correctSequence = new List<PianoKey>();
+        private List<PianoKey> playerSequence = new List<PianoKey>();
+        [SerializeField] private LeanRectTransformAnchoredPosition_y boxPosition;
 
-        // Check if the player played an incorrect key
-        for (int i = 0; i < playerSequence.Count; i++)
-        {
-            if (playerSequence[i] != correctSequence[i])
-            {
-                // Clear the player sequence and return
-                playerSequence.Clear();
-                return;
-            }
-        }
 
-        // If the player sequence is the same length as the correct sequence, check if it's correct
-        if (playerSequence.Count == correctSequence.Count)
+
+        public void AddToSequence(PianoKey currentKey)
         {
-            bool isCorrect = true; // set to true, assume correct until proven wrong
-            for (int i = 0; i < correctSequence.Count; i++)
+            // Add the key from event to the player sequence
+            playerSequence.Add(currentKey);
+
+            // Check if the player played an incorrect key
+            for (int i = 0; i < playerSequence.Count; i++)
             {
-                if (playerSequence[i].name != correctSequence[i].name)
+                if (playerSequence[i] != correctSequence[i])
                 {
-                    isCorrect = false;
-                    break;
+                    // Clear the player sequence and return
+                    playerSequence.Clear();
+                    return;
                 }
             }
 
-            if (isCorrect)
+            // If the player sequence is the same length as the correct sequence, check if it's correct
+            if (playerSequence.Count == correctSequence.Count)
             {
-                Debug.Log("Win");
-            }
-            else
-            {
-                Debug.Log("Lost");
-            }
+                bool isCorrect = true; // set to true, assume correct until proven wrong
+                for (int i = 0; i < correctSequence.Count; i++)
+                {
+                    if (playerSequence[i].name != correctSequence[i].name)
+                    {
+                        isCorrect = false;
+                        break;
+                    }
+                }
 
-            // Clear the player sequence for the next round
-            playerSequence.Clear();
+                if (isCorrect)
+                {
+                    boxPosition.Register();
+                }
+                else
+                {
+                    Debug.Log("Lost");
+                }
+
+                playerSequence.Clear();
+            }
         }
     }
 }

@@ -4,28 +4,32 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 
 
-public class PianoKey : MonoBehaviour, IPointerDownHandler
+namespace Lean.Transition.Method
 {
-    [SerializeField] private AudioClip audioClip;
-    [SerializeField] private AudioSource audioSource;
-    private PianoController pianoController;
-
-    private void Awake()
+    public class PianoKey : MonoBehaviour, IPointerDownHandler
     {
-        pianoController = FindObjectOfType<PianoController>();
-    }
-
-    public void PlaySound()
-    {
-        audioSource.PlayOneShot(audioClip);
-    }
+        [SerializeField] private AudioClip audioClip;
+        [SerializeField] private AudioSource audioSource;
+        private PianoController pianoController;
 
 
-    public void OnPointerDown(PointerEventData eventData)
-    {
-        if (pianoController != null)
+        private void Awake()
         {
-            pianoController.AddToSequence(this);
+            pianoController = FindObjectOfType<PianoController>();
+        }
+
+        public void PlaySound()
+        {
+            audioSource.PlayOneShot(audioClip);
+        }
+
+
+        public void OnPointerDown(PointerEventData eventData)
+        {
+            if (pianoController != null)
+            {
+                pianoController.AddToSequence(this);
+            }
         }
     }
 }
