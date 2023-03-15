@@ -5227,9 +5227,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "It looks like you got one out of the three questions correct. \n\nUnfortunately,
-    you need the right answer for all three questions to make the arrest.\r\n\nMaybe
-    you should look over the evidence one more time."
+  m_text: 'You need the right answer for all three questions to make the arrest.
+
+
+    Maybe
+    you should look over the evidence one more time.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c9f0ab9a170fa4c3596972aa1db04a9a, type: 2}
   m_sharedMaterial: {fileID: 2081446301306759604, guid: c9f0ab9a170fa4c3596972aa1db04a9a,
