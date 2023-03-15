@@ -188,7 +188,11 @@ PrefabInstance:
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_SizeDelta.x
+<<<<<<< HEAD
       value: 0
+=======
+      value: -199.99995
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
@@ -233,12 +237,16 @@ PrefabInstance:
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_AnchoredPosition.x
+<<<<<<< HEAD
       value: 0
+=======
+      value: -230.00003
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
@@ -258,7 +266,11 @@ PrefabInstance:
     - target: {fileID: 7243773067986925423, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_Name
+<<<<<<< HEAD
       value: White Key (4) b4
+=======
+      value: White Key V
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7bc1eba70a2dd2940998b64407303a0a, type: 3}
@@ -376,7 +388,11 @@ PrefabInstance:
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_SizeDelta.x
+<<<<<<< HEAD
       value: 0
+=======
+      value: -285.1143
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
@@ -421,12 +437,16 @@ PrefabInstance:
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_AnchoredPosition.x
+<<<<<<< HEAD
       value: 0
+=======
+      value: -424.99994
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
@@ -446,7 +466,11 @@ PrefabInstance:
     - target: {fileID: 7243773067986925423, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_Name
+<<<<<<< HEAD
       value: White Key (2) d3 -W
+=======
+      value: White Key W
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7bc1eba70a2dd2940998b64407303a0a, type: 3}
@@ -456,6 +480,7 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 34906043}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 --- !u!1 &43948430
 GameObject:
   m_ObjectHideFlags: 0
@@ -591,6 +616,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 43948430}
   m_CullTransparentMesh: 1
+=======
+>>>>>>> parent of f7413fb (sdg)
 --- !u!224 &74215795 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
@@ -668,7 +695,11 @@ PrefabInstance:
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_SizeDelta.x
+<<<<<<< HEAD
       value: 0
+=======
+      value: -285.1143
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
@@ -713,12 +744,16 @@ PrefabInstance:
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_AnchoredPosition.x
+<<<<<<< HEAD
       value: 0
+=======
+      value: 235.00003
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
@@ -738,7 +773,11 @@ PrefabInstance:
     - target: {fileID: 7243773067986925423, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_Name
+<<<<<<< HEAD
       value: White Key (2) d5
+=======
+      value: White Key N
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7bc1eba70a2dd2940998b64407303a0a, type: 3}
@@ -753,12 +792,20 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+<<<<<<< HEAD
     m_TransformParent: {fileID: 1482404324}
+=======
+    m_TransformParent: {fileID: 760468809}
+>>>>>>> parent of f7413fb (sdg)
     m_Modifications:
     - target: {fileID: 7002251043739385570, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_Name
+<<<<<<< HEAD
       value: Black Key (1) c-5
+=======
+      value: Black Key H
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
@@ -773,7 +820,11 @@ PrefabInstance:
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 3
+=======
+      value: 31
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
@@ -798,7 +849,11 @@ PrefabInstance:
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_SizeDelta.x
+<<<<<<< HEAD
       value: 0
+=======
+      value: -208.49286
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
@@ -843,12 +898,20 @@ PrefabInstance:
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_AnchoredPosition.x
+<<<<<<< HEAD
       value: 0
+=======
+      value: 387.81784
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_AnchoredPosition.y
+<<<<<<< HEAD
       value: 0
+=======
+      value: 5
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
@@ -882,12 +945,20 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+<<<<<<< HEAD
     m_TransformParent: {fileID: 1053921538}
+=======
+    m_TransformParent: {fileID: 760468809}
+>>>>>>> parent of f7413fb (sdg)
     m_Modifications:
     - target: {fileID: 7002251043739385570, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_Name
+<<<<<<< HEAD
       value: Black Key (2) d-4
+=======
+      value: Black Key 0
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
@@ -902,7 +973,11 @@ PrefabInstance:
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 4
+=======
+      value: 27
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
@@ -927,7 +1002,11 @@ PrefabInstance:
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_SizeDelta.x
+<<<<<<< HEAD
       value: 0
+=======
+      value: -209.34286
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
@@ -972,12 +1051,20 @@ PrefabInstance:
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_AnchoredPosition.x
+<<<<<<< HEAD
       value: 0
+=======
+      value: -248.24283
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_AnchoredPosition.y
+<<<<<<< HEAD
       value: 0
+=======
+      value: 5
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
@@ -1164,12 +1251,20 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+<<<<<<< HEAD
     m_TransformParent: {fileID: 1482404324}
+=======
+    m_TransformParent: {fileID: 760468809}
+>>>>>>> parent of f7413fb (sdg)
     m_Modifications:
     - target: {fileID: 7002251043739385570, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_Name
+<<<<<<< HEAD
       value: Black Key (2) d-5
+=======
+      value: Black Key J
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
@@ -1184,7 +1279,11 @@ PrefabInstance:
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 4
+=======
+      value: 32
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
@@ -1209,7 +1308,11 @@ PrefabInstance:
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_SizeDelta.x
+<<<<<<< HEAD
       value: 0
+=======
+      value: -209.34286
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
@@ -1254,12 +1357,20 @@ PrefabInstance:
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_AnchoredPosition.x
+<<<<<<< HEAD
       value: 0
+=======
+      value: 81.75714
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_AnchoredPosition.y
+<<<<<<< HEAD
       value: 0
+=======
+      value: 5
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
@@ -1359,7 +1470,11 @@ PrefabInstance:
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_SizeDelta.x
+<<<<<<< HEAD
       value: 0
+=======
+      value: -276.37146
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
@@ -1404,12 +1519,16 @@ PrefabInstance:
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_AnchoredPosition.x
+<<<<<<< HEAD
       value: 0
+=======
+      value: -381.81427
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
@@ -1429,7 +1548,11 @@ PrefabInstance:
     - target: {fileID: 7243773067986925423, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_Name
+<<<<<<< HEAD
       value: White Key (3) e4
+=======
+      value: White Key P
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7bc1eba70a2dd2940998b64407303a0a, type: 3}
@@ -1526,6 +1649,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 488578187}
+<<<<<<< HEAD
   - {fileID: 602060397}
   - {fileID: 416924338}
   - {fileID: 1053921538}
@@ -1533,6 +1657,9 @@ RectTransform:
   - {fileID: 1482404324}
   - {fileID: 1968784629}
   - {fileID: 1827449714}
+=======
+  - {fileID: 760468809}
+>>>>>>> parent of f7413fb (sdg)
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1612,7 +1739,11 @@ PrefabInstance:
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_SizeDelta.x
+<<<<<<< HEAD
       value: 0
+=======
+      value: -276.37146
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
@@ -1657,12 +1788,16 @@ PrefabInstance:
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_AnchoredPosition.x
+<<<<<<< HEAD
       value: 0
+=======
+      value: -711.8143
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
@@ -1682,7 +1817,11 @@ PrefabInstance:
     - target: {fileID: 7243773067986925423, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_Name
+<<<<<<< HEAD
       value: White Key (3) e3 - E
+=======
+      value: White Key E
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7bc1eba70a2dd2940998b64407303a0a, type: 3}
@@ -1805,7 +1944,11 @@ PrefabInstance:
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_SizeDelta.x
+<<<<<<< HEAD
       value: 0
+=======
+      value: -277.2619
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
@@ -1850,12 +1993,16 @@ PrefabInstance:
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_AnchoredPosition.x
+<<<<<<< HEAD
       value: 0
+=======
+      value: -138.63098
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
@@ -1875,7 +2022,11 @@ PrefabInstance:
     - target: {fileID: 7243773067986925423, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_Name
+<<<<<<< HEAD
       value: White Key (1) c3 - Q
+=======
+      value: White Key Q
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7bc1eba70a2dd2940998b64407303a0a, type: 3}
@@ -1890,12 +2041,20 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+<<<<<<< HEAD
     m_TransformParent: {fileID: 19542970}
+=======
+    m_TransformParent: {fileID: 760468809}
+>>>>>>> parent of f7413fb (sdg)
     m_Modifications:
     - target: {fileID: 7002251043739385570, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_Name
+<<<<<<< HEAD
       value: Black Key (3) a-4
+=======
+      value: Black Key F
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
@@ -1910,7 +2069,11 @@ PrefabInstance:
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 6
+=======
+      value: 30
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
@@ -1935,7 +2098,11 @@ PrefabInstance:
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_SizeDelta.x
+<<<<<<< HEAD
       value: 0
+=======
+      value: -145.38943
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
@@ -1980,12 +2147,20 @@ PrefabInstance:
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_AnchoredPosition.x
+<<<<<<< HEAD
       value: 0
+=======
+      value: -133.09477
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_AnchoredPosition.y
+<<<<<<< HEAD
       value: 0
+=======
+      value: 5
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
@@ -2155,7 +2330,11 @@ PrefabInstance:
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_SizeDelta.x
+<<<<<<< HEAD
       value: 0
+=======
+      value: -199.99995
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
@@ -2200,12 +2379,16 @@ PrefabInstance:
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_AnchoredPosition.x
+<<<<<<< HEAD
       value: 0
+=======
+      value: 99.99997
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
@@ -2225,7 +2408,11 @@ PrefabInstance:
     - target: {fileID: 7243773067986925423, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_Name
+<<<<<<< HEAD
       value: White Key (4) b5
+=======
+      value: White Key NA
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7bc1eba70a2dd2940998b64407303a0a, type: 3}
@@ -2589,7 +2776,11 @@ PrefabInstance:
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_SizeDelta.x
+<<<<<<< HEAD
       value: 0
+=======
+      value: -203.41052
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
@@ -2634,12 +2825,16 @@ PrefabInstance:
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_AnchoredPosition.x
+<<<<<<< HEAD
       value: 0
+=======
+      value: 501.7053
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
@@ -2659,7 +2854,11 @@ PrefabInstance:
     - target: {fileID: 7243773067986925423, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_Name
+<<<<<<< HEAD
       value: White Key (2) g5
+=======
+      value: White Key .
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7bc1eba70a2dd2940998b64407303a0a, type: 3}
@@ -2721,12 +2920,20 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+<<<<<<< HEAD
     m_TransformParent: {fileID: 1968784629}
+=======
+    m_TransformParent: {fileID: 760468809}
+>>>>>>> parent of f7413fb (sdg)
     m_Modifications:
     - target: {fileID: 7002251043739385570, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_Name
+<<<<<<< HEAD
       value: Black Key (1) f-5
+=======
+      value: Black Key L
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
@@ -2741,7 +2948,11 @@ PrefabInstance:
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 4
+=======
+      value: 33
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
@@ -2766,7 +2977,11 @@ PrefabInstance:
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_SizeDelta.x
+<<<<<<< HEAD
       value: 0
+=======
+      value: -144.7579
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
@@ -2811,12 +3026,20 @@ PrefabInstance:
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_AnchoredPosition.x
+<<<<<<< HEAD
       value: 0
+=======
+      value: 602.61053
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_AnchoredPosition.y
+<<<<<<< HEAD
       value: 0
+=======
+      value: 5
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
@@ -2857,6 +3080,81 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 954232067}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+=======
+--- !u!1 &760468808
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 760468809}
+  m_Layer: 5
+  m_Name: Piano
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &760468809
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 760468808}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 451673023}
+  - {fileID: 34906044}
+  - {fileID: 413412831}
+  - {fileID: 393368028}
+  - {fileID: 325117047}
+  - {fileID: 725894387}
+  - {fileID: 742501956}
+  - {fileID: 1387610781}
+  - {fileID: 2113781926}
+  - {fileID: 765102421}
+  - {fileID: 1041197573}
+  - {fileID: 266142154}
+  - {fileID: 1503322442}
+  - {fileID: 1203700921}
+  - {fileID: 187977369}
+  - {fileID: 1102005076}
+  - {fileID: 2129581727}
+  - {fileID: 307839021}
+  - {fileID: 16580987}
+  - {fileID: 666076218}
+  - {fileID: 74215795}
+  - {fileID: 1709429054}
+  - {fileID: 1979560789}
+  - {fileID: 118997340}
+  - {fileID: 1861354368}
+  - {fileID: 1940937674}
+  - {fileID: 1753256203}
+  - {fileID: 263461501}
+  - {fileID: 1114534336}
+  - {fileID: 1804051162}
+  - {fileID: 1342821969}
+  - {fileID: 644790880}
+  - {fileID: 1324385323}
+  - {fileID: 1787762479}
+  - {fileID: 2079035470}
+  - {fileID: 888332768}
+  m_Father: {fileID: 383819579}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 990, y: 300}
+  m_Pivot: {x: 0.5, y: 0.5}
+>>>>>>> parent of f7413fb (sdg)
 --- !u!224 &765102421 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
@@ -2928,7 +3226,11 @@ PrefabInstance:
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_SizeDelta.x
+<<<<<<< HEAD
       value: 0
+=======
+      value: -203.41052
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
@@ -2973,12 +3275,16 @@ PrefabInstance:
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_AnchoredPosition.x
+<<<<<<< HEAD
       value: 0
+=======
+      value: -158.29468
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
@@ -2998,7 +3304,11 @@ PrefabInstance:
     - target: {fileID: 7243773067986925423, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_Name
+<<<<<<< HEAD
       value: White Key (2) g3
+=======
+      value: White Key T
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7bc1eba70a2dd2940998b64407303a0a, type: 3}
@@ -3013,12 +3323,20 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+<<<<<<< HEAD
     m_TransformParent: {fileID: 19542970}
+=======
+    m_TransformParent: {fileID: 760468809}
+>>>>>>> parent of f7413fb (sdg)
     m_Modifications:
     - target: {fileID: 7002251043739385570, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_Name
+<<<<<<< HEAD
       value: Black Key (1) f-4
+=======
+      value: Black Key S
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
@@ -3033,7 +3351,11 @@ PrefabInstance:
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 4
+=======
+      value: 28
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
@@ -3058,7 +3380,11 @@ PrefabInstance:
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_SizeDelta.x
+<<<<<<< HEAD
       value: 0
+=======
+      value: -144.7579
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
@@ -3103,12 +3429,20 @@ PrefabInstance:
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_AnchoredPosition.x
+<<<<<<< HEAD
       value: 0
+=======
+      value: 272.6105
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_AnchoredPosition.y
+<<<<<<< HEAD
       value: 0
+=======
+      value: 5
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
@@ -3142,7 +3476,11 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+<<<<<<< HEAD
     m_TransformParent: {fileID: 416924338}
+=======
+    m_TransformParent: {fileID: 760468809}
+>>>>>>> parent of f7413fb (sdg)
     m_Modifications:
     - target: {fileID: 7002251043739385568, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
@@ -3162,7 +3500,11 @@ PrefabInstance:
     - target: {fileID: 7002251043739385570, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_Name
+<<<<<<< HEAD
       value: Black Key (3) a-3
+=======
+      value: Black Key 7
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
@@ -3177,7 +3519,11 @@ PrefabInstance:
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 6
+=======
+      value: 25
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
@@ -3202,7 +3548,11 @@ PrefabInstance:
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_SizeDelta.x
+<<<<<<< HEAD
       value: 0
+=======
+      value: -145.38943
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
@@ -3247,12 +3597,20 @@ PrefabInstance:
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_AnchoredPosition.x
+<<<<<<< HEAD
       value: 0
+=======
+      value: -463.09476
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_AnchoredPosition.y
+<<<<<<< HEAD
       value: 0
+=======
+      value: 5
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
@@ -3346,7 +3704,11 @@ PrefabInstance:
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_SizeDelta.x
+<<<<<<< HEAD
       value: 0
+=======
+      value: -199.99995
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
@@ -3391,12 +3753,16 @@ PrefabInstance:
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_AnchoredPosition.x
+<<<<<<< HEAD
       value: 0
+=======
+      value: -560
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
@@ -3416,7 +3782,11 @@ PrefabInstance:
     - target: {fileID: 7243773067986925423, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_Name
+<<<<<<< HEAD
       value: White Key (4) b3
+=======
+      value: White Key U
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7bc1eba70a2dd2940998b64407303a0a, type: 3}
@@ -3425,12 +3795,20 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+<<<<<<< HEAD
     m_TransformParent: {fileID: 1968784629}
+=======
+    m_TransformParent: {fileID: 760468809}
+>>>>>>> parent of f7413fb (sdg)
     m_Modifications:
     - target: {fileID: 7002251043739385570, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_Name
+<<<<<<< HEAD
       value: Black Key (2) g-5
+=======
+      value: Black Key ;
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
@@ -3445,7 +3823,11 @@ PrefabInstance:
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 5
+=======
+      value: 34
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
@@ -3470,7 +3852,11 @@ PrefabInstance:
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_SizeDelta.x
+<<<<<<< HEAD
       value: 0
+=======
+      value: -143.03162
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
@@ -3515,12 +3901,20 @@ PrefabInstance:
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_AnchoredPosition.x
+<<<<<<< HEAD
       value: 0
+=======
+      value: 399.8947
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_AnchoredPosition.y
+<<<<<<< HEAD
       value: 0
+=======
+      value: 5
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
@@ -3567,6 +3961,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 757229d366a41fd4ebad118283e7336f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
 --- !u!1 &1053921537
 GameObject:
   m_ObjectHideFlags: 0
@@ -3608,6 +4003,8 @@ RectTransform:
   m_AnchoredPosition: {x: -95, y: 5}
   m_SizeDelta: {x: 140, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
+=======
+>>>>>>> parent of f7413fb (sdg)
 --- !u!1001 &1073360635
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3673,7 +4070,11 @@ PrefabInstance:
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_SizeDelta.x
+<<<<<<< HEAD
       value: 0
+=======
+      value: -277.2619
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
@@ -3718,12 +4119,16 @@ PrefabInstance:
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_AnchoredPosition.x
+<<<<<<< HEAD
       value: 0
+=======
+      value: 191.369
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
@@ -3743,7 +4148,11 @@ PrefabInstance:
     - target: {fileID: 7243773067986925423, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_Name
+<<<<<<< HEAD
       value: White Key (1) c4
+=======
+      value: White Key I
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7bc1eba70a2dd2940998b64407303a0a, type: 3}
@@ -3752,12 +4161,20 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+<<<<<<< HEAD
     m_TransformParent: {fileID: 416924338}
+=======
+    m_TransformParent: {fileID: 760468809}
+>>>>>>> parent of f7413fb (sdg)
     m_Modifications:
     - target: {fileID: 7002251043739385570, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_Name
+<<<<<<< HEAD
       value: Black Key (2) g-3
+=======
+      value: Black Key 6
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
@@ -3772,7 +4189,11 @@ PrefabInstance:
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 5
+=======
+      value: 24
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
@@ -3797,7 +4218,11 @@ PrefabInstance:
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_SizeDelta.x
+<<<<<<< HEAD
       value: 0
+=======
+      value: -143.03162
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
@@ -3842,12 +4267,20 @@ PrefabInstance:
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_AnchoredPosition.x
+<<<<<<< HEAD
       value: 0
+=======
+      value: -260.1053
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_AnchoredPosition.y
+<<<<<<< HEAD
       value: 0
+=======
+      value: 5
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
@@ -3971,7 +4404,11 @@ PrefabInstance:
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_SizeDelta.x
+<<<<<<< HEAD
       value: 0
+=======
+      value: -276.37146
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
@@ -4016,12 +4453,16 @@ PrefabInstance:
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_AnchoredPosition.x
+<<<<<<< HEAD
       value: 0
+=======
+      value: -51.81427
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
@@ -4041,7 +4482,11 @@ PrefabInstance:
     - target: {fileID: 7243773067986925423, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_Name
+<<<<<<< HEAD
       value: White Key (3) e5
+=======
+      value: White Key M
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7bc1eba70a2dd2940998b64407303a0a, type: 3}
@@ -4116,7 +4561,11 @@ PrefabInstance:
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_SizeDelta.x
+<<<<<<< HEAD
       value: 0
+=======
+      value: -196.58948
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
@@ -4161,12 +4610,16 @@ PrefabInstance:
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_AnchoredPosition.x
+<<<<<<< HEAD
       value: 0
+=======
+      value: 701.70526
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
@@ -4186,7 +4639,11 @@ PrefabInstance:
     - target: {fileID: 7243773067986925423, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_Name
+<<<<<<< HEAD
       value: White Key (1) f5
+=======
+      value: White Key ,
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7bc1eba70a2dd2940998b64407303a0a, type: 3}
@@ -4260,7 +4717,11 @@ PrefabInstance:
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_SizeDelta.x
+<<<<<<< HEAD
       value: 0
+=======
+      value: -277.2619
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
@@ -4305,12 +4766,16 @@ PrefabInstance:
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_AnchoredPosition.x
+<<<<<<< HEAD
       value: 0
+=======
+      value: 521.369
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
@@ -4330,7 +4795,11 @@ PrefabInstance:
     - target: {fileID: 7243773067986925423, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_Name
+<<<<<<< HEAD
       value: White Key (1) c5
+=======
+      value: White Key B
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7bc1eba70a2dd2940998b64407303a0a, type: 3}
@@ -4339,12 +4808,20 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+<<<<<<< HEAD
     m_TransformParent: {fileID: 1053921538}
+=======
+    m_TransformParent: {fileID: 760468809}
+>>>>>>> parent of f7413fb (sdg)
     m_Modifications:
     - target: {fileID: 7002251043739385570, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_Name
+<<<<<<< HEAD
       value: Black Key (1) c-4
+=======
+      value: Black Key 9
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
@@ -4359,7 +4836,11 @@ PrefabInstance:
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 3
+=======
+      value: 26
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
@@ -4384,7 +4865,11 @@ PrefabInstance:
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_SizeDelta.x
+<<<<<<< HEAD
       value: 0
+=======
+      value: -208.49286
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
@@ -4429,12 +4914,20 @@ PrefabInstance:
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_AnchoredPosition.x
+<<<<<<< HEAD
       value: 0
+=======
+      value: 57.81784
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_AnchoredPosition.y
+<<<<<<< HEAD
       value: 0
+=======
+      value: 5
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
@@ -4575,7 +5068,11 @@ PrefabInstance:
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_SizeDelta.x
+<<<<<<< HEAD
       value: 0
+=======
+      value: -196.58948
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
@@ -4620,12 +5117,16 @@ PrefabInstance:
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_AnchoredPosition.x
+<<<<<<< HEAD
       value: 0
+=======
+      value: 41.70526
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
@@ -4645,7 +5146,11 @@ PrefabInstance:
     - target: {fileID: 7243773067986925423, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_Name
+<<<<<<< HEAD
       value: White Key (1) f3
+=======
+      value: White Key R
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7bc1eba70a2dd2940998b64407303a0a, type: 3}
@@ -4714,7 +5219,11 @@ PrefabInstance:
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_SizeDelta.x
+<<<<<<< HEAD
       value: 0
+=======
+      value: -196.58948
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
@@ -4759,12 +5268,12 @@ PrefabInstance:
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 371.70526
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
@@ -4784,7 +5293,11 @@ PrefabInstance:
     - target: {fileID: 7243773067986925423, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_Name
+<<<<<<< HEAD
       value: White Key (1) f4
+=======
+      value: White Key Z
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7bc1eba70a2dd2940998b64407303a0a, type: 3}
@@ -4793,12 +5306,20 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+<<<<<<< HEAD
     m_TransformParent: {fileID: 19542970}
+=======
+    m_TransformParent: {fileID: 760468809}
+>>>>>>> parent of f7413fb (sdg)
     m_Modifications:
     - target: {fileID: 7002251043739385570, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_Name
+<<<<<<< HEAD
       value: Black Key (2) g-4
+=======
+      value: Black Key D
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
@@ -4813,7 +5334,11 @@ PrefabInstance:
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 5
+=======
+      value: 29
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
@@ -4838,7 +5363,11 @@ PrefabInstance:
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_SizeDelta.x
+<<<<<<< HEAD
       value: 0
+=======
+      value: -143.03162
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
@@ -4883,12 +5412,20 @@ PrefabInstance:
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_AnchoredPosition.x
+<<<<<<< HEAD
       value: 0
+=======
+      value: 69.894714
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_AnchoredPosition.y
+<<<<<<< HEAD
       value: 0
+=======
+      value: 5
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
@@ -5117,7 +5654,11 @@ PrefabInstance:
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_SizeDelta.x
+<<<<<<< HEAD
       value: 0
+=======
+      value: -285.1143
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
@@ -5162,12 +5703,16 @@ PrefabInstance:
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_AnchoredPosition.x
+<<<<<<< HEAD
       value: 0
+=======
+      value: -94.99997
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
@@ -5187,7 +5732,11 @@ PrefabInstance:
     - target: {fileID: 7243773067986925423, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_Name
+<<<<<<< HEAD
       value: White Key (2) d4
+=======
+      value: White Key O
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7bc1eba70a2dd2940998b64407303a0a, type: 3}
@@ -5256,7 +5805,11 @@ PrefabInstance:
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_SizeDelta.x
+<<<<<<< HEAD
       value: 0
+=======
+      value: -203.41052
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
@@ -5301,12 +5854,16 @@ PrefabInstance:
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_AnchoredPosition.x
+<<<<<<< HEAD
       value: 0
+=======
+      value: 171.70526
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
@@ -5326,7 +5883,11 @@ PrefabInstance:
     - target: {fileID: 7243773067986925423, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_Name
+<<<<<<< HEAD
       value: White Key (2) g4
+=======
+      value: White Key X
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7bc1eba70a2dd2940998b64407303a0a, type: 3}
@@ -5335,7 +5896,11 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+<<<<<<< HEAD
     m_TransformParent: {fileID: 602060397}
+=======
+    m_TransformParent: {fileID: 760468809}
+>>>>>>> parent of f7413fb (sdg)
     m_Modifications:
     - target: {fileID: 78085328012590249, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
@@ -5345,7 +5910,11 @@ PrefabInstance:
     - target: {fileID: 7002251043739385570, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_Name
+<<<<<<< HEAD
       value: Black Key (1) c-3 - 2
+=======
+      value: Black Key 2
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
@@ -5360,7 +5929,11 @@ PrefabInstance:
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 3
+=======
+      value: 21
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
@@ -5385,7 +5958,11 @@ PrefabInstance:
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_SizeDelta.x
+<<<<<<< HEAD
       value: 0
+=======
+      value: -208.49286
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
@@ -5430,12 +6007,20 @@ PrefabInstance:
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_AnchoredPosition.x
+<<<<<<< HEAD
       value: 0
+=======
+      value: -272.18213
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_AnchoredPosition.y
+<<<<<<< HEAD
       value: 0
+=======
+      value: 5
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
@@ -5476,6 +6061,7 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 1440471808}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 --- !u!1 &1764929251
 GameObject:
   m_ObjectHideFlags: 0
@@ -5611,6 +6197,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1764929251}
   m_CullTransparentMesh: 1
+=======
+>>>>>>> parent of f7413fb (sdg)
 --- !u!114 &1765420273 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7243773067986925418, guid: 7bc1eba70a2dd2940998b64407303a0a,
@@ -5640,12 +6228,20 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+<<<<<<< HEAD
     m_TransformParent: {fileID: 1968784629}
+=======
+    m_TransformParent: {fileID: 760468809}
+>>>>>>> parent of f7413fb (sdg)
     m_Modifications:
     - target: {fileID: 7002251043739385570, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_Name
+<<<<<<< HEAD
       value: Black Key (3) a-5
+=======
+      value: Black Key `
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
@@ -5660,7 +6256,11 @@ PrefabInstance:
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 6
+=======
+      value: 35
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
@@ -5685,7 +6285,11 @@ PrefabInstance:
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_SizeDelta.x
+<<<<<<< HEAD
       value: 0
+=======
+      value: -145.38943
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
@@ -5730,12 +6334,20 @@ PrefabInstance:
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_AnchoredPosition.x
+<<<<<<< HEAD
       value: 0
+=======
+      value: 196.90527
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_AnchoredPosition.y
+<<<<<<< HEAD
       value: 0
+=======
+      value: 5
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
@@ -6087,12 +6699,20 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+<<<<<<< HEAD
     m_TransformParent: {fileID: 416924338}
+=======
+    m_TransformParent: {fileID: 760468809}
+>>>>>>> parent of f7413fb (sdg)
     m_Modifications:
     - target: {fileID: 7002251043739385570, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_Name
+<<<<<<< HEAD
       value: Black Key (1) f-3
+=======
+      value: Black Key 5
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
@@ -6107,7 +6727,11 @@ PrefabInstance:
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 4
+=======
+      value: 23
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
@@ -6132,7 +6756,11 @@ PrefabInstance:
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_SizeDelta.x
+<<<<<<< HEAD
       value: 0
+=======
+      value: -144.7579
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
@@ -6177,12 +6805,20 @@ PrefabInstance:
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_AnchoredPosition.x
+<<<<<<< HEAD
       value: 0
+=======
+      value: -57.38951
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_AnchoredPosition.y
+<<<<<<< HEAD
       value: 0
+=======
+      value: 5
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
@@ -6276,7 +6912,11 @@ PrefabInstance:
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_SizeDelta.x
+<<<<<<< HEAD
       value: 0
+=======
+      value: -200.00005
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
@@ -6321,12 +6961,16 @@ PrefabInstance:
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_AnchoredPosition.x
+<<<<<<< HEAD
       value: 0
+=======
+      value: -30.000023
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
@@ -6346,7 +6990,11 @@ PrefabInstance:
     - target: {fileID: 7243773067986925423, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_Name
+<<<<<<< HEAD
       value: White Key (3) a4
+=======
+      value: White Key C
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7bc1eba70a2dd2940998b64407303a0a, type: 3}
@@ -6404,7 +7052,11 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+<<<<<<< HEAD
     m_TransformParent: {fileID: 602060397}
+=======
+    m_TransformParent: {fileID: 760468809}
+>>>>>>> parent of f7413fb (sdg)
     m_Modifications:
     - target: {fileID: 78085328012590249, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
@@ -6414,7 +7066,11 @@ PrefabInstance:
     - target: {fileID: 7002251043739385570, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_Name
+<<<<<<< HEAD
       value: Black Key (2) d-3 - 3
+=======
+      value: Black Key 3
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
@@ -6429,7 +7085,11 @@ PrefabInstance:
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 4
+=======
+      value: 22
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
@@ -6454,7 +7114,11 @@ PrefabInstance:
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_SizeDelta.x
+<<<<<<< HEAD
       value: 0
+=======
+      value: -209.34286
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
@@ -6499,12 +7163,20 @@ PrefabInstance:
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_AnchoredPosition.x
+<<<<<<< HEAD
       value: 0
+=======
+      value: -578.24286
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
       propertyPath: m_AnchoredPosition.y
+<<<<<<< HEAD
       value: 0
+=======
+      value: 5
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7002251043739385571, guid: adc0da85b1234cc459fd2f24977dd3b8,
         type: 3}
@@ -6604,7 +7276,11 @@ PrefabInstance:
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_SizeDelta.x
+<<<<<<< HEAD
       value: 0
+=======
+      value: -200.00005
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
@@ -6649,12 +7325,16 @@ PrefabInstance:
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_AnchoredPosition.x
+<<<<<<< HEAD
       value: 0
+=======
+      value: 300
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
@@ -6674,7 +7354,11 @@ PrefabInstance:
     - target: {fileID: 7243773067986925423, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_Name
+<<<<<<< HEAD
       value: White Key (3) a5
+=======
+      value: White Key /
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7bc1eba70a2dd2940998b64407303a0a, type: 3}
@@ -6865,7 +7549,11 @@ PrefabInstance:
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_SizeDelta.x
+<<<<<<< HEAD
       value: 0
+=======
+      value: -200.00005
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
@@ -6910,12 +7598,16 @@ PrefabInstance:
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_AnchoredPosition.x
+<<<<<<< HEAD
       value: 0
+=======
+      value: -360
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7243773067986925422, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
@@ -6935,7 +7627,11 @@ PrefabInstance:
     - target: {fileID: 7243773067986925423, guid: 7bc1eba70a2dd2940998b64407303a0a,
         type: 3}
       propertyPath: m_Name
+<<<<<<< HEAD
       value: White Key (3) a3
+=======
+      value: White Key Y
+>>>>>>> parent of f7413fb (sdg)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7bc1eba70a2dd2940998b64407303a0a, type: 3}
