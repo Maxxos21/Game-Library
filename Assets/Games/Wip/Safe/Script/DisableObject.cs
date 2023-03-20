@@ -6,6 +6,7 @@ public class DisableObject : MonoBehaviour
 {
     public void ClosePanel()
     {
+        InspectItem.isInspecting = false;
         gameObject.SetActive(false);
     }
 }
