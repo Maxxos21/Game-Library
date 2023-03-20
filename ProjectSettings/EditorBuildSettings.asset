@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Games/Wip/Menu.unity
     guid: 3c21d6f1e4578be4fadedb0710302cd6
   - enabled: 1
-    path: Assets/Games/Wip/Book/BookCopy.unity
+    path: Assets/Games/Wip/Book/Book1.unity
     guid: 49a4ddf3f0e91c5459b65c5cae778ac5
   - enabled: 1
     path: Assets/Games/Wip/Lab/Lab.unity
