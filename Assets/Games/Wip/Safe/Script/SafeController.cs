@@ -129,6 +129,8 @@ public class SafeController : MonoBehaviour
             safeCanvas.SetActive(false);
             StartCoroutine(RotateDoor());
             StartCoroutine(MoveTowardsTarget(_camera, _cameraTarget, moveSpeed));
+
+            AudioPlayer.Instance.PlayAudio(1);
         }
     }
 
