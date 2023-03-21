@@ -17,6 +17,11 @@ public class SafeController : MonoBehaviour
     private bool isRotating = false;
     private int _currentRotationValue = 0;
 
+    // Camera
+    [SerializeField] private Transform _camera;
+    [SerializeField] private Transform _cameraTarget;
+    [SerializeField] private float moveSpeed = 5.0f;
+
     [HideInInspector]
     [SerializeField] private TMP_Text _firstDigit, _secondDigit, _thirdDigit;
     [HideInInspector]
@@ -123,6 +128,7 @@ public class SafeController : MonoBehaviour
         {
             safeCanvas.SetActive(false);
             StartCoroutine(RotateDoor());
+            StartCoroutine(MoveTowardsTarget(_camera, _cameraTarget, moveSpeed));
         }
     }
 
@@ -136,6 +142,17 @@ public class SafeController : MonoBehaviour
             float angle = Mathf.Min(angleRemaining, doorSpeed * Time.deltaTime);
             safeDoor.transform.Rotate(-Vector3.up * angle);
             angleRemaining -= angle;
+            yield return null;
+        }
+    }
+
+    public IEnumerator MoveTowardsTarget(Transform objectToMove, Transform target, float speed) 
+    {
+        while (objectToMove.position != target.position || objectToMove.rotation != target.rotation)
+        {
+            objectToMove.position = Vector3.MoveTowards(objectToMove.position, target.position, speed * Time.deltaTime);
+            objectToMove.rotation = Quaternion.RotateTowards(objectToMove.rotation, target.rotation, speed * 5 * Time.deltaTime);
+
             yield return null;
         }
     }
