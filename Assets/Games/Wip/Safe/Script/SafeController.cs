@@ -129,6 +129,7 @@ public class SafeController : MonoBehaviour
             safeCanvas.SetActive(false);
             StartCoroutine(RotateDoor());
             StartCoroutine(MoveTowardsTarget(_camera, _cameraTarget, moveSpeed));
+            StartCoroutine(ChangeFOV(80, 2));
 
             AudioPlayer.Instance.PlayAudio(1);
         }
@@ -155,6 +156,19 @@ public class SafeController : MonoBehaviour
             objectToMove.position = Vector3.MoveTowards(objectToMove.position, target.position, speed * Time.deltaTime);
             objectToMove.rotation = Quaternion.RotateTowards(objectToMove.rotation, target.rotation, speed * 5 * Time.deltaTime);
 
+            yield return null;
+        }
+    }
+
+    // slowly change fov
+    public IEnumerator ChangeFOV(float targetFOV, float duration)
+    {
+        float startFOV = Camera.main.fieldOfView;
+        float t = 0.0f;
+        while (t < 1.0f)
+        {
+            t += Time.deltaTime / duration;
+            Camera.main.fieldOfView = Mathf.Lerp(startFOV, targetFOV, t);
             yield return null;
         }
     }

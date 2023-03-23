@@ -3,14 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Reset : MonoBehaviour
+public class Reset : PersistentSingleton<Reset>
 {
-    // dont destroy on load
-    void Awake()
-    {
-        DontDestroyOnLoad(this.gameObject);
-    }
-
     // Update is called once per frame
     void Update()
     {

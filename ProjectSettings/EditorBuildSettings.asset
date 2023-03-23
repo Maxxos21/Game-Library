@@ -6,21 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Games/Wip/Menu.unity
-    guid: 3c21d6f1e4578be4fadedb0710302cd6
-  - enabled: 1
-    path: Assets/Games/Wip/Book/Book1.unity
-    guid: 49a4ddf3f0e91c5459b65c5cae778ac5
-  - enabled: 1
-    path: Assets/Games/Wip/Lab/Lab.unity
-    guid: 93555e81ca5552b4583390c7befeb7c6
-  - enabled: 1
-    path: Assets/Games/Wip/Piano/Piano.unity
-    guid: bfadace6b2710a840b7b6009f28e8cda
-  - enabled: 1
-    path: Assets/Games/Wip/Safe/Safe.unity
-    guid: 8bb1c282ae8ed69439ff689c05bac9a4
-  - enabled: 1
-    path: Assets/Games/Wip/SolveMystery/Quiz.unity
-    guid: e5640ea2ff2b6f94cb57d770312f47d1
+    path: Assets/Games/Wip/Book/Book3.unity
+    guid: e86f110c53e400b4ab79aee4554cfb1d
   m_configObjects: {}
