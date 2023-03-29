@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Games/Wip/SolveMystery/Quiz.unity
-    guid: e5640ea2ff2b6f94cb57d770312f47d1
+    path: Assets/Games/Wip/Book/Book2.unity
+    guid: 3f3a32a9602121d45bca4c8d33be1fe3
   m_configObjects: {}
