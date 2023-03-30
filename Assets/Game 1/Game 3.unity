@@ -709,7 +709,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "The Donovan Group is an IT organization with team of recent graduates
+  m_text: "The Donovan Group is an IT organization with a team of recent graduates
     all of which come from the best schools in the country. They are sharply-dressed,
     witty, and can be a bit intimidating to newcomers - unintentionally.\n\n3 new
     employees are joining the team:  \r\n\r"
@@ -1538,21 +1538,21 @@ MonoBehaviour:
   - {fileID: 1746264812}
   - {fileID: 1624440742}
   answers:
-  - answer: 'Be proactive in providing audio/visual aid to Eric '
+  - answer: Be proactive in providing audio/visual aid to Eric.
     isCorrect: 1
-  - answer: "Show care and interest in Bettie\u2019s life "
+  - answer: "Show care and interest in Bettie\u2019s life."
     isCorrect: 1
-  - answer: 'Invite Lance to collaborate on a project '
+  - answer: Invite Lance to collaborate on a project.
     isCorrect: 1
-  - answer: 'Include Eric in social events '
+  - answer: Include Eric in social events.
     isCorrect: 1
-  - answer: 'Offer to help them get integrates into the team '
+  - answer: Offer to help them get integrate into the team.
     isCorrect: 1
-  - answer: 'Share project history and details '
+  - answer: Share project history and details.
     isCorrect: 1
-  - answer: 'Go out to lunch without inviting the new hires '
+  - answer: Go out to lunch without inviting the new hires.
     isCorrect: 0
-  - answer: 'Let them figure it out on their own '
+  - answer: Let them figure it out on their own.
     isCorrect: 0
   scoreDisplay: {fileID: 1081587993}
   questionText: {fileID: 998578194}

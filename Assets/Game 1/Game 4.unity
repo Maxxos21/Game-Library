@@ -1538,22 +1538,22 @@ MonoBehaviour:
   - {fileID: 1746264812}
   - {fileID: 1624440742}
   answers:
-  - answer: 'Request that the team gives Lance the floor to finish sharing his thoughts '
+  - answer: Request that the team gives Lance the floor to finish sharing his thoughts.
     isCorrect: 1
-  - answer: "Tell Lance that you\u2019ll discuss it more \u201Coffline\u201D "
+  - answer: "Tell Lance that you\u2019ll discuss it more \u201Coffline\u201D."
     isCorrect: 0
-  - answer: Ask Bettie to take notes on the situation
+  - answer: Ask Bettie to take notes on the situation.
     isCorrect: 0
   - answer: "Lance should redirect and let them know that he isn\u2019t finished
-      speaking, ask questions after"
+      speaking."
     isCorrect: 1
-  - answer: 'Be proactive and ask Lance questions on his assessment '
+  - answer: Be proactive and ask Lance questions on his assessment.
     isCorrect: 1
-  - answer: 'Ask Lance to email his assessment to the team '
+  - answer: Ask Lance to email his assessment to the team.
     isCorrect: 0
   - answer: Tell team lead or manager about communication and inclusion concerns.
     isCorrect: 1
-  - answer: "Let it pass since it\u2019s usually how business meetings go "
+  - answer: "Let it pass since it\u2019s usually how business meetings go."
     isCorrect: 0
   scoreDisplay: {fileID: 1081587993}
   questionText: {fileID: 998578194}

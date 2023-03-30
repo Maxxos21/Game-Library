@@ -3140,8 +3140,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Unscramble these 5 quotes using the word bank at the bottom of the page.
     You must click on these words in the correct order. Each word in the bank is
-    used exactly once. Build the quote based on key points from the Inclusion Starts
-    with You session
+    used exactly once. Build the quote based on key points from the "Inclusion Starts
+    with You" session.
 
 
     If you select the correct word, it will appear in the
@@ -3478,7 +3478,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -225}
+  m_AnchoredPosition: {x: 0, y: -225.00003}
   m_SizeDelta: {x: 0, y: -450}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &6317469104518331888

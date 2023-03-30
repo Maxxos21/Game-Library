@@ -1788,7 +1788,7 @@ MonoBehaviour:
     answer: friends
     across: 0
     startCoord: {x: 3, y: 6}
-  - prompt: To involve and relate to others of regardless of race, ethnicity, religion,
+  - prompt: To involve and relate to others regardless of race, ethnicity, religion,
       or physical characteristics
     indexOverride: 0
     answer: inclusion

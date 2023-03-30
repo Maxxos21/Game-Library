@@ -19,6 +19,7 @@ public class RadialBar : MonoBehaviour
         dial.transform.Rotate(0, 0, 15);
     }
 
+
     public void Add(int value)
     {
         currentValue += value;

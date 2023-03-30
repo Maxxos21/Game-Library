@@ -1073,7 +1073,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: '<color=#63C2EB>Katima</color>: a new hire as a financial account advisor
     for a young accounting firm. She moved from bangkok to the usa to further advance
-    in her career. she has worked with u.s client in the past, but it''s her first
+    in her career. she has worked with u.s clients in the past, but it''s her first
     time living and working in the country.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 34955942d77c2644685db13d400defb7, type: 2}
@@ -1934,21 +1934,21 @@ MonoBehaviour:
   - {fileID: 1746264812}
   - {fileID: 1624440742}
   answers:
-  - answer: Include Katima in team discussions
+  - answer: Include Katima in team discussions.
     isCorrect: 1
-  - answer: Exert energy to make her feel like an American
+  - answer: Exert energy to make her feel like an American.
     isCorrect: 0
-  - answer: Ask her about her cultural customs, holidays, etc
+  - answer: Ask her about her cultural customs, holidays, etc.
     isCorrect: 1
-  - answer: Wait for her to "open up" to share her ideas
+  - answer: Wait for her to "open up" to share her ideas.
     isCorrect: 0
-  - answer: Show interest in her unique finance approach
+  - answer: Show interest in her unique finance approach.
     isCorrect: 1
-  - answer: Refuse to accommodate her disabilities
+  - answer: Refuse to accommodate her disabilities.
     isCorrect: 0
-  - answer: Make a safe and respectful workplace culture
+  - answer: Make a safe and respectful workplace culture.
     isCorrect: 1
-  - answer: 'Make a workplace culture that is exclusive and unwelcoming '
+  - answer: Make a workplace culture that is exclusive and unwelcoming .
     isCorrect: 0
   scoreDisplay: {fileID: 1081587993}
   questionText: {fileID: 998578194}
@@ -3113,7 +3113,7 @@ MonoBehaviour:
 
     katima''s first impression is that the men do the number
     crunching while the women input the data. katima is used to doing both aspects
-    of the role on her own; she feels that both roles should be shared mutully.'
+    of the role on her own; she feels that both roles should be shared mutually.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 34955942d77c2644685db13d400defb7, type: 2}
   m_sharedMaterial: {fileID: -1291514919620343735, guid: 34955942d77c2644685db13d400defb7,

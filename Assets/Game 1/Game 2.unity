@@ -1261,19 +1261,19 @@ MonoBehaviour:
   - {fileID: 1746264812}
   - {fileID: 1624440742}
   answers:
-  - answer: i'm happy to hear new ways to diversify our team
+  - answer: i'm happy to hear new ways to diversify our team.
     isCorrect: 1
   - answer: Thanks for sharing! Can you take the lead on creating a plan of action?
     isCorrect: 1
-  - answer: Great ideas! let me coordinate with HR and we'll meet on this again soon
+  - answer: Great ideas! let me coordinate with HR and we'll meet on this again soon.
     isCorrect: 1
   - answer: We prefer the status quo and don't see a need for cross-training women.
     isCorrect: 0
-  - answer: it's worked just fined until now
+  - answer: it's worked just fined until now.
     isCorrect: 0
-  - answer: go to the "men's" team to ask them to be inclusive
+  - answer: go to the "men's" team to ask them to be inclusive.
     isCorrect: 0
-  - answer: will it cost us any money
+  - answer: will it cost us any money.
     isCorrect: 0
   - answer: Terrible idea. It will only disrupt our workflow and waste time.
     isCorrect: 0
